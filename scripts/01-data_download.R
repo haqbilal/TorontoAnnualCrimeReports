@@ -16,7 +16,7 @@ library(opendatatoronto)
 # (aka 'resources') that are relevant to that topic. So we first look at the 
 # package using a unique key obtained from the dataset's webpage (see above)
 
-# get package
+# get package (in this case only one resoure, can omit this)
 # package <- show_package("fc4d95a6-591f-411f-af17-327e6c5d03c7")
 
 # get all resources for this package
@@ -29,11 +29,14 @@ resources <- list_package_resources("9d11c7aa-7613-4d3e-95f3-a02e2b1aa2d7")
 annual_reported_crimes <- resources %>% 
   get_resource()
 
+#### Clean Data ####
+annual_reported_crimes <- 
+  annual_reported_crimes |>
+  filter(ReportedYear=="2020")
+
 
 #### Save Data ####
 write_csv(annual_reported_crimes, "inputs/data/annual_reported_crimes.csv")
-
-
 
 
          

@@ -1,11 +1,11 @@
 ---
-title: "The Toronto Annual Crime Report for 2020"
-subtitle: "My subtitle if needed"
+title: "Using data to fight crime in Toronto"
+subtitle: "A look at the Toronto Police Service Annual Statistical Report"
 author: 
   - Bilal Haq
-thanks: "Code and data are available at: LINK."
+thanks: "Code and data are available at: https://github.com/haqbilal/TorontoAnnualCrimeReports"
 date: "`r format(Sys.time(), '%d %B %Y')`"
-abstract: "First sentence (broad and motivational). Second sentence (more specific about what you did and how). Third sentence (report findings). Fourth sentence (why all this matters)."
+abstract: "Crime seriously and negatively affects quality of life and economic growth of a city. In this report, we look at the Annual Statistical Report released by the Toronto Police Service to seek the most effective way to minimize crime in Toronto. We discover that the most popular type of crime is against property, and that the majority of it takes place at Toronto's core, downtown. In doing so, we provide insight into reducing crime and a means to justify implementing preventative measures in public policy."
 output:
   bookdown::pdf_document2
 toc: FALSE
@@ -24,6 +24,7 @@ library(here)
 # Introduction
 
 First paragraph is motivational and broad (first sentence of abstract <- add water)
+One of the biggest concerns of a person walking the streets of a major city is the kind of people they will encounter. Everyday, there are new victims of homicide, assault, robbery, drug abuse, property damage, and other crimes, instilling fear, unease, and mistrust in the population with their police department.
 
 Second paragraph is about what was done and what was found (second and third sentence of abstract <- add water)
 
@@ -33,20 +34,33 @@ Final paragraph is about the remainder of this paper: i.e. Section \@ref(data) e
 
 # Data
 
-Paragraph introducing the dataset broadly. We obtain our dataset from the City of Toronto Open Data portal using the 'opendatatoronto' package [@citeopendatatoronto] and the statistical programming language R [@citeR].
+## Data Collection
 
-Then show an extract of the dataset (Table \@ref(tab:dataextract)).
+The dataset(s) used were obtained through the City of Toronto Open Data portal, using the 'opendatatoronto' package [@citeopendatatoronto]. The statistical programming language R [@citeR] was used to conduct the analysis.
+
+## Annual Statistical Report
+
+Every year, the Toronto Police Service (TPS) performs a comprehensive analysis of police-related statistics, such as reported crimes, victims of crime, search of persons, firearms, traffic collisions, personnel, budget, communications, public complaints, regulated interactions and other administrative information. To address the ethical concern of privacy, the Toronto Police service, in collecting this data, has adhered to the Municipal Freedom of Information and Protection of Privacy Act, thus protecting all individuals involved in the reported occurrences. Furthermore, this year's report will be compared with reports from previous years, but cannot accurately be compared with reports from other agencies. The differing methods in categorization, as well as geographic, technical, data, and time constraints may affect results.
+
+## Analyzing the dataset
+
+This dataset contains counts of all reported crime offences from 2014 to 2020, categorized by police division, as per the map Figure \@ref(fig:divisions). In particular, we will look at crimes against: The Controlled Drugs and Substances Act, Property, the Person, and the Traffic Code. Reports on other violations, and those on the Federal Statute level will also be examined. 
+
+```{r divisions, echo=FALSE, fig.align="center", fig.cap="Command and Divionsal Boundaries", out.width = '75%'}
+include_graphics(here::here("inputs/data/divisional_boundaries.png"))
+```
+
+For example, Table \@ref(tab:dataextract) shows a slice of the dataset for 10 crimes, including the division and counts of that crime for 2020. So 132 counts of theft over $5000 occurred in 31-division. 
 
 ```{r dataextract, echo=FALSE, warning=FALSE, message=FALSE}
 annual_reported_crimes <- 
   read_csv(here::here("inputs/data/annual_reported_crimes.csv"))
 
 annual_reported_crimes |>
-  filter(ReportedYear=="2020") |>
   select("GeoDivision", "Subtype", "Count_") |>
   slice(1:10) |>
   kable(
-    caption="First 10 rows of dataset that shows frequency of crimes in 2020",
+    caption="First 10 rows of reports from 2020 that show frequency of crimes",
     col.names=c("Police Division", "Crime Type", "Count"),
     digits=1,
     booktabs=TRUE,
@@ -54,25 +68,41 @@ annual_reported_crimes |>
   )
 ```
 
-Paragraph or two more about Table \@ref(tab:dataextract).
-- talk about how divisions in TPS work
+Importantly, by looking at amount of crime and type that occurs on a divisional basis, Toronto Police can make better decisions in allocating its resources to combat crime in the city, ensuring the safety of more civilians. Thus, we are interested in the relationship between the police division and the amount of crime that occurred there.
 
-We are interested in the relationship between the police division and the amount of crime that occurred there, because this measure can help the Toronto Police Service allocate their resources effectively, by focusing resources in particular divisions.
-- paragraph focusing on central field commands (middle divisions) vs area field commands (outer divisions)
+Figure \@ref(fig:divgraph) shows the relationship between the police division and the most popular crime that happens in that division.
 
-Figure X shows the relationship between the police division and the most popular crime that happens in that division.
-
-```{r divisiongraph, echo=FALSE, warning=FALSE, message=FALSE}
-
+```{r divgraph, echo = FALSE, fig.align='center'}
 annual_reported_crimes |>
-  ggplot(aes(x=GeoDivision, 
-             y=Count_, 
+  ggplot(aes(x=Count_, 
+             y=GeoDivision,
              color=Category)) +
-  geom_point(alpha=0.8)
+  geom_point(alpha=0.8) +
+  xlab("Count") +
+  ylab("Division") +
+  ggtitle("Amount and Type of Crime Per Division") +
+  theme(
+    plot.title = element_text(hjust = 0.5),
+    legend.position = "bottom", 
+    legend.title=element_blank(), 
+    legend.text=element_text(size=7),
+    axis.title.y=element_text(size=10),
+    axis.title.x=element_text(size=10),
+    plot.caption = element_text("Figure 2"))
 ```
 
-
+From this, we see that divisions that are closer to the center of Toronto (downtown), such as 51-55, see significantly more crime than their surrounding counterparts. On top of that, crimes against property are always substantially more common than any other type of crime, regardless of location. Combining these two observations, we can say that the TPS should dedicate more forces to the downtown region, and dedicate more preventative measures towards property crime.
 
 # References
+ 
+Uncited so far:
+- http://www.torontopolice.on.ca/divisions/map.php
+- https://data.torontopolice.on.ca/pages/asr-analytics
+- https://www.tellingstorieswithdata.com/index.html
+- The TPS ASR (cite the actual report you are reporting on)
+- https://ggplot2.tidyverse.org/reference
+- https://www.justice.gc.ca/eng/rp-pr/csj-sjc/crime/rr06_6/rr06_6.pdf
+
+
 
 
