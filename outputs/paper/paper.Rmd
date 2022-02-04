@@ -1,11 +1,11 @@
 ---
-title: "My title"
+title: "The Toronto Annual Crime Report for 2020"
 subtitle: "My subtitle if needed"
 author: 
   - Bilal Haq
 thanks: "Code and data are available at: LINK."
 date: "`r format(Sys.time(), '%d %B %Y')`"
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "First sentence (broad and motivational). Second sentence (more specific about what you did and how). Third sentence (report findings). Fourth sentence (why all this matters)."
 output:
   bookdown::pdf_document2
 toc: FALSE
@@ -16,46 +16,61 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
-library(palmerpenguins)
+library(knitr)
+library(here)
 ```
+
 
 # Introduction
 
-You can and should cross-reference sections and sub-sections. For instance, Section \@ref(data). R Markdown automatically makes the sections lower case and adds a dash to spaces to generate labels, for instance, Section \@ref(first-discussion-point). 
+First paragraph is motivational and broad (first sentence of abstract <- add water)
 
+Second paragraph is about what was done and what was found (second and third sentence of abstract <- add water)
 
+Third paragraph is about implications (take final sentence of abstract <- add water)
+
+Final paragraph is about the remainder of this paper: i.e. Section \@ref(data) explains the data.
 
 # Data
 
-Our data is of penguins (Figure \@ref(fig:bills)).
+Paragraph introducing the dataset broadly. We obtain our dataset from the City of Toronto Open Data portal using the 'opendatatoronto' package [@citeopendatatoronto] and the statistical programming language R [@citeR].
 
-```{r bills, fig.cap="Bills of penguins", echo = FALSE}
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = FALSE) +
-  theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
+Then show an extract of the dataset (Table \@ref(tab:dataextract)).
+
+```{r dataextract, echo=FALSE, warning=FALSE, message=FALSE}
+annual_reported_crimes <- 
+  read_csv(here::here("inputs/data/annual_reported_crimes.csv"))
+
+annual_reported_crimes |>
+  filter(ReportedYear=="2020") |>
+  select("GeoDivision", "Subtype", "Count_") |>
+  slice(1:10) |>
+  kable(
+    caption="First 10 rows of dataset that shows frequency of crimes in 2020",
+    col.names=c("Police Division", "Crime Type", "Count"),
+    digits=1,
+    booktabs=TRUE,
+    linesep=""
+  )
 ```
 
-Talk more about it.
+Paragraph or two more about Table \@ref(tab:dataextract).
+- talk about how divisions in TPS work
 
-Also bills and their average (Figure \@ref(fig:billssssss)). (Notice how you can change the height and width so they don't take the whole page?)
+We are interested in the relationship between the police division and the amount of crime that occurred there, because this measure can help the Toronto Police Service allocate their resources effectively, by focusing resources in particular divisions.
+- paragraph focusing on central field commands (middle divisions) vs area field commands (outer divisions)
 
-```{r billssssss, fig.cap="More bills of penguins", echo = FALSE, fig.width=8, fig.height=4}
+Figure X shows the relationship between the police division and the most popular crime that happens in that division.
 
-# This needs to be about the random data tha tI sasmpled?
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = FALSE) +
-  theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
+```{r divisiongraph, echo=FALSE, warning=FALSE, message=FALSE}
+
+annual_reported_crimes |>
+  ggplot(aes(x=GeoDivision, 
+             y=Count_, 
+             color=Category)) +
+  geom_point(alpha=0.8)
 ```
 
-Talk way more about it. 
 
 
 # References
