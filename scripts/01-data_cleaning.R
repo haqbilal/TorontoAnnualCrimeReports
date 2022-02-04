@@ -15,7 +15,9 @@
 # Use R Projects, not setwd().
 library(haven)
 library(tidyverse)
+
 # Read in the raw data. 
+
 raw_data <- readr::read_csv("inputs/data/raw_data.csv"
                      )
 # Just keep some variables that may be of interest (change 
