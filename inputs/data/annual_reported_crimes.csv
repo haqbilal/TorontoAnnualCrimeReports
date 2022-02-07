@@ -1,339 +1,2370 @@
-_id,Index_,ReportedYear,GeoDivision,Category,Subtype,Count_,CountCleared,ObjectId,geometry
-2022,NA,2020,D14,Crimes Against the Person,Sexual Violation,160,66,2022,null
-2023,NA,2020,D31,Crimes Against Property,Theft Over $5000,132,16,2023,null
-2024,NA,2020,D41,Crimes Against Property,Auto Theft,340,46,2024,null
-2025,NA,2020,D43,Crimes Against the Person,Robbery-Other,148,74,2025,null
-2036,NA,2020,D11,Controlled Drugs and Substances Act,Other,70,58,2036,null
-2037,NA,2020,D11,Crimes Against Property,Auto Theft,195,16,2037,null
-2038,NA,2020,D11,Crimes Against Property,Break & Enter-Apartment,110,21,2038,null
-2039,NA,2020,D11,Crimes Against Property,Break & Enter-Commercial,151,38,2039,null
-2040,NA,2020,D11,Crimes Against Property,Break & Enter-House,92,19,2040,null
-2041,NA,2020,D11,Crimes Against Property,Break & Enter-Other,37,8,2041,null
-2042,NA,2020,D11,Crimes Against Property,Fraud,444,28,2042,null
-2043,NA,2020,D11,Crimes Against Property,Other,677,165,2043,null
-2044,NA,2020,D11,Crimes Against Property,Theft Over $5000,43,9,2044,null
-2045,NA,2020,D11,Crimes Against Property,Theft Under $5000,2082,417,2045,null
-2046,NA,2020,D11,Crimes Against the Person,Assault,653,396,2046,null
-2047,NA,2020,D11,Crimes Against the Person,Attempt Murder,3,3,2047,null
-2048,NA,2020,D11,Crimes Against the Person,Other,122,69,2048,null
-2049,NA,2020,D11,Crimes Against the Person,Robbery-Financial,4,2,2049,null
-2050,NA,2020,D11,Crimes Against the Person,Robbery-Other,82,33,2050,null
-2051,NA,2020,D11,Crimes Against the Person,Sexual Violation,103,48,2051,null
-2052,NA,2020,D11,Criminal Code Traffic ,Other,60,53,2052,null
-2053,NA,2020,D11,Other Criminal Code Violations,Other,600,552,2053,null
-2054,NA,2020,D11,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,45,40,2054,null
-2055,NA,2020,D11,Other Federal Statute Violations,Other,11,8,2055,null
-2056,NA,2020,D12,Controlled Drugs and Substances Act,Other,84,80,2056,null
-2057,NA,2020,D12,Crimes Against Property,Auto Theft,336,25,2057,null
-2058,NA,2020,D12,Crimes Against Property,Break & Enter-Apartment,49,20,2058,null
-2059,NA,2020,D14,Criminal Code Traffic ,Other,106,100,2059,null
-2060,NA,2020,D31,Crimes Against Property,Theft Under $5000,1928,369,2060,null
-2061,NA,2020,D43,Crimes Against the Person,Sexual Violation,166,94,2061,null
-2062,NA,2020,D14,Other Criminal Code Violations,Other,841,735,2062,null
-2063,NA,2020,D41,Crimes Against Property,Break & Enter-Apartment,78,28,2063,null
-2064,NA,2020,D31,Crimes Against the Person,Assault,1191,750,2064,null
-2065,NA,2020,D43,Criminal Code Traffic ,Other,170,150,2065,null
-2066,NA,2020,D14,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,81,73,2066,null
-2067,NA,2020,D41,Crimes Against Property,Break & Enter-Commercial,186,63,2067,null
-2068,NA,2020,D31,Crimes Against the Person,Attempt Murder,26,20,2068,null
-2069,NA,2020,D43,Other Criminal Code Violations,Other,794,663,2069,null
-2070,NA,2020,D14,Other Federal Statute Violations,Other,14,11,2070,null
-2071,NA,2020,D41,Crimes Against Property,Break & Enter-House,72,17,2071,null
-2072,NA,2020,D31,Crimes Against the Person,Other,263,144,2072,null
-2073,NA,2020,D43,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,122,106,2073,null
-2074,NA,2020,D22,Controlled Drugs and Substances Act,Other,75,66,2074,null
-2075,NA,2020,D41,Crimes Against Property,Break & Enter-Other,33,13,2075,null
-2076,NA,2020,D31,Crimes Against the Person,Robbery-Financial,1,1,2076,null
-2077,NA,2020,D43,Other Federal Statute Violations,Other,14,11,2077,null
-2078,NA,2020,D22,Crimes Against Property,Auto Theft,490,25,2078,null
-2079,NA,2020,D41,Crimes Against Property,Fraud,675,67,2079,null
-2080,NA,2020,D31,Crimes Against the Person,Robbery-Other,176,82,2080,null
-2081,NA,2020,D51,Controlled Drugs and Substances Act,Other,351,332,2081,null
-2082,NA,2020,D22,Crimes Against Property,Break & Enter-Apartment,92,37,2082,null
-2083,NA,2020,D41,Crimes Against Property,Other,851,259,2083,null
-2084,NA,2020,D31,Crimes Against the Person,Sexual Violation,161,75,2084,null
-2085,NA,2020,D53,Crimes Against Property,Theft Over $5000,99,5,2085,null
-2086,NA,2020,D51,Crimes Against Property,Auto Theft,144,25,2086,null
-2087,NA,2020,D51,Crimes Against Property,Break & Enter-Apartment,284,81,2087,null
-2088,NA,2020,D51,Crimes Against Property,Break & Enter-Commercial,291,87,2088,null
-2089,NA,2020,D51,Crimes Against Property,Break & Enter-House,30,5,2089,null
-2090,NA,2020,D51,Crimes Against Property,Break & Enter-Other,74,24,2090,null
-2091,NA,2020,D51,Crimes Against Property,Fraud,814,58,2091,null
-2092,NA,2020,D51,Crimes Against Property,Other,1607,560,2092,null
-2093,NA,2020,D51,Crimes Against Property,Theft Over $5000,93,13,2093,null
-2094,NA,2020,D51,Crimes Against Property,Theft Under $5000,3382,571,2094,null
-2095,NA,2020,D51,Crimes Against the Person,Assault,1966,1214,2095,null
-2096,NA,2020,D51,Crimes Against the Person,Attempt Murder,4,2,2096,null
-2097,NA,2020,D51,Crimes Against the Person,Other,286,151,2097,null
-2098,NA,2020,D51,Crimes Against the Person,Robbery-Other,305,138,2098,null
-2099,NA,2020,D51,Crimes Against the Person,Sexual Violation,193,87,2099,null
-2100,NA,2020,D51,Criminal Code Traffic ,Other,80,69,2100,null
-2101,NA,2020,D51,Other Criminal Code Violations,Other,1469,1313,2101,null
-2102,NA,2020,D51,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,215,182,2102,null
-2103,NA,2020,D51,Other Federal Statute Violations,Other,14,8,2103,null
-2104,NA,2020,D52,Controlled Drugs and Substances Act,Other,67,64,2104,null
-2105,NA,2020,D52,Crimes Against Property,Auto Theft,86,11,2105,null
-2106,NA,2020,D52,Crimes Against Property,Break & Enter-Apartment,131,34,2106,null
-2107,NA,2020,D52,Crimes Against Property,Break & Enter-Commercial,314,127,2107,null
-2108,NA,2020,D52,Crimes Against Property,Break & Enter-House,15,4,2108,null
-2109,NA,2020,D52,Crimes Against Property,Break & Enter-Other,39,12,2109,null
-2110,NA,2020,D52,Crimes Against Property,Fraud,952,105,2110,null
-2111,NA,2020,D52,Crimes Against Property,Other,1112,230,2111,null
-2112,NA,2020,D52,Crimes Against Property,Theft Over $5000,91,21,2112,null
-2113,NA,2020,D52,Crimes Against Property,Theft Under $5000,2887,450,2113,null
-2114,NA,2020,D52,Crimes Against the Person,Assault,1094,677,2114,null
-2115,NA,2020,D52,Crimes Against the Person,Attempt Murder,4,4,2115,null
-2116,NA,2020,D52,Crimes Against the Person,Other,185,106,2116,null
-2117,NA,2020,D52,Crimes Against the Person,Robbery-Financial,3,2,2117,null
-2118,NA,2020,D52,Crimes Against the Person,Robbery-Other,127,57,2118,null
-2119,NA,2020,D52,Crimes Against the Person,Sexual Violation,151,78,2119,null
-2120,NA,2020,D52,Criminal Code Traffic ,Other,64,60,2120,null
-2121,NA,2020,D52,Other Criminal Code Violations,Other,1539,743,2121,null
-2122,NA,2020,D52,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,102,88,2122,null
-2123,NA,2020,D52,Other Federal Statute Violations,Other,28,13,2123,null
-2124,NA,2020,D53,Controlled Drugs and Substances Act,Other,33,32,2124,null
-2125,NA,2020,D53,Crimes Against Property,Auto Theft,319,31,2125,null
-2126,NA,2020,D53,Crimes Against Property,Break & Enter-Apartment,230,44,2126,null
-2127,NA,2020,D53,Crimes Against Property,Break & Enter-Commercial,235,50,2127,null
-2128,NA,2020,D53,Crimes Against Property,Break & Enter-House,175,22,2128,null
-2129,NA,2020,D53,Crimes Against Property,Break & Enter-Other,72,9,2129,null
-2130,NA,2020,D53,Crimes Against Property,Fraud,724,72,2130,null
-2131,NA,2020,D53,Crimes Against Property,Other,745,141,2131,null
-2132,NA,2020,D41,Crimes Against Property,Theft Over $5000,48,7,2132,null
-2133,NA,2020,D41,Crimes Against Property,Theft Under $5000,2264,598,2133,null
-2134,NA,2020,D41,Crimes Against the Person,Assault,1065,691,2134,null
-2135,NA,2020,D41,Crimes Against the Person,Attempt Murder,3,3,2135,null
-2136,NA,2020,D41,Crimes Against the Person,Other,238,151,2136,null
-2137,NA,2020,D41,Crimes Against the Person,Robbery-Financial,1,1,2137,null
-2138,NA,2020,D41,Crimes Against the Person,Robbery-Other,150,76,2138,null
-2139,NA,2020,D41,Crimes Against the Person,Sexual Violation,132,72,2139,null
-2140,NA,2020,D41,Criminal Code Traffic ,Other,142,124,2140,null
-2141,NA,2020,D41,Other Criminal Code Violations,Other,1106,943,2141,null
-2142,NA,2020,D41,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,99,84,2142,null
-2143,NA,2020,D41,Other Federal Statute Violations,Other,4,2,2143,null
-2144,NA,2020,D42,Controlled Drugs and Substances Act,Other,43,39,2144,null
-2145,NA,2020,D42,Crimes Against Property,Auto Theft,418,20,2145,null
-2146,NA,2020,D42,Crimes Against Property,Break & Enter-Apartment,62,13,2146,null
-2147,NA,2020,D42,Crimes Against Property,Break & Enter-Commercial,149,42,2147,null
-2148,NA,2020,D42,Crimes Against Property,Break & Enter-House,118,26,2148,null
-2149,NA,2020,D42,Crimes Against Property,Break & Enter-Other,18,7,2149,null
-2150,NA,2020,D42,Crimes Against Property,Fraud,692,36,2150,null
-2151,NA,2020,D42,Crimes Against Property,Other,657,161,2151,null
-2152,NA,2020,D42,Crimes Against Property,Theft Over $5000,49,5,2152,null
-2153,NA,2020,D42,Crimes Against Property,Theft Under $5000,1751,241,2153,null
-2154,NA,2020,D42,Crimes Against the Person,Assault,905,580,2154,null
-2155,NA,2020,D42,Crimes Against the Person,Attempt Murder,8,6,2155,null
-2156,NA,2020,D42,Crimes Against the Person,Other,225,111,2156,null
-2157,NA,2020,D42,Crimes Against the Person,Robbery-Financial,9,8,2157,null
-2158,NA,2020,D42,Crimes Against the Person,Robbery-Other,150,62,2158,null
-2159,NA,2020,D42,Crimes Against the Person,Sexual Violation,110,55,2159,null
-2160,NA,2020,D42,Criminal Code Traffic ,Other,140,128,2160,null
-2161,NA,2020,D42,Other Criminal Code Violations,Other,390,300,2161,null
-2162,NA,2020,D42,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,53,47,2162,null
-2163,NA,2020,D42,Other Federal Statute Violations,Other,7,5,2163,null
-2164,NA,2020,D43,Controlled Drugs and Substances Act,Other,74,71,2164,null
-2165,NA,2020,D43,Crimes Against Property,Auto Theft,318,35,2165,null
-2166,NA,2020,D43,Crimes Against Property,Break & Enter-Apartment,69,27,2166,null
-2167,NA,2020,D43,Crimes Against Property,Break & Enter-Commercial,78,29,2167,null
-2168,NA,2020,D43,Crimes Against Property,Break & Enter-House,81,25,2168,null
-2169,NA,2020,D43,Crimes Against Property,Break & Enter-Other,30,12,2169,null
-2170,NA,2020,D43,Crimes Against Property,Fraud,679,99,2170,null
-2171,NA,2020,D43,Crimes Against Property,Other,781,218,2171,null
-2172,NA,2020,D43,Crimes Against Property,Theft Over $5000,58,16,2172,null
-2173,NA,2020,D43,Crimes Against Property,Theft Under $5000,1971,418,2173,null
-2174,NA,2020,D43,Crimes Against the Person,Assault,1330,866,2174,null
-2175,NA,2020,D43,Crimes Against the Person,Attempt Murder,7,2,2175,null
-2176,NA,2020,D43,Crimes Against the Person,Other,321,179,2176,null
-2177,NA,2020,D43,Crimes Against the Person,Robbery-Financial,2,2,2177,null
-2178,NA,2020,D12,Crimes Against Property,Break & Enter-Commercial,86,21,2178,null
-2179,NA,2020,D31,Criminal Code Traffic ,Other,131,115,2179,null
-2180,NA,2020,D12,Crimes Against Property,Break & Enter-House,51,15,2180,null
-2181,NA,2020,D53,Crimes Against Property,Theft Under $5000,2640,386,2181,null
-2182,NA,2020,D22,Crimes Against Property,Break & Enter-Commercial,172,51,2182,null
-2183,NA,2020,D31,Other Criminal Code Violations,Other,611,483,2183,null
-2184,NA,2020,D22,Crimes Against Property,Break & Enter-House,100,22,2184,null
-2185,NA,2020,D31,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,142,105,2185,null
-2186,NA,2020,D22,Crimes Against Property,Break & Enter-Other,35,8,2186,null
-2187,NA,2020,D31,Other Federal Statute Violations,Other,12,10,2187,null
-2188,NA,2020,D22,Crimes Against Property,Fraud,712,59,2188,null
-2189,NA,2020,D32,Controlled Drugs and Substances Act,Other,38,35,2189,null
-2190,NA,2020,D22,Crimes Against Property,Other,905,226,2190,null
-2191,NA,2020,D32,Crimes Against Property,Auto Theft,664,44,2191,null
-2192,NA,2020,D22,Crimes Against Property,Theft Over $5000,94,9,2192,null
-2193,NA,2020,D32,Crimes Against Property,Break & Enter-Apartment,68,19,2193,null
-2194,NA,2020,D22,Crimes Against Property,Theft Under $5000,2551,389,2194,null
-2195,NA,2020,D32,Crimes Against Property,Break & Enter-Commercial,220,46,2195,null
-2196,NA,2020,D22,Crimes Against the Person,Assault,904,576,2196,null
-2197,NA,2020,D32,Crimes Against Property,Break & Enter-House,193,20,2197,null
-2198,NA,2020,D22,Crimes Against the Person,Attempt Murder,1,1,2198,null
-2199,NA,2020,D32,Crimes Against Property,Break & Enter-Other,27,6,2199,null
-2200,NA,2020,D22,Crimes Against the Person,Other,188,121,2200,null
-2201,NA,2020,D32,Crimes Against Property,Fraud,1172,96,2201,null
-2202,NA,2020,D22,Crimes Against the Person,Robbery-Financial,10,9,2202,null
-2203,NA,2020,D32,Crimes Against Property,Other,1162,362,2203,null
-2204,NA,2020,D22,Crimes Against the Person,Robbery-Other,131,63,2204,null
-2205,NA,2020,D32,Crimes Against Property,Theft Over $5000,116,16,2205,null
-2206,NA,2020,D22,Crimes Against the Person,Sexual Violation,105,60,2206,null
-2207,NA,2020,D32,Crimes Against Property,Theft Under $5000,3483,558,2207,null
-2208,NA,2020,D22,Criminal Code Traffic ,Other,142,136,2208,null
-2209,NA,2020,D22,Other Criminal Code Violations,Other,692,605,2209,null
-2210,NA,2020,D22,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,104,90,2210,null
-2211,NA,2020,D22,Other Federal Statute Violations,Other,7,6,2211,null
-2212,NA,2020,D23,Controlled Drugs and Substances Act,Other,35,31,2212,null
-2213,NA,2020,D23,Crimes Against Property,Auto Theft,776,29,2213,null
-2214,NA,2020,D23,Crimes Against Property,Break & Enter-Apartment,31,6,2214,null
-2215,NA,2020,D23,Crimes Against Property,Break & Enter-Commercial,111,17,2215,null
-2216,NA,2020,D23,Crimes Against Property,Break & Enter-House,49,13,2216,null
-2217,NA,2020,D23,Crimes Against Property,Break & Enter-Other,25,6,2217,null
-2218,NA,2020,D23,Crimes Against Property,Fraud,571,57,2218,null
-2219,NA,2020,D23,Crimes Against Property,Other,555,107,2219,null
-2220,NA,2020,D23,Crimes Against Property,Theft Over $5000,84,8,2220,null
-2221,NA,2020,D23,Crimes Against Property,Theft Under $5000,1668,180,2221,null
-2222,NA,2020,D23,Crimes Against the Person,Assault,770,504,2222,null
-2223,NA,2020,D23,Crimes Against the Person,Attempt Murder,11,8,2223,null
-2224,NA,2020,D23,Crimes Against the Person,Other,155,93,2224,null
-2225,NA,2020,D23,Crimes Against the Person,Robbery-Financial,1,1,2225,null
-2226,NA,2020,D23,Crimes Against the Person,Robbery-Other,138,50,2226,null
-2227,NA,2020,D23,Crimes Against the Person,Sexual Violation,94,49,2227,null
-2228,NA,2020,D23,Criminal Code Traffic ,Other,97,89,2228,null
-2229,NA,2020,D23,Other Criminal Code Violations,Other,295,249,2229,null
-2230,NA,2020,D23,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,34,25,2230,null
-2231,NA,2020,D23,Other Federal Statute Violations,Other,6,3,2231,null
-2232,NA,2020,D31,Controlled Drugs and Substances Act,Other,65,52,2232,null
-2233,NA,2020,D31,Crimes Against Property,Auto Theft,699,26,2233,null
-2234,NA,2020,D31,Crimes Against Property,Break & Enter-Apartment,76,29,2234,null
-2235,NA,2020,D31,Crimes Against Property,Break & Enter-Commercial,133,27,2235,null
-2236,NA,2020,D31,Crimes Against Property,Break & Enter-House,55,13,2236,null
-2237,NA,2020,D31,Crimes Against Property,Break & Enter-Other,29,5,2237,null
-2238,NA,2020,D31,Crimes Against Property,Fraud,685,42,2238,null
-2239,NA,2020,D31,Crimes Against Property,Other,801,237,2239,null
-2240,NA,2020,D12,Crimes Against Property,Break & Enter-Other,19,5,2240,null
-2241,NA,2020,D53,Crimes Against the Person,Assault,789,412,2241,null
-2242,NA,2020,D32,Crimes Against the Person,Assault,1089,621,2242,null
-2243,NA,2020,D53,Crimes Against the Person,Attempt Murder,1,1,2243,null
-2244,NA,2020,D12,Crimes Against Property,Fraud,411,32,2244,null
-2245,NA,2020,D32,Crimes Against the Person,Attempt Murder,7,5,2245,null
-2246,NA,2020,D53,Crimes Against the Person,Other,205,95,2246,null
-2247,NA,2020,D12,Crimes Against Property,Other,535,180,2247,null
-2248,NA,2020,D32,Crimes Against the Person,Other,257,138,2248,null
-2249,NA,2020,D53,Crimes Against the Person,Robbery-Other,101,52,2249,null
-2250,NA,2020,D12,Crimes Against Property,Theft Over $5000,43,5,2250,null
-2251,NA,2020,D32,Crimes Against the Person,Robbery-Financial,4,3,2251,null
-2252,NA,2020,D53,Crimes Against the Person,Sexual Violation,131,48,2252,null
-2253,NA,2020,D12,Crimes Against Property,Theft Under $5000,1311,244,2253,null
-2254,NA,2020,D32,Crimes Against the Person,Robbery-Other,190,70,2254,null
-2255,NA,2020,D53,Criminal Code Traffic ,Other,67,56,2255,null
-2256,NA,2020,D12,Crimes Against the Person,Assault,689,493,2256,null
-2257,NA,2020,D32,Crimes Against the Person,Sexual Violation,138,64,2257,null
-2258,NA,2020,D53,Other Criminal Code Violations,Other,452,370,2258,null
-2259,NA,2020,D12,Crimes Against the Person,Attempt Murder,10,8,2259,null
-2260,NA,2020,D32,Criminal Code Traffic ,Other,114,104,2260,null
-2261,NA,2020,D53,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,65,51,2261,null
-2262,NA,2020,D12,Crimes Against the Person,Other,127,72,2262,null
-2263,NA,2020,D32,Other Criminal Code Violations,Other,764,631,2263,null
-2264,NA,2020,D53,Other Federal Statute Violations,Other,7,6,2264,null
-2265,NA,2020,D12,Crimes Against the Person,Robbery-Financial,1,1,2265,null
-2266,NA,2020,D32,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,94,78,2266,null
-2267,NA,2020,D54/D55,Controlled Drugs and Substances Act,Other,92,88,2267,null
-2268,NA,2020,D12,Crimes Against the Person,Robbery-Other,85,34,2268,null
-2269,NA,2020,D32,Other Federal Statute Violations,Other,10,8,2269,null
-2270,NA,2020,D33,Controlled Drugs and Substances Act,Other,33,22,2270,null
-2271,NA,2020,D33,Crimes Against Property,Auto Theft,274,14,2271,null
-2272,NA,2020,D33,Crimes Against Property,Break & Enter-Apartment,88,20,2272,null
-2273,NA,2020,D33,Crimes Against Property,Break & Enter-Commercial,54,9,2273,null
-2274,NA,2020,D33,Crimes Against Property,Break & Enter-House,134,4,2274,null
-2275,NA,2020,D33,Crimes Against Property,Break & Enter-Other,17,5,2275,null
-2276,NA,2020,D33,Crimes Against Property,Fraud,711,25,2276,null
-2277,NA,2020,D33,Crimes Against Property,Other,683,115,2277,null
-2278,NA,2020,D33,Crimes Against Property,Theft Over $5000,55,6,2278,null
-2279,NA,2020,D33,Crimes Against Property,Theft Under $5000,1622,236,2279,null
-2280,NA,2020,D33,Crimes Against the Person,Assault,616,364,2280,null
-2281,NA,2020,D33,Crimes Against the Person,Attempt Murder,1,0,2281,null
-2282,NA,2020,D33,Crimes Against the Person,Other,154,93,2282,null
-2283,NA,2020,D33,Crimes Against the Person,Robbery-Financial,4,4,2283,null
-2284,NA,2020,D33,Crimes Against the Person,Robbery-Other,75,19,2284,null
-2285,NA,2020,D33,Crimes Against the Person,Sexual Violation,104,44,2285,null
-2286,NA,2020,D33,Criminal Code Traffic ,Other,74,63,2286,null
-2287,NA,2020,D33,Other Criminal Code Violations,Other,261,206,2287,null
-2288,NA,2020,D33,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,45,39,2288,null
-2289,NA,2020,D33,Other Federal Statute Violations,Other,6,4,2289,null
-2290,NA,2020,D41,Controlled Drugs and Substances Act,Other,85,80,2290,null
-2291,NA,2020,D54/D55,Crimes Against Property,Auto Theft,254,29,2291,null
-2292,NA,2020,D54/D55,Crimes Against Property,Break & Enter-Apartment,159,37,2292,null
-2293,NA,2020,D54/D55,Crimes Against Property,Break & Enter-Commercial,255,61,2293,null
-2294,NA,2020,D54/D55,Crimes Against Property,Break & Enter-House,198,49,2294,null
-2295,NA,2020,D54/D55,Crimes Against Property,Break & Enter-Other,56,4,2295,null
-2296,NA,2020,D54/D55,Crimes Against Property,Fraud,803,52,2296,null
-2297,NA,2020,D54/D55,Crimes Against Property,Other,1302,310,2297,null
-2298,NA,2020,D54/D55,Crimes Against Property,Theft Over $5000,98,16,2298,null
-2299,NA,2020,D54/D55,Crimes Against Property,Theft Under $5000,3151,574,2299,null
-2300,NA,2020,D54/D55,Crimes Against the Person,Assault,1313,815,2300,null
-2301,NA,2020,D54/D55,Crimes Against the Person,Attempt Murder,11,6,2301,null
-2302,NA,2020,D54/D55,Crimes Against the Person,Other,272,157,2302,null
-2303,NA,2020,D54/D55,Crimes Against the Person,Robbery-Financial,7,3,2303,null
-2304,NA,2020,D54/D55,Crimes Against the Person,Robbery-Other,183,81,2304,null
-2305,NA,2020,D54/D55,Crimes Against the Person,Sexual Violation,182,89,2305,null
-2306,NA,2020,D54/D55,Criminal Code Traffic ,Other,111,103,2306,null
-2307,NA,2020,D54/D55,Other Criminal Code Violations,Other,822,691,2307,null
-2308,NA,2020,D54/D55,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,92,77,2308,null
-2309,NA,2020,D54/D55,Other Federal Statute Violations,Other,9,6,2309,null
-2310,NA,2020,NSA,Controlled Drugs and Substances Act,Other,90,74,2310,null
-2311,NA,2020,NSA,Crimes Against Property,Auto Theft,29,4,2311,null
-2312,NA,2020,NSA,Crimes Against Property,Break & Enter-Apartment,17,3,2312,null
-2313,NA,2020,NSA,Crimes Against Property,Break & Enter-Commercial,28,4,2313,null
-2314,NA,2020,NSA,Crimes Against Property,Break & Enter-House,5,0,2314,null
-2315,NA,2020,NSA,Crimes Against Property,Break & Enter-Other,2,1,2315,null
-2316,NA,2020,NSA,Crimes Against Property,Fraud,191,16,2316,null
-2317,NA,2020,NSA,Crimes Against Property,Other,156,58,2317,null
-2318,NA,2020,NSA,Crimes Against Property,Theft Over $5000,13,4,2318,null
-2319,NA,2020,NSA,Crimes Against Property,Theft Under $5000,204,30,2319,null
-2320,NA,2020,NSA,Crimes Against the Person,Assault,255,115,2320,null
-2321,NA,2020,NSA,Crimes Against the Person,Attempt Murder,1,1,2321,null
-2322,NA,2020,NSA,Crimes Against the Person,Other,72,21,2322,null
-2323,NA,2020,NSA,Crimes Against the Person,Robbery-Financial,17,17,2323,null
-2324,NA,2020,NSA,Crimes Against the Person,Robbery-Other,46,22,2324,null
-2325,NA,2020,NSA,Crimes Against the Person,Sexual Violation,138,32,2325,null
-2326,NA,2020,NSA,Criminal Code Traffic ,Other,84,74,2326,null
-2327,NA,2020,NSA,Other Criminal Code Violations,Other,205,182,2327,null
-2328,NA,2020,NSA,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,61,54,2328,null
-2329,NA,2020,NSA,Other Federal Statute Violations,Other,11,4,2329,null
-2330,NA,2020,D12,Crimes Against the Person,Sexual Violation,84,40,2330,null
-2331,NA,2020,D12,Criminal Code Traffic ,Other,109,91,2331,null
-2332,NA,2020,D12,Other Criminal Code Violations,Other,420,366,2332,null
-2333,NA,2020,D12,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,65,55,2333,null
-2334,NA,2020,D12,Other Federal Statute Violations,Other,14,12,2334,null
-2335,NA,2020,D13,Controlled Drugs and Substances Act,Other,48,40,2335,null
-2336,NA,2020,D13,Crimes Against Property,Auto Theft,271,20,2336,null
-2337,NA,2020,D13,Crimes Against Property,Break & Enter-Apartment,73,21,2337,null
-2338,NA,2020,D13,Crimes Against Property,Break & Enter-Commercial,127,48,2338,null
-2339,NA,2020,D13,Crimes Against Property,Break & Enter-House,125,23,2339,null
-2340,NA,2020,D13,Crimes Against Property,Break & Enter-Other,42,10,2340,null
-2341,NA,2020,D13,Crimes Against Property,Fraud,392,33,2341,null
-2342,NA,2020,D13,Crimes Against Property,Other,603,157,2342,null
-2343,NA,2020,D13,Crimes Against Property,Theft Over $5000,41,10,2343,null
-2344,NA,2020,D13,Crimes Against Property,Theft Under $5000,1620,204,2344,null
-2345,NA,2020,D13,Crimes Against the Person,Assault,579,381,2345,null
-2346,NA,2020,D13,Crimes Against the Person,Attempt Murder,4,3,2346,null
-2347,NA,2020,D13,Crimes Against the Person,Other,112,58,2347,null
-2348,NA,2020,D13,Crimes Against the Person,Robbery-Financial,3,3,2348,null
-2349,NA,2020,D13,Crimes Against the Person,Robbery-Other,95,39,2349,null
-2350,NA,2020,D13,Crimes Against the Person,Sexual Violation,76,31,2350,null
-2351,NA,2020,D13,Criminal Code Traffic ,Other,86,72,2351,null
-2352,NA,2020,D13,Other Criminal Code Violations,Other,379,324,2352,null
-2353,NA,2020,D13,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,42,38,2353,null
-2354,NA,2020,D13,Other Federal Statute Violations,Other,5,5,2354,null
-2355,NA,2020,D14,Controlled Drugs and Substances Act,Other,137,126,2355,null
-2356,NA,2020,D14,Crimes Against Property,Auto Theft,207,18,2356,null
-2357,NA,2020,D14,Crimes Against Property,Break & Enter-Apartment,268,81,2357,null
-2358,NA,2020,D14,Crimes Against Property,Break & Enter-Commercial,328,86,2358,null
-2359,NA,2020,D14,Crimes Against Property,Break & Enter-House,95,27,2359,null
-2360,NA,2020,D14,Crimes Against Property,Break & Enter-Other,52,18,2360,null
-2361,NA,2020,D14,Crimes Against Property,Fraud,908,78,2361,null
-2362,NA,2020,D14,Crimes Against Property,Other,1173,330,2362,null
-2363,NA,2020,D14,Crimes Against Property,Theft Over $5000,80,10,2363,null
-2364,NA,2020,D14,Crimes Against Property,Theft Under $5000,3180,478,2364,null
-2365,NA,2020,D14,Crimes Against the Person,Assault,1252,751,2365,null
-2366,NA,2020,D14,Crimes Against the Person,Attempt Murder,3,1,2366,null
-2367,NA,2020,D14,Crimes Against the Person,Other,183,101,2367,null
-2368,NA,2020,D14,Crimes Against the Person,Robbery-Financial,3,3,2368,null
-2369,NA,2020,D14,Crimes Against the Person,Robbery-Other,117,64,2369,null
+ReportedYear,GeoDivision,Category,Subtype,Count_,CountCleared
+2014,D11,Controlled Drugs and Substances Act,Other,201,195
+2014,D11,Crimes Against Property,Auto Theft,119,42
+2014,D11,Crimes Against Property,Break & Enter-Apartment,85,37
+2014,D11,Crimes Against Property,Break & Enter-Commercial,58,18
+2014,D11,Crimes Against Property,Break & Enter-House,89,34
+2014,D11,Crimes Against Property,Break & Enter-Other,23,7
+2014,D11,Crimes Against Property,Fraud,232,83
+2014,D11,Crimes Against Property,Other,628,230
+2014,D11,Crimes Against Property,Theft Over $5000,36,12
+2014,D11,Crimes Against Property,Theft Under $5000,1774,790
+2014,D11,Crimes Against the Person,Assault,648,496
+2014,D11,Crimes Against the Person,Attempt Murder,1,1
+2014,D11,Crimes Against the Person,Other,185,114
+2014,D11,Crimes Against the Person,Robbery-Financial,7,7
+2014,D11,Crimes Against the Person,Robbery-Other,127,49
+2014,D11,Crimes Against the Person,Sexual Violation,94,51
+2014,D11,Criminal Code Traffic ,Other,87,87
+2014,D11,Other Criminal Code Violations,Other,519,485
+2014,D11,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,48,45
+2014,D11,Other Federal Statute Violations,Other,19,19
+2014,D12,Controlled Drugs and Substances Act,Other,333,321
+2014,D12,Crimes Against Property,Auto Theft,240,50
+2014,D12,Crimes Against Property,Break & Enter-Apartment,76,44
+2014,D12,Crimes Against Property,Break & Enter-Commercial,41,15
+2014,D12,Crimes Against Property,Break & Enter-House,90,36
+2014,D12,Crimes Against Property,Break & Enter-Other,19,8
+2014,D12,Crimes Against Property,Fraud,232,68
+2014,D12,Crimes Against Property,Other,474,170
+2014,D12,Crimes Against Property,Theft Over $5000,27,10
+2014,D12,Crimes Against Property,Theft Under $5000,1119,478
+2014,D12,Crimes Against the Person,Assault,694,508
+2014,D12,Crimes Against the Person,Attempt Murder,6,5
+2014,D12,Crimes Against the Person,Other,208,143
+2014,D12,Crimes Against the Person,Robbery-Financial,3,3
+2014,D12,Crimes Against the Person,Robbery-Other,200,110
+2014,D12,Crimes Against the Person,Sexual Violation,98,55
+2014,D12,Criminal Code Traffic ,Other,106,95
+2014,D12,Other Criminal Code Violations,Other,472,441
+2014,D12,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,66,60
+2014,D12,Other Federal Statute Violations,Other,31,31
+2014,D13,Controlled Drugs and Substances Act,Other,169,162
+2014,D13,Crimes Against Property,Auto Theft,125,30
+2014,D13,Crimes Against Property,Break & Enter-Apartment,62,20
+2014,D13,Crimes Against Property,Break & Enter-Commercial,50,16
+2014,D13,Crimes Against Property,Break & Enter-House,160,44
+2014,D13,Crimes Against Property,Break & Enter-Other,16,4
+2014,D13,Crimes Against Property,Fraud,208,120
+2014,D13,Crimes Against Property,Other,488,183
+2014,D13,Crimes Against Property,Theft Over $5000,43,19
+2014,D13,Crimes Against Property,Theft Under $5000,1025,337
+2014,D23,Controlled Drugs and Substances Act,Other,251,235
+2014,D23,Crimes Against Property,Auto Theft,537,49
+2014,D23,Crimes Against Property,Break & Enter-Apartment,76,6
+2014,D23,Crimes Against Property,Break & Enter-Commercial,109,31
+2014,D23,Crimes Against Property,Break & Enter-House,120,26
+2014,D23,Crimes Against Property,Break & Enter-Other,17,4
+2014,D23,Crimes Against Property,Fraud,458,165
+2014,D23,Crimes Against Property,Other,592,164
+2014,D23,Crimes Against Property,Theft Over $5000,63,7
+2014,D23,Crimes Against Property,Theft Under $5000,1914,433
+2014,D23,Crimes Against the Person,Assault,795,546
+2014,D23,Crimes Against the Person,Attempt Murder,5,4
+2014,D23,Crimes Against the Person,Other,239,130
+2014,D23,Crimes Against the Person,Robbery-Financial,2,2
+2014,D23,Crimes Against the Person,Robbery-Other,249,109
+2014,D23,Crimes Against the Person,Sexual Violation,142,100
+2014,D23,Criminal Code Traffic ,Other,119,117
+2014,D23,Other Criminal Code Violations,Other,432,394
+2014,D23,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,67,56
+2014,D23,Other Federal Statute Violations,Other,24,23
+2014,D31,Controlled Drugs and Substances Act,Other,350,327
+2014,D31,Crimes Against Property,Auto Theft,368,79
+2014,D31,Crimes Against Property,Break & Enter-Apartment,93,28
+2014,D31,Crimes Against Property,Break & Enter-Commercial,105,51
+2014,D31,Crimes Against Property,Break & Enter-House,76,21
+2014,D31,Crimes Against Property,Break & Enter-Other,19,6
+2014,D31,Crimes Against Property,Fraud,404,193
+2014,D31,Crimes Against Property,Other,724,344
+2014,D31,Crimes Against Property,Theft Over $5000,65,28
+2014,D31,Crimes Against Property,Theft Under $5000,1619,613
+2014,D31,Crimes Against the Person,Assault,1073,808
+2014,D31,Crimes Against the Person,Attempt Murder,10,5
+2014,D31,Crimes Against the Person,Other,301,206
+2014,D31,Crimes Against the Person,Robbery-Other,253,108
+2014,D31,Crimes Against the Person,Sexual Violation,141,96
+2014,D31,Criminal Code Traffic ,Other,136,133
+2014,D31,Other Criminal Code Violations,Other,844,789
+2014,D31,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,184,146
+2014,D31,Other Federal Statute Violations,Other,40,40
+2014,D32,Controlled Drugs and Substances Act,Other,186,174
+2014,D32,Crimes Against Property,Auto Theft,438,24
+2014,D32,Crimes Against Property,Break & Enter-Apartment,147,26
+2014,D32,Crimes Against Property,Break & Enter-Commercial,151,21
+2014,D32,Crimes Against Property,Break & Enter-House,346,29
+2014,D32,Crimes Against Property,Break & Enter-Other,31,10
+2014,D32,Crimes Against Property,Fraud,743,298
+2014,D32,Crimes Against Property,Other,995,344
+2014,D32,Crimes Against Property,Theft Over $5000,92,19
+2014,D32,Crimes Against Property,Theft Under $5000,2974,1112
+2014,D32,Crimes Against the Person,Assault,906,602
+2014,D42,Crimes Against Property,Auto Theft,219,18
+2014,D42,Crimes Against Property,Break & Enter-Apartment,57,15
+2014,D42,Crimes Against Property,Break & Enter-Commercial,145,24
+2014,D42,Crimes Against Property,Break & Enter-House,311,36
+2014,D42,Crimes Against Property,Break & Enter-Other,21,6
+2014,D42,Crimes Against Property,Fraud,450,174
+2014,D42,Crimes Against Property,Other,606,211
+2014,D42,Crimes Against Property,Theft Over $5000,66,13
+2014,D42,Crimes Against Property,Theft Under $5000,1716,592
+2014,D42,Crimes Against the Person,Assault,823,612
+2014,D42,Crimes Against the Person,Attempt Murder,5,0
+2014,D42,Crimes Against the Person,Other,302,182
+2014,D42,Crimes Against the Person,Robbery-Financial,8,8
+2014,D42,Crimes Against the Person,Robbery-Other,221,71
+2014,D42,Crimes Against the Person,Sexual Violation,104,69
+2014,D42,Criminal Code Traffic ,Other,159,155
+2014,D42,Other Criminal Code Violations,Other,407,368
+2014,D42,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,70,64
+2014,D42,Other Federal Statute Violations,Other,21,21
+2014,D43,Controlled Drugs and Substances Act,Other,316,305
+2014,D43,Crimes Against Property,Auto Theft,218,34
+2014,D43,Crimes Against Property,Break & Enter-Apartment,151,58
+2014,D43,Crimes Against Property,Break & Enter-Commercial,81,32
+2014,D43,Crimes Against Property,Break & Enter-House,191,82
+2014,D43,Crimes Against Property,Break & Enter-Other,35,14
+2014,D43,Crimes Against Property,Fraud,463,234
+2014,D43,Crimes Against Property,Other,817,394
+2014,D43,Crimes Against Property,Theft Over $5000,47,15
+2014,D43,Crimes Against Property,Theft Under $5000,2178,1143
+2014,D43,Crimes Against the Person,Assault,1315,1030
+2014,D43,Crimes Against the Person,Attempt Murder,15,13
+2014,D43,Crimes Against the Person,Other,478,326
+2014,D43,Crimes Against the Person,Robbery-Financial,5,5
+2014,D43,Crimes Against the Person,Robbery-Other,311,128
+2014,D43,Crimes Against the Person,Sexual Violation,200,129
+2014,D43,Criminal Code Traffic ,Other,164,161
+2014,D43,Other Criminal Code Violations,Other,730,686
+2014,D43,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,104,97
+2014,D43,Other Federal Statute Violations,Other,20,19
+2014,D51,Controlled Drugs and Substances Act,Other,470,458
+2014,D51,Crimes Against Property,Auto Theft,114,54
+2014,D51,Crimes Against Property,Break & Enter-Apartment,212,66
+2014,D51,Crimes Against Property,Break & Enter-Commercial,207,58
+2014,D51,Crimes Against Property,Break & Enter-House,56,12
+2014,D32,Crimes Against the Person,Other,294,174
+2014,D51,Crimes Against Property,Break & Enter-Other,51,17
+2014,D51,Crimes Against Property,Fraud,350,126
+2014,D51,Crimes Against Property,Other,909,410
+2014,D51,Crimes Against Property,Theft Over $5000,74,19
+2014,D51,Crimes Against Property,Theft Under $5000,3505,841
+2014,D51,Crimes Against the Person,Assault,1196,826
+2014,D51,Crimes Against the Person,Attempt Murder,9,6
+2014,D51,Crimes Against the Person,Other,274,142
+2014,D51,Crimes Against the Person,Robbery-Financial,4,4
+2014,D51,Crimes Against the Person,Robbery-Other,292,126
+2014,D51,Crimes Against the Person,Sexual Violation,187,98
+2014,D51,Criminal Code Traffic ,Other,73,73
+2014,D51,Other Criminal Code Violations,Other,706,667
+2014,D51,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,90,84
+2014,D51,Other Federal Statute Violations,Other,23,23
+2014,D52,Controlled Drugs and Substances Act,Other,275,273
+2014,D52,Crimes Against Property,Auto Theft,67,21
+2014,D52,Crimes Against Property,Break & Enter-Apartment,70,24
+2014,D52,Crimes Against Property,Break & Enter-Commercial,127,56
+2014,D52,Crimes Against Property,Break & Enter-House,9,2
+2014,D52,Crimes Against Property,Break & Enter-Other,33,13
+2014,D52,Crimes Against Property,Fraud,556,272
+2014,D52,Crimes Against Property,Other,815,395
+2014,D52,Crimes Against Property,Theft Over $5000,91,28
+2014,D52,Crimes Against Property,Theft Under $5000,5483,2207
+2014,D52,Crimes Against the Person,Assault,1127,818
+2014,D52,Crimes Against the Person,Attempt Murder,2,2
+2014,D52,Crimes Against the Person,Other,343,215
+2014,D52,Crimes Against the Person,Robbery-Financial,4,4
+2014,D52,Crimes Against the Person,Robbery-Other,164,62
+2014,D52,Crimes Against the Person,Sexual Violation,138,81
+2014,D52,Criminal Code Traffic ,Other,84,84
+2014,D52,Other Criminal Code Violations,Other,1791,1729
+2014,D52,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,58,56
+2014,D52,Other Federal Statute Violations,Other,27,25
+2014,D53,Controlled Drugs and Substances Act,Other,107,101
+2014,D54/D55,Crimes Against Property,Auto Theft,168,41
+2014,D53,Crimes Against Property,Auto Theft,104,40
+2014,D53,Crimes Against Property,Break & Enter-Apartment,98,30
+2014,D53,Crimes Against Property,Break & Enter-Commercial,155,55
+2014,D53,Crimes Against Property,Break & Enter-House,306,69
+2014,D53,Crimes Against Property,Break & Enter-Other,34,13
+2014,D53,Crimes Against Property,Fraud,431,214
+2014,D53,Crimes Against Property,Other,563,226
+2014,D53,Crimes Against Property,Theft Over $5000,74,20
+2014,D53,Crimes Against Property,Theft Under $5000,2384,933
+2014,D53,Crimes Against the Person,Assault,573,448
+2014,D53,Crimes Against the Person,Attempt Murder,2,1
+2014,D53,Crimes Against the Person,Other,231,141
+2014,D53,Crimes Against the Person,Robbery-Financial,1,1
+2014,D53,Crimes Against the Person,Robbery-Other,81,35
+2014,D53,Crimes Against the Person,Sexual Violation,85,46
+2014,D53,Criminal Code Traffic ,Other,71,68
+2014,D53,Other Criminal Code Violations,Other,316,287
+2014,D53,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,35,33
+2014,D53,Other Federal Statute Violations,Other,19,19
+2014,D54/D55,Controlled Drugs and Substances Act,Other,518,502
+2014,D32,Crimes Against the Person,Attempt Murder,9,4
+2014,D32,Crimes Against the Person,Robbery-Financial,7,5
+2014,D32,Crimes Against the Person,Robbery-Other,162,52
+2014,D32,Crimes Against the Person,Sexual Violation,158,83
+2014,D32,Criminal Code Traffic ,Other,113,112
+2014,D32,Other Criminal Code Violations,Other,547,503
+2014,D32,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,61,55
+2014,D32,Other Federal Statute Violations,Other,31,30
+2014,D33,Controlled Drugs and Substances Act,Other,113,102
+2014,D33,Crimes Against Property,Auto Theft,208,20
+2014,D33,Crimes Against Property,Break & Enter-Apartment,177,32
+2014,D33,Crimes Against Property,Break & Enter-Commercial,70,19
+2014,D33,Crimes Against Property,Break & Enter-House,180,20
+2014,D33,Crimes Against Property,Break & Enter-Other,15,1
+2014,D33,Crimes Against Property,Fraud,382,163
+2014,D33,Crimes Against Property,Other,505,176
+2014,D33,Crimes Against Property,Theft Over $5000,62,16
+2014,D33,Crimes Against Property,Theft Under $5000,1818,752
+2014,D33,Crimes Against the Person,Assault,657,471
+2014,D33,Crimes Against the Person,Attempt Murder,3,0
+2014,D33,Crimes Against the Person,Other,212,140
+2014,D33,Crimes Against the Person,Robbery-Financial,7,5
+2014,D33,Crimes Against the Person,Robbery-Other,107,28
+2014,D33,Crimes Against the Person,Sexual Violation,82,57
+2014,D33,Criminal Code Traffic ,Other,88,85
+2014,D33,Other Criminal Code Violations,Other,308,283
+2014,D33,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,47,44
+2014,D33,Other Federal Statute Violations,Other,5,4
+2014,D41,Controlled Drugs and Substances Act,Other,314,305
+2014,D41,Crimes Against Property,Auto Theft,238,37
+2014,D41,Crimes Against Property,Break & Enter-Apartment,141,27
+2014,D41,Crimes Against Property,Break & Enter-Commercial,204,57
+2014,D41,Crimes Against Property,Break & Enter-House,245,65
+2014,D41,Crimes Against Property,Break & Enter-Other,53,12
+2014,D41,Crimes Against Property,Fraud,411,118
+2014,D41,Crimes Against Property,Other,775,320
+2014,D41,Crimes Against Property,Theft Over $5000,42,17
+2014,D41,Crimes Against Property,Theft Under $5000,2432,1050
+2014,D41,Crimes Against the Person,Assault,1227,795
+2014,D41,Crimes Against the Person,Attempt Murder,5,3
+2014,D41,Crimes Against the Person,Other,389,212
+2014,D41,Crimes Against the Person,Robbery-Financial,8,7
+2014,D41,Crimes Against the Person,Robbery-Other,285,108
+2014,D41,Crimes Against the Person,Sexual Violation,127,65
+2014,D41,Criminal Code Traffic ,Other,158,152
+2014,D41,Other Criminal Code Violations,Other,1240,1164
+2014,D41,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,97,87
+2014,D41,Other Federal Statute Violations,Other,37,34
+2014,D42,Controlled Drugs and Substances Act,Other,208,196
+2015,D11,Crimes Against the Person,Other,217,130
+2014,D54/D55,Crimes Against Property,Break & Enter-Apartment,180,61
+2015,D11,Crimes Against the Person,Robbery-Financial,7,7
+2015,D11,Crimes Against the Person,Robbery-Other,158,71
+2015,D11,Crimes Against the Person,Sexual Violation,99,64
+2015,D11,Criminal Code Traffic ,Other,91,89
+2015,D11,Other Criminal Code Violations,Other,592,556
+2015,D11,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,57,55
+2015,D11,Other Federal Statute Violations,Other,12,11
+2015,D12,Controlled Drugs and Substances Act,Other,382,365
+2015,D12,Crimes Against Property,Auto Theft,238,34
+2015,D12,Crimes Against Property,Break & Enter-Apartment,91,33
+2015,D12,Crimes Against Property,Break & Enter-Commercial,54,24
+2015,D12,Crimes Against Property,Break & Enter-House,86,24
+2015,D12,Crimes Against Property,Break & Enter-Other,20,4
+2015,D12,Crimes Against Property,Fraud,308,77
+2015,D12,Crimes Against Property,Other,496,200
+2015,D12,Crimes Against Property,Theft Over $5000,38,14
+2015,D12,Crimes Against Property,Theft Under $5000,1224,587
+2015,D12,Crimes Against the Person,Assault,680,507
+2015,D12,Crimes Against the Person,Attempt Murder,6,2
+2015,D12,Crimes Against the Person,Other,239,156
+2015,D12,Crimes Against the Person,Robbery-Financial,2,2
+2015,D12,Crimes Against the Person,Robbery-Other,161,79
+2015,D12,Crimes Against the Person,Sexual Violation,99,54
+2015,D12,Criminal Code Traffic ,Other,87,84
+2015,D12,Other Criminal Code Violations,Other,531,497
+2015,D12,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,81,79
+2015,D12,Other Federal Statute Violations,Other,26,26
+2015,D13,Controlled Drugs and Substances Act,Other,183,180
+2015,D13,Crimes Against Property,Auto Theft,129,22
+2015,D13,Crimes Against Property,Break & Enter-Apartment,66,12
+2015,D13,Crimes Against Property,Break & Enter-Commercial,54,26
+2015,D13,Crimes Against Property,Break & Enter-House,133,37
+2015,D13,Crimes Against Property,Break & Enter-Other,18,10
+2015,D13,Crimes Against Property,Fraud,269,138
+2015,D13,Crimes Against Property,Other,470,203
+2015,D13,Crimes Against Property,Theft Over $5000,32,9
+2015,D13,Crimes Against Property,Theft Under $5000,1051,334
+2015,D13,Crimes Against the Person,Assault,550,426
+2015,D13,Crimes Against the Person,Attempt Murder,3,3
+2015,D13,Crimes Against the Person,Other,177,102
+2015,D13,Crimes Against the Person,Robbery-Financial,2,2
+2015,D13,Crimes Against the Person,Robbery-Other,97,44
+2015,D13,Crimes Against the Person,Sexual Violation,79,45
+2015,D13,Criminal Code Traffic ,Other,111,111
+2014,D54/D55,Crimes Against Property,Break & Enter-Commercial,105,34
+2015,D13,Other Criminal Code Violations,Other,334,307
+2014,D54/D55,Crimes Against Property,Break & Enter-House,365,117
+2015,D13,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,42,42
+2015,D13,Other Federal Statute Violations,Other,29,29
+2015,D14,Controlled Drugs and Substances Act,Other,488,473
+2015,D14,Crimes Against Property,Auto Theft,168,42
+2014,D54/D55,Crimes Against Property,Break & Enter-Other,35,11
+2014,D54/D55,Crimes Against Property,Fraud,466,137
+2014,D54/D55,Crimes Against Property,Other,1127,370
+2014,D54/D55,Crimes Against Property,Theft Over $5000,75,25
+2014,D54/D55,Crimes Against Property,Theft Under $5000,3054,1043
+2014,D54/D55,Crimes Against the Person,Assault,1497,1064
+2014,D54/D55,Crimes Against the Person,Attempt Murder,7,6
+2014,D54/D55,Crimes Against the Person,Other,509,313
+2014,D54/D55,Crimes Against the Person,Robbery-Financial,4,4
+2014,D54/D55,Crimes Against the Person,Robbery-Other,267,143
+2014,D54/D55,Crimes Against the Person,Sexual Violation,180,115
+2014,D54/D55,Criminal Code Traffic ,Other,155,152
+2014,D54/D55,Other Criminal Code Violations,Other,868,779
+2014,D54/D55,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,112,105
+2014,D54/D55,Other Federal Statute Violations,Other,22,22
+2014,NSA,Controlled Drugs and Substances Act,Other,111,94
+2014,NSA,Crimes Against Property,Auto Theft,31,10
+2014,NSA,Crimes Against Property,Break & Enter-Apartment,1,1
+2014,NSA,Crimes Against Property,Break & Enter-Commercial,1,0
+2014,NSA,Crimes Against Property,Break & Enter-House,5,5
+2014,NSA,Crimes Against Property,Fraud,64,37
+2014,NSA,Crimes Against Property,Other,55,30
+2014,NSA,Crimes Against Property,Theft Over $5000,4,2
+2014,NSA,Crimes Against Property,Theft Under $5000,93,37
+2014,NSA,Crimes Against the Person,Assault,83,54
+2014,NSA,Crimes Against the Person,Attempt Murder,1,0
+2014,NSA,Crimes Against the Person,Other,33,18
+2014,NSA,Crimes Against the Person,Robbery-Financial,6,6
+2014,NSA,Crimes Against the Person,Robbery-Other,36,26
+2014,NSA,Crimes Against the Person,Sexual Violation,81,34
+2014,NSA,Criminal Code Traffic ,Other,109,107
+2014,NSA,Other Criminal Code Violations,Other,130,123
+2014,NSA,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,25,23
+2014,NSA,Other Federal Statute Violations,Other,18,18
+2015,D11,Controlled Drugs and Substances Act,Other,205,192
+2015,D11,Crimes Against Property,Auto Theft,111,18
+2015,D11,Crimes Against Property,Break & Enter-Apartment,119,47
+2015,D11,Crimes Against Property,Break & Enter-Commercial,74,32
+2015,D11,Crimes Against Property,Break & Enter-House,101,44
+2015,D11,Crimes Against Property,Break & Enter-Other,14,7
+2015,D11,Crimes Against Property,Fraud,284,83
+2015,D11,Crimes Against Property,Other,623,204
+2015,D11,Crimes Against Property,Theft Over $5000,22,5
+2015,D11,Crimes Against Property,Theft Under $5000,1874,817
+2015,D11,Crimes Against the Person,Assault,692,521
+2015,D11,Crimes Against the Person,Attempt Murder,3,2
+2014,D13,Crimes Against the Person,Assault,478,346
+2014,D13,Crimes Against the Person,Attempt Murder,4,4
+2014,D13,Crimes Against the Person,Other,172,114
+2014,D13,Crimes Against the Person,Robbery-Financial,3,0
+2014,D13,Crimes Against the Person,Robbery-Other,126,45
+2014,D13,Crimes Against the Person,Sexual Violation,67,41
+2014,D13,Criminal Code Traffic ,Other,102,100
+2014,D13,Other Criminal Code Violations,Other,325,306
+2014,D13,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,25,24
+2014,D13,Other Federal Statute Violations,Other,29,28
+2014,D14,Controlled Drugs and Substances Act,Other,561,541
+2014,D14,Crimes Against Property,Auto Theft,125,45
+2014,D14,Crimes Against Property,Break & Enter-Apartment,171,61
+2014,D14,Crimes Against Property,Break & Enter-Commercial,197,89
+2014,D14,Crimes Against Property,Break & Enter-House,114,37
+2014,D14,Crimes Against Property,Break & Enter-Other,39,11
+2014,D14,Crimes Against Property,Fraud,356,94
+2014,D14,Crimes Against Property,Other,997,409
+2014,D14,Crimes Against Property,Theft Over $5000,79,19
+2014,D14,Crimes Against Property,Theft Under $5000,2771,823
+2014,D14,Crimes Against the Person,Assault,1183,812
+2014,D14,Crimes Against the Person,Attempt Murder,6,6
+2014,D14,Crimes Against the Person,Other,262,168
+2014,D14,Crimes Against the Person,Robbery-Financial,19,19
+2014,D14,Crimes Against the Person,Robbery-Other,239,144
+2014,D14,Crimes Against the Person,Sexual Violation,135,82
+2014,D14,Criminal Code Traffic ,Other,104,102
+2014,D14,Other Criminal Code Violations,Other,813,757
+2014,D14,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,68,64
+2014,D14,Other Federal Statute Violations,Other,28,28
+2014,D22,Controlled Drugs and Substances Act,Other,224,216
+2014,D22,Crimes Against Property,Auto Theft,300,50
+2014,D22,Crimes Against Property,Break & Enter-Apartment,91,31
+2014,D22,Crimes Against Property,Break & Enter-Commercial,127,26
+2014,D22,Crimes Against Property,Break & Enter-House,300,110
+2014,D22,Crimes Against Property,Break & Enter-Other,21,4
+2014,D22,Crimes Against Property,Fraud,526,191
+2014,D22,Crimes Against Property,Other,826,225
+2014,D22,Crimes Against Property,Theft Over $5000,85,17
+2014,D22,Crimes Against Property,Theft Under $5000,2357,618
+2014,D22,Crimes Against the Person,Assault,877,589
+2014,D22,Crimes Against the Person,Attempt Murder,4,4
+2014,D22,Crimes Against the Person,Other,252,130
+2014,D22,Crimes Against the Person,Robbery-Financial,9,9
+2014,D22,Crimes Against the Person,Robbery-Other,157,81
+2014,D22,Crimes Against the Person,Sexual Violation,78,36
+2014,D22,Criminal Code Traffic ,Other,111,109
+2014,D22,Other Criminal Code Violations,Other,652,614
+2014,D22,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,50,45
+2014,D22,Other Federal Statute Violations,Other,16,15
+2015,D14,Crimes Against Property,Break & Enter-Apartment,186,87
+2015,D14,Crimes Against Property,Break & Enter-Commercial,162,74
+2015,D14,Crimes Against Property,Break & Enter-House,97,40
+2015,D14,Crimes Against Property,Break & Enter-Other,31,14
+2015,D14,Crimes Against Property,Fraud,540,148
+2015,D14,Crimes Against Property,Other,1036,388
+2015,D14,Crimes Against Property,Theft Over $5000,57,10
+2015,D14,Crimes Against Property,Theft Under $5000,2839,646
+2015,D14,Crimes Against the Person,Assault,1273,856
+2015,D14,Crimes Against the Person,Attempt Murder,12,5
+2015,D14,Crimes Against the Person,Other,297,183
+2015,D14,Crimes Against the Person,Robbery-Financial,5,5
+2015,D14,Crimes Against the Person,Robbery-Other,178,88
+2015,D14,Crimes Against the Person,Sexual Violation,170,94
+2015,D14,Criminal Code Traffic ,Other,127,125
+2015,D14,Other Criminal Code Violations,Other,789,740
+2015,D14,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,75,73
+2015,D52,Crimes Against Property,Break & Enter-Apartment,74,29
+2016,D12,Crimes Against Property,Break & Enter-Other,25,9
+2015,D14,Other Federal Statute Violations,Other,20,16
+2015,D22,Controlled Drugs and Substances Act,Other,222,201
+2015,D22,Crimes Against Property,Auto Theft,344,48
+2015,D22,Crimes Against Property,Break & Enter-Apartment,124,32
+2015,D22,Crimes Against Property,Break & Enter-Commercial,153,53
+2015,D22,Crimes Against Property,Break & Enter-House,220,44
+2015,D22,Crimes Against Property,Break & Enter-Other,25,4
+2015,D22,Crimes Against Property,Fraud,551,130
+2015,D22,Crimes Against Property,Other,829,262
+2015,D22,Crimes Against Property,Theft Over $5000,102,27
+2015,D22,Crimes Against Property,Theft Under $5000,2184,661
+2015,D22,Crimes Against the Person,Assault,824,588
+2015,D22,Crimes Against the Person,Attempt Murder,6,6
+2015,D22,Crimes Against the Person,Other,366,185
+2015,D22,Crimes Against the Person,Robbery-Financial,15,14
+2015,D22,Crimes Against the Person,Robbery-Other,135,57
+2015,D22,Crimes Against the Person,Sexual Violation,93,60
+2015,D22,Criminal Code Traffic ,Other,154,154
+2015,D22,Other Criminal Code Violations,Other,751,688
+2015,D22,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,77,69
+2015,D22,Other Federal Statute Violations,Other,19,18
+2015,D23,Controlled Drugs and Substances Act,Other,199,193
+2015,D23,Crimes Against Property,Auto Theft,499,20
+2015,D23,Crimes Against Property,Break & Enter-Apartment,88,12
+2015,D23,Crimes Against Property,Break & Enter-Commercial,116,23
+2015,D23,Crimes Against Property,Break & Enter-House,92,18
+2015,D23,Crimes Against Property,Break & Enter-Other,12,1
+2015,D23,Crimes Against Property,Fraud,410,124
+2015,D23,Crimes Against Property,Other,659,204
+2015,D23,Crimes Against Property,Theft Over $5000,79,13
+2015,D23,Crimes Against Property,Theft Under $5000,1561,388
+2015,D23,Crimes Against the Person,Assault,828,555
+2015,D23,Crimes Against the Person,Attempt Murder,10,5
+2015,D52,Crimes Against Property,Break & Enter-Commercial,207,99
+2016,D12,Crimes Against Property,Fraud,317,79
+2015,D52,Crimes Against Property,Break & Enter-House,8,6
+2016,D12,Crimes Against Property,Other,513,190
+2015,D52,Crimes Against Property,Break & Enter-Other,35,19
+2016,D12,Crimes Against Property,Theft Over $5000,28,10
+2015,D52,Crimes Against Property,Fraud,689,201
+2016,D12,Crimes Against Property,Theft Under $5000,1213,420
+2015,D52,Crimes Against Property,Other,921,412
+2016,D12,Crimes Against the Person,Assault,747,531
+2015,D52,Crimes Against Property,Theft Over $5000,106,18
+2016,D12,Crimes Against the Person,Attempt Murder,11,5
+2015,D52,Crimes Against Property,Theft Under $5000,5087,1882
+2016,D12,Crimes Against the Person,Other,172,94
+2015,D52,Crimes Against the Person,Assault,1294,864
+2016,D12,Crimes Against the Person,Robbery-Financial,9,6
+2015,D52,Crimes Against the Person,Attempt Murder,8,6
+2016,D12,Crimes Against the Person,Robbery-Other,201,98
+2015,D52,Crimes Against the Person,Other,309,152
+2016,D12,Crimes Against the Person,Sexual Violation,104,65
+2015,D52,Crimes Against the Person,Robbery-Financial,9,9
+2016,D12,Criminal Code Traffic ,Other,87,85
+2015,D52,Crimes Against the Person,Robbery-Other,119,56
+2016,D12,Other Criminal Code Violations,Other,502,467
+2015,D52,Crimes Against the Person,Sexual Violation,132,76
+2016,D12,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,83,74
+2015,D33,Crimes Against Property,Break & Enter-Apartment,124,18
+2015,D52,Criminal Code Traffic ,Other,78,75
+2015,D52,Other Criminal Code Violations,Other,2087,2021
+2015,D52,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,114,107
+2015,D52,Other Federal Statute Violations,Other,31,27
+2015,D53,Controlled Drugs and Substances Act,Other,110,105
+2015,D53,Crimes Against Property,Auto Theft,134,41
+2015,D53,Crimes Against Property,Break & Enter-Apartment,134,26
+2015,D53,Crimes Against Property,Break & Enter-Commercial,109,29
+2015,D53,Crimes Against Property,Break & Enter-House,124,10
+2015,D53,Crimes Against Property,Break & Enter-Other,12,1
+2015,D53,Crimes Against Property,Fraud,479,120
+2015,D53,Crimes Against Property,Other,608,183
+2015,D53,Crimes Against Property,Theft Over $5000,64,12
+2015,D53,Crimes Against Property,Theft Under $5000,2331,768
+2015,D53,Crimes Against the Person,Assault,647,424
+2015,D53,Crimes Against the Person,Other,301,171
+2015,D53,Crimes Against the Person,Robbery-Financial,6,6
+2015,D53,Crimes Against the Person,Robbery-Other,94,44
+2015,D53,Crimes Against the Person,Sexual Violation,99,62
+2015,D53,Criminal Code Traffic ,Other,67,65
+2015,D53,Other Criminal Code Violations,Other,335,307
+2015,D53,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,43,40
+2015,D53,Other Federal Statute Violations,Other,3,3
+2015,D54/D55,Controlled Drugs and Substances Act,Other,405,395
+2015,D54/D55,Crimes Against Property,Auto Theft,193,14
+2015,D54/D55,Crimes Against Property,Break & Enter-Apartment,182,62
+2015,D54/D55,Crimes Against Property,Break & Enter-Commercial,145,44
+2015,D54/D55,Crimes Against Property,Break & Enter-House,290,57
+2015,D54/D55,Crimes Against Property,Break & Enter-Other,42,7
+2015,D54/D55,Crimes Against Property,Fraud,580,113
+2015,D54/D55,Crimes Against Property,Other,1321,377
+2015,D54/D55,Crimes Against Property,Theft Over $5000,79,19
+2015,D54/D55,Crimes Against Property,Theft Under $5000,3056,845
+2015,D54/D55,Crimes Against the Person,Assault,1491,989
+2015,D54/D55,Crimes Against the Person,Attempt Murder,10,10
+2015,D54/D55,Crimes Against the Person,Other,546,312
+2016,D12,Other Federal Statute Violations,Other,38,34
+2016,D13,Controlled Drugs and Substances Act,Other,217,210
+2016,D13,Crimes Against Property,Auto Theft,148,26
+2016,D13,Crimes Against Property,Break & Enter-Apartment,83,17
+2016,D13,Crimes Against Property,Break & Enter-Commercial,56,26
+2015,D42,Crimes Against the Person,Other,377,191
+2016,D13,Crimes Against Property,Break & Enter-House,103,20
+2016,D13,Crimes Against Property,Break & Enter-Other,9,3
+2016,D13,Crimes Against Property,Fraud,333,111
+2016,D13,Crimes Against Property,Other,503,204
+2015,D42,Crimes Against the Person,Robbery-Financial,5,5
+2016,D13,Crimes Against Property,Theft Over $5000,37,11
+2015,D42,Crimes Against the Person,Robbery-Other,238,105
+2016,D13,Crimes Against Property,Theft Under $5000,1088,319
+2015,D42,Crimes Against the Person,Sexual Violation,91,53
+2016,D13,Crimes Against the Person,Assault,560,390
+2015,D42,Criminal Code Traffic ,Other,163,162
+2016,D13,Crimes Against the Person,Attempt Murder,1,1
+2015,D42,Other Criminal Code Violations,Other,518,451
+2016,D13,Crimes Against the Person,Other,163,103
+2015,D42,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,88,83
+2016,D13,Crimes Against the Person,Robbery-Financial,7,7
+2016,D13,Crimes Against the Person,Robbery-Other,121,38
+2015,D42,Other Federal Statute Violations,Other,20,19
+2015,D43,Controlled Drugs and Substances Act,Other,333,317
+2015,D43,Crimes Against Property,Auto Theft,181,28
+2015,D43,Crimes Against Property,Break & Enter-Apartment,148,37
+2015,D43,Crimes Against Property,Break & Enter-Commercial,87,34
+2015,D43,Crimes Against Property,Break & Enter-House,223,56
+2016,D13,Crimes Against the Person,Sexual Violation,73,47
+2015,D43,Crimes Against Property,Break & Enter-Other,25,6
+2016,D13,Criminal Code Traffic ,Other,96,93
+2015,D43,Crimes Against Property,Fraud,546,268
+2016,D13,Other Criminal Code Violations,Other,454,408
+2015,D43,Crimes Against Property,Other,869,372
+2016,D13,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,80,78
+2015,D43,Crimes Against Property,Theft Over $5000,44,13
+2016,D13,Other Federal Statute Violations,Other,19,17
+2015,D43,Crimes Against Property,Theft Under $5000,2183,1017
+2016,D14,Controlled Drugs and Substances Act,Other,434,405
+2015,D43,Crimes Against the Person,Assault,1334,1007
+2016,D14,Crimes Against Property,Auto Theft,182,34
+2015,D43,Crimes Against the Person,Attempt Murder,11,7
+2016,D14,Crimes Against Property,Break & Enter-Apartment,176,45
+2015,D43,Crimes Against the Person,Other,568,336
+2016,D14,Crimes Against Property,Break & Enter-Commercial,186,46
+2015,D43,Crimes Against the Person,Robbery-Financial,8,8
+2016,D14,Crimes Against Property,Break & Enter-House,84,17
+2015,D43,Crimes Against the Person,Robbery-Other,310,153
+2016,D14,Crimes Against Property,Break & Enter-Other,32,8
+2015,D43,Crimes Against the Person,Sexual Violation,159,98
+2016,D14,Crimes Against Property,Fraud,699,178
+2015,D43,Criminal Code Traffic ,Other,121,119
+2016,D14,Crimes Against Property,Other,1024,369
+2015,D43,Other Criminal Code Violations,Other,1020,927
+2016,D14,Crimes Against Property,Theft Over $5000,71,16
+2015,D43,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,185,162
+2016,D14,Crimes Against Property,Theft Under $5000,3199,675
+2015,D43,Other Federal Statute Violations,Other,21,19
+2016,D14,Crimes Against the Person,Assault,1337,808
+2015,D51,Controlled Drugs and Substances Act,Other,491,475
+2016,D14,Crimes Against the Person,Attempt Murder,15,9
+2015,D51,Crimes Against Property,Auto Theft,92,15
+2016,D14,Crimes Against the Person,Other,335,242
+2015,D51,Crimes Against Property,Break & Enter-Apartment,202,50
+2016,D14,Crimes Against the Person,Robbery-Financial,7,6
+2015,D51,Crimes Against Property,Break & Enter-Commercial,176,25
+2016,D14,Crimes Against the Person,Robbery-Other,227,101
+2015,D51,Crimes Against Property,Break & Enter-House,34,5
+2015,D51,Crimes Against Property,Break & Enter-Other,47,10
+2015,D51,Crimes Against Property,Fraud,489,122
+2015,D51,Crimes Against Property,Other,932,384
+2015,D51,Crimes Against Property,Theft Over $5000,59,7
+2015,D51,Crimes Against Property,Theft Under $5000,3328,695
+2015,D51,Crimes Against the Person,Assault,1222,834
+2015,D51,Crimes Against the Person,Attempt Murder,9,5
+2015,D51,Crimes Against the Person,Other,294,158
+2015,D51,Crimes Against the Person,Robbery-Financial,2,2
+2015,D51,Crimes Against the Person,Robbery-Other,299,113
+2015,D33,Crimes Against Property,Break & Enter-Commercial,60,16
+2015,D51,Crimes Against the Person,Sexual Violation,175,84
+2015,D51,Criminal Code Traffic ,Other,68,67
+2015,D51,Other Criminal Code Violations,Other,816,768
+2015,D51,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,123,118
+2015,D51,Other Federal Statute Violations,Other,23,22
+2015,D52,Controlled Drugs and Substances Act,Other,250,230
+2015,D52,Crimes Against Property,Auto Theft,91,9
+2015,D54/D55,Crimes Against the Person,Robbery-Financial,10,10
+2015,D54/D55,Crimes Against the Person,Robbery-Other,278,110
+2015,D54/D55,Crimes Against the Person,Sexual Violation,191,116
+2015,D54/D55,Criminal Code Traffic ,Other,142,139
+2015,D54/D55,Other Criminal Code Violations,Other,922,832
+2015,D54/D55,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,130,127
+2015,D54/D55,Other Federal Statute Violations,Other,15,15
+2015,NSA,Controlled Drugs and Substances Act,Other,101,88
+2015,NSA,Crimes Against Property,Auto Theft,7,1
+2015,NSA,Crimes Against Property,Break & Enter-Apartment,3,1
+2015,NSA,Crimes Against Property,Break & Enter-Commercial,3,0
+2015,NSA,Crimes Against Property,Break & Enter-House,7,7
+2015,NSA,Crimes Against Property,Break & Enter-Other,2,1
+2015,NSA,Crimes Against Property,Fraud,128,75
+2015,NSA,Crimes Against Property,Other,72,39
+2015,NSA,Crimes Against Property,Theft Over $5000,3,1
+2015,NSA,Crimes Against Property,Theft Under $5000,91,14
+2015,NSA,Crimes Against the Person,Assault,88,40
+2015,NSA,Crimes Against the Person,Other,34,14
+2015,NSA,Crimes Against the Person,Robbery-Other,31,12
+2015,NSA,Crimes Against the Person,Sexual Violation,86,15
+2015,NSA,Criminal Code Traffic ,Other,59,57
+2015,NSA,Other Criminal Code Violations,Other,120,112
+2015,NSA,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,21,18
+2015,D33,Crimes Against Property,Break & Enter-House,241,33
+2015,NSA,Other Federal Statute Violations,Other,19,18
+2015,D23,Crimes Against the Person,Other,308,150
+2015,D33,Crimes Against Property,Break & Enter-Other,11,1
+2016,D11,Controlled Drugs and Substances Act,Other,189,182
+2015,D23,Crimes Against the Person,Robbery-Financial,4,1
+2015,D33,Crimes Against Property,Fraud,436,134
+2016,D11,Crimes Against Property,Auto Theft,91,12
+2015,D23,Crimes Against the Person,Robbery-Other,251,96
+2015,D33,Crimes Against Property,Other,559,201
+2016,D11,Crimes Against Property,Break & Enter-Apartment,60,25
+2015,D23,Crimes Against the Person,Sexual Violation,124,76
+2015,D33,Crimes Against Property,Theft Over $5000,66,11
+2016,D11,Crimes Against Property,Break & Enter-Commercial,63,8
+2015,D23,Criminal Code Traffic ,Other,146,145
+2015,D33,Crimes Against Property,Theft Under $5000,1756,706
+2016,D11,Crimes Against Property,Break & Enter-House,99,21
+2015,D23,Other Criminal Code Violations,Other,430,400
+2015,D33,Crimes Against the Person,Assault,692,508
+2016,D11,Crimes Against Property,Break & Enter-Other,13,5
+2015,D23,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,86,76
+2015,D33,Crimes Against the Person,Attempt Murder,3,1
+2016,D11,Crimes Against Property,Fraud,373,99
+2015,D23,Other Federal Statute Violations,Other,21,19
+2015,D33,Crimes Against the Person,Other,253,144
+2016,D11,Crimes Against Property,Other,677,202
+2015,D31,Controlled Drugs and Substances Act,Other,406,374
+2015,D33,Crimes Against the Person,Robbery-Financial,1,1
+2016,D11,Crimes Against Property,Theft Over $5000,27,8
+2015,D31,Crimes Against Property,Auto Theft,352,18
+2015,D31,Crimes Against Property,Break & Enter-Apartment,104,27
+2015,D31,Crimes Against Property,Break & Enter-Commercial,94,17
+2015,D31,Crimes Against Property,Break & Enter-House,74,22
+2015,D31,Crimes Against Property,Break & Enter-Other,6,1
+2015,D31,Crimes Against Property,Fraud,475,161
+2015,D31,Crimes Against Property,Other,767,282
+2015,D31,Crimes Against Property,Theft Over $5000,76,13
+2015,D31,Crimes Against Property,Theft Under $5000,1437,445
+2015,D31,Crimes Against the Person,Assault,1120,752
+2015,D31,Crimes Against the Person,Attempt Murder,20,18
+2015,D31,Crimes Against the Person,Other,367,193
+2015,D31,Crimes Against the Person,Robbery-Financial,4,3
+2015,D31,Crimes Against the Person,Robbery-Other,267,106
+2015,D31,Crimes Against the Person,Sexual Violation,179,103
+2015,D31,Criminal Code Traffic ,Other,122,117
+2015,D31,Other Criminal Code Violations,Other,794,711
+2015,D31,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,217,172
+2015,D31,Other Federal Statute Violations,Other,67,60
+2015,D32,Controlled Drugs and Substances Act,Other,202,196
+2015,D32,Crimes Against Property,Auto Theft,371,9
+2015,D32,Crimes Against Property,Break & Enter-Apartment,147,12
+2015,D32,Crimes Against Property,Break & Enter-Commercial,174,15
+2015,D32,Crimes Against Property,Break & Enter-House,302,27
+2015,D32,Crimes Against Property,Break & Enter-Other,19,1
+2015,D32,Crimes Against Property,Fraud,811,184
+2015,D32,Crimes Against Property,Other,966,331
+2015,D32,Crimes Against Property,Theft Over $5000,113,13
+2015,D32,Crimes Against Property,Theft Under $5000,2931,1092
+2015,D32,Crimes Against the Person,Assault,961,588
+2015,D32,Crimes Against the Person,Attempt Murder,11,7
+2015,D32,Crimes Against the Person,Other,427,213
+2015,D32,Crimes Against the Person,Robbery-Financial,5,3
+2015,D32,Crimes Against the Person,Robbery-Other,118,37
+2015,D32,Crimes Against the Person,Sexual Violation,151,81
+2015,D32,Criminal Code Traffic ,Other,128,127
+2015,D32,Other Criminal Code Violations,Other,609,553
+2015,D32,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,74,62
+2015,D32,Other Federal Statute Violations,Other,27,27
+2015,D33,Controlled Drugs and Substances Act,Other,152,130
+2015,D33,Crimes Against Property,Auto Theft,169,11
+2016,D11,Crimes Against Property,Theft Under $5000,2063,873
+2016,D11,Crimes Against the Person,Assault,672,461
+2016,D11,Crimes Against the Person,Attempt Murder,2,0
+2016,D11,Crimes Against the Person,Other,207,130
+2016,D11,Crimes Against the Person,Robbery-Financial,5,5
+2016,D11,Crimes Against the Person,Robbery-Other,143,60
+2016,D11,Crimes Against the Person,Sexual Violation,105,66
+2016,D11,Criminal Code Traffic ,Other,99,94
+2016,D11,Other Criminal Code Violations,Other,598,552
+2016,D11,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,73,72
+2016,D11,Other Federal Statute Violations,Other,19,17
+2016,D12,Controlled Drugs and Substances Act,Other,275,271
+2016,D12,Crimes Against Property,Auto Theft,204,24
+2016,D12,Crimes Against Property,Break & Enter-Apartment,68,30
+2016,D12,Crimes Against Property,Break & Enter-Commercial,70,37
+2016,D12,Crimes Against Property,Break & Enter-House,73,32
+2015,D33,Crimes Against the Person,Robbery-Other,116,55
+2015,D33,Crimes Against the Person,Sexual Violation,98,60
+2015,D33,Criminal Code Traffic ,Other,107,100
+2015,D33,Other Criminal Code Violations,Other,370,335
+2015,D33,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,60,56
+2015,D33,Other Federal Statute Violations,Other,14,11
+2015,D41,Controlled Drugs and Substances Act,Other,384,362
+2015,D41,Crimes Against Property,Auto Theft,231,15
+2015,D41,Crimes Against Property,Break & Enter-Apartment,160,33
+2015,D41,Crimes Against Property,Break & Enter-Commercial,167,40
+2015,D41,Crimes Against Property,Break & Enter-House,254,76
+2016,D14,Other Criminal Code Violations,Other,890,825
+2015,D41,Crimes Against Property,Break & Enter-Other,20,4
+2015,D41,Crimes Against Property,Fraud,506,125
+2015,D41,Crimes Against Property,Other,925,389
+2015,D41,Crimes Against Property,Theft Over $5000,64,17
+2015,D41,Crimes Against Property,Theft Under $5000,2681,1107
+2015,D41,Crimes Against the Person,Assault,1343,939
+2015,D41,Crimes Against the Person,Attempt Murder,9,2
+2015,D41,Crimes Against the Person,Other,443,272
+2015,D41,Crimes Against the Person,Robbery-Financial,3,3
+2015,D41,Crimes Against the Person,Robbery-Other,276,99
+2015,D41,Crimes Against the Person,Sexual Violation,152,97
+2015,D41,Criminal Code Traffic ,Other,145,145
+2015,D41,Other Criminal Code Violations,Other,1267,1189
+2015,D41,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,144,129
+2015,D41,Other Federal Statute Violations,Other,19,18
+2015,D42,Controlled Drugs and Substances Act,Other,242,226
+2015,D42,Crimes Against Property,Auto Theft,236,11
+2015,D42,Crimes Against Property,Break & Enter-Apartment,51,10
+2015,D42,Crimes Against Property,Break & Enter-Commercial,115,32
+2015,D42,Crimes Against Property,Break & Enter-House,368,66
+2015,D42,Crimes Against Property,Break & Enter-Other,15,3
+2015,D42,Crimes Against Property,Fraud,512,235
+2015,D42,Crimes Against Property,Other,693,224
+2015,D42,Crimes Against Property,Theft Over $5000,58,8
+2015,D42,Crimes Against Property,Theft Under $5000,1670,618
+2015,D42,Crimes Against the Person,Assault,872,587
+2015,D42,Crimes Against the Person,Attempt Murder,2,1
+2016,D14,Crimes Against the Person,Sexual Violation,149,75
+2016,D14,Criminal Code Traffic ,Other,134,133
+2016,D14,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,82,79
+2016,D14,Other Federal Statute Violations,Other,12,9
+2016,D22,Controlled Drugs and Substances Act,Other,171,161
+2016,D22,Crimes Against Property,Auto Theft,349,46
+2016,D22,Crimes Against Property,Break & Enter-Apartment,93,28
+2016,D22,Crimes Against Property,Break & Enter-Commercial,144,48
+2016,D22,Crimes Against Property,Break & Enter-House,200,45
+2016,D22,Crimes Against Property,Break & Enter-Other,29,10
+2016,D22,Crimes Against Property,Fraud,710,129
+2016,D22,Crimes Against Property,Other,886,232
+2016,D22,Crimes Against Property,Theft Over $5000,87,18
+2016,D22,Crimes Against Property,Theft Under $5000,2193,652
+2016,D22,Crimes Against the Person,Assault,856,574
+2016,D22,Crimes Against the Person,Attempt Murder,5,2
+2016,D22,Crimes Against the Person,Other,311,152
+2016,D22,Crimes Against the Person,Robbery-Financial,7,5
+2016,D22,Crimes Against the Person,Robbery-Other,165,83
+2016,D22,Crimes Against the Person,Sexual Violation,111,63
+2016,D22,Criminal Code Traffic ,Other,135,131
+2016,D22,Other Criminal Code Violations,Other,814,739
+2016,D22,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,56,52
+2016,D22,Other Federal Statute Violations,Other,28,22
+2016,D23,Controlled Drugs and Substances Act,Other,185,176
+2016,D23,Crimes Against Property,Auto Theft,552,44
+2016,D23,Crimes Against Property,Break & Enter-Apartment,72,12
+2016,D23,Crimes Against Property,Break & Enter-Commercial,121,13
+2016,D23,Crimes Against Property,Break & Enter-House,91,8
+2016,D23,Crimes Against Property,Break & Enter-Other,24,2
+2016,D23,Crimes Against Property,Fraud,485,156
+2016,D23,Crimes Against Property,Other,622,197
+2016,D23,Crimes Against Property,Theft Over $5000,60,6
+2016,D23,Crimes Against Property,Theft Under $5000,1604,440
+2016,D23,Crimes Against the Person,Assault,903,575
+2016,D23,Crimes Against the Person,Attempt Murder,10,6
+2016,D23,Crimes Against the Person,Other,252,130
+2016,D23,Crimes Against the Person,Robbery-Financial,7,5
+2016,D23,Crimes Against the Person,Robbery-Other,322,104
+2016,D23,Crimes Against the Person,Sexual Violation,90,55
+2016,D23,Criminal Code Traffic ,Other,124,120
+2016,D23,Other Criminal Code Violations,Other,478,424
+2016,D23,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,88,83
+2016,D23,Other Federal Statute Violations,Other,13,12
+2016,D31,Controlled Drugs and Substances Act,Other,360,340
+2016,D31,Crimes Against Property,Auto Theft,397,29
+2016,D31,Crimes Against Property,Break & Enter-Apartment,68,23
+2016,D31,Crimes Against Property,Break & Enter-Commercial,79,24
+2016,D31,Crimes Against Property,Break & Enter-House,67,13
+2017,D22,Crimes Against Property,Fraud,728,154
+2016,NSA,Crimes Against Property,Fraud,179,42
+2016,D33,Crimes Against the Person,Sexual Violation,100,62
+2016,D52,Crimes Against the Person,Sexual Violation,171,95
+2017,D22,Crimes Against Property,Other,827,267
+2017,D22,Crimes Against Property,Theft Over $5000,85,15
+2017,D22,Crimes Against Property,Theft Under $5000,2434,672
+2017,D22,Crimes Against the Person,Assault,980,571
+2017,D22,Crimes Against the Person,Attempt Murder,7,5
+2017,D22,Crimes Against the Person,Other,280,157
+2017,D22,Crimes Against the Person,Robbery-Financial,19,15
+2017,D22,Crimes Against the Person,Robbery-Other,175,77
+2017,D22,Crimes Against the Person,Sexual Violation,128,66
+2017,D22,Criminal Code Traffic ,Other,138,135
+2017,D22,Other Criminal Code Violations,Other,1177,1050
+2017,D22,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,71,66
+2017,D22,Other Federal Statute Violations,Other,20,16
+2017,D23,Controlled Drugs and Substances Act,Other,144,136
+2017,D23,Crimes Against Property,Auto Theft,549,43
+2017,D23,Crimes Against Property,Break & Enter-Apartment,70,8
+2017,D23,Crimes Against Property,Break & Enter-Commercial,109,25
+2017,D23,Crimes Against Property,Break & Enter-House,116,15
+2017,D23,Crimes Against Property,Break & Enter-Other,16,4
+2017,D23,Crimes Against Property,Fraud,609,129
+2017,D23,Crimes Against Property,Other,653,197
+2017,D23,Crimes Against Property,Theft Over $5000,83,19
+2017,D23,Crimes Against Property,Theft Under $5000,1636,480
+2017,D23,Crimes Against the Person,Assault,925,566
+2017,D23,Crimes Against the Person,Attempt Murder,9,5
+2017,D23,Crimes Against the Person,Other,302,187
+2017,D23,Crimes Against the Person,Robbery-Financial,8,6
+2017,D23,Crimes Against the Person,Robbery-Other,279,80
+2017,D23,Crimes Against the Person,Sexual Violation,107,72
+2017,D23,Criminal Code Traffic ,Other,106,102
+2017,D23,Other Criminal Code Violations,Other,464,421
+2017,D23,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,88,73
+2017,D23,Other Federal Statute Violations,Other,15,14
+2017,D31,Controlled Drugs and Substances Act,Other,278,265
+2017,D31,Crimes Against Property,Auto Theft,394,24
+2017,D31,Crimes Against Property,Break & Enter-Apartment,90,41
+2017,D31,Crimes Against Property,Break & Enter-Commercial,64,8
+2017,D31,Crimes Against Property,Break & Enter-House,87,11
+2017,D31,Crimes Against Property,Break & Enter-Other,16,2
+2017,D31,Crimes Against Property,Fraud,566,90
+2017,D31,Crimes Against Property,Other,841,298
+2017,D31,Crimes Against Property,Theft Over $5000,99,11
+2017,D31,Crimes Against Property,Theft Under $5000,1794,501
+2017,D31,Crimes Against the Person,Assault,1276,847
+2017,D31,Crimes Against the Person,Attempt Murder,30,17
+2017,D31,Crimes Against the Person,Other,337,193
+2017,D31,Crimes Against the Person,Robbery-Financial,5,5
+2017,D31,Crimes Against the Person,Robbery-Other,272,103
+2017,D31,Crimes Against the Person,Sexual Violation,163,104
+2016,D43,Crimes Against Property,Break & Enter-Other,23,9
+2016,D31,Crimes Against Property,Break & Enter-Other,13,1
+2016,NSA,Crimes Against Property,Other,141,50
+2016,D33,Criminal Code Traffic ,Other,103,103
+2016,NSA,Crimes Against Property,Theft Over $5000,16,2
+2016,D52,Criminal Code Traffic ,Other,91,89
+2016,D33,Other Criminal Code Violations,Other,396,349
+2016,NSA,Crimes Against Property,Theft Under $5000,174,33
+2016,D52,Other Criminal Code Violations,Other,1815,1721
+2016,D33,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,55,52
+2016,NSA,Crimes Against the Person,Assault,158,57
+2016,D52,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,126,120
+2016,NSA,Crimes Against the Person,Attempt Murder,2,2
+2016,D33,Other Federal Statute Violations,Other,2,2
+2016,NSA,Crimes Against the Person,Other,58,30
+2016,D41,Controlled Drugs and Substances Act,Other,332,307
+2016,D43,Crimes Against Property,Fraud,610,131
+2016,D31,Crimes Against Property,Fraud,550,106
+2016,NSA,Crimes Against the Person,Robbery-Financial,17,17
+2016,D52,Other Federal Statute Violations,Other,30,27
+2016,D53,Controlled Drugs and Substances Act,Other,120,115
+2016,D41,Crimes Against Property,Auto Theft,230,30
+2017,D31,Criminal Code Traffic ,Other,151,144
+2016,D53,Crimes Against Property,Auto Theft,101,22
+2016,NSA,Crimes Against the Person,Robbery-Other,57,35
+2016,D41,Crimes Against Property,Break & Enter-Apartment,135,40
+2016,D31,Crimes Against Property,Other,845,300
+2017,D31,Other Criminal Code Violations,Other,975,892
+2016,D43,Crimes Against Property,Other,934,399
+2016,D53,Crimes Against Property,Break & Enter-Apartment,78,14
+2016,NSA,Crimes Against the Person,Sexual Violation,116,29
+2016,D41,Crimes Against Property,Break & Enter-Commercial,175,39
+2016,D31,Crimes Against Property,Theft Over $5000,76,14
+2017,D31,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,179,153
+2017,D12,Criminal Code Traffic ,Other,79,79
+2016,D43,Crimes Against Property,Theft Over $5000,46,17
+2016,D53,Crimes Against Property,Break & Enter-Commercial,123,40
+2016,NSA,Criminal Code Traffic ,Other,63,61
+2016,D41,Crimes Against Property,Break & Enter-House,192,39
+2016,D31,Crimes Against Property,Theft Under $5000,1590,436
+2017,D31,Other Federal Statute Violations,Other,30,26
+2017,D12,Other Criminal Code Violations,Other,514,487
+2016,D43,Crimes Against Property,Theft Under $5000,2120,945
+2016,D53,Crimes Against Property,Break & Enter-House,191,37
+2016,NSA,Other Criminal Code Violations,Other,236,213
+2016,D41,Crimes Against Property,Break & Enter-Other,24,5
+2016,D31,Crimes Against the Person,Assault,1232,807
+2017,D32,Controlled Drugs and Substances Act,Other,100,93
+2017,D12,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,71,62
+2016,D43,Crimes Against the Person,Assault,1474,1125
+2016,D53,Crimes Against Property,Break & Enter-Other,20,9
+2016,NSA,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,29,22
+2016,D41,Crimes Against Property,Fraud,564,93
+2016,D31,Crimes Against the Person,Attempt Murder,20,7
+2017,D32,Crimes Against Property,Auto Theft,393,40
+2017,D12,Other Federal Statute Violations,Other,21,21
+2016,D43,Crimes Against the Person,Attempt Murder,7,7
+2016,D53,Crimes Against Property,Fraud,621,121
+2016,NSA,Other Federal Statute Violations,Other,19,8
+2016,D41,Crimes Against Property,Other,978,388
+2016,D31,Crimes Against the Person,Other,307,172
+2017,D32,Crimes Against Property,Break & Enter-Apartment,91,11
+2017,D13,Controlled Drugs and Substances Act,Other,173,159
+2016,D43,Crimes Against the Person,Other,467,279
+2016,D53,Crimes Against Property,Other,727,246
+2017,D11,Controlled Drugs and Substances Act,Other,156,150
+2016,D41,Crimes Against Property,Theft Over $5000,75,18
+2016,D31,Crimes Against the Person,Robbery-Financial,4,2
+2017,D32,Crimes Against Property,Break & Enter-Commercial,155,17
+2017,D13,Crimes Against Property,Auto Theft,123,31
+2016,D43,Crimes Against the Person,Robbery-Financial,10,8
+2016,D53,Crimes Against Property,Theft Over $5000,68,10
+2017,D11,Crimes Against Property,Auto Theft,132,28
+2016,D41,Crimes Against Property,Theft Under $5000,2709,1070
+2016,D31,Crimes Against the Person,Robbery-Other,252,94
+2016,D31,Crimes Against the Person,Sexual Violation,155,86
+2016,D31,Criminal Code Traffic ,Other,129,118
+2016,D31,Other Criminal Code Violations,Other,824,741
+2016,D31,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,217,169
+2016,D31,Other Federal Statute Violations,Other,40,36
+2016,D32,Controlled Drugs and Substances Act,Other,130,110
+2016,D32,Crimes Against Property,Auto Theft,391,29
+2016,D32,Crimes Against Property,Break & Enter-Apartment,73,15
+2016,D32,Crimes Against Property,Break & Enter-Commercial,135,16
+2016,D32,Crimes Against Property,Break & Enter-House,379,32
+2016,D32,Crimes Against Property,Break & Enter-Other,28,5
+2016,D32,Crimes Against Property,Fraud,843,154
+2016,D32,Crimes Against Property,Other,1169,491
+2016,D32,Crimes Against Property,Theft Over $5000,114,15
+2016,D32,Crimes Against Property,Theft Under $5000,3365,1358
+2016,D32,Crimes Against the Person,Assault,1114,695
+2016,D32,Crimes Against the Person,Attempt Murder,15,9
+2016,D32,Crimes Against the Person,Other,381,178
+2016,D32,Crimes Against the Person,Robbery-Financial,14,12
+2016,D32,Crimes Against the Person,Robbery-Other,166,43
+2016,D32,Crimes Against the Person,Sexual Violation,157,73
+2016,D32,Criminal Code Traffic ,Other,128,121
+2016,D32,Other Criminal Code Violations,Other,690,605
+2016,D32,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,94,74
+2016,D32,Other Federal Statute Violations,Other,21,17
+2016,D33,Controlled Drugs and Substances Act,Other,124,114
+2016,D33,Crimes Against Property,Auto Theft,159,16
+2016,D33,Crimes Against Property,Break & Enter-Apartment,98,18
+2016,D33,Crimes Against Property,Break & Enter-Commercial,38,6
+2016,D33,Crimes Against Property,Break & Enter-House,207,28
+2016,D33,Crimes Against Property,Break & Enter-Other,15,8
+2016,D33,Crimes Against Property,Fraud,528,98
+2016,D33,Crimes Against Property,Other,566,200
+2016,D33,Crimes Against Property,Theft Over $5000,41,12
+2016,D33,Crimes Against Property,Theft Under $5000,1890,813
+2016,D33,Crimes Against the Person,Assault,676,473
+2016,D33,Crimes Against the Person,Attempt Murder,4,1
+2016,D33,Crimes Against the Person,Other,263,160
+2016,D33,Crimes Against the Person,Robbery-Financial,3,3
+2016,D33,Crimes Against the Person,Robbery-Other,131,55
+2017,D32,Crimes Against Property,Break & Enter-House,489,36
+2017,D11,Crimes Against Property,Break & Enter-Apartment,74,17
+2017,D13,Crimes Against Property,Break & Enter-Apartment,103,31
+2017,D32,Crimes Against Property,Break & Enter-Other,14,3
+2016,D41,Crimes Against the Person,Assault,1308,912
+2017,D11,Crimes Against Property,Break & Enter-Commercial,79,21
+2016,D53,Crimes Against Property,Theft Under $5000,2287,892
+2017,D13,Crimes Against Property,Break & Enter-Commercial,69,40
+2017,D32,Crimes Against Property,Fraud,893,143
+2016,D41,Crimes Against the Person,Attempt Murder,5,3
+2017,D11,Crimes Against Property,Break & Enter-House,113,29
+2016,D53,Crimes Against the Person,Assault,636,450
+2016,D43,Crimes Against the Person,Robbery-Other,262,131
+2017,D13,Crimes Against Property,Break & Enter-House,157,29
+2017,D32,Crimes Against Property,Other,1147,568
+2016,D41,Crimes Against the Person,Other,381,234
+2017,D11,Crimes Against Property,Break & Enter-Other,11,4
+2016,D53,Crimes Against the Person,Attempt Murder,8,8
+2016,D53,Crimes Against the Person,Other,235,133
+2016,D53,Crimes Against the Person,Robbery-Financial,6,4
+2016,D53,Crimes Against the Person,Robbery-Other,96,37
+2016,D53,Crimes Against the Person,Sexual Violation,88,44
+2016,D53,Criminal Code Traffic ,Other,57,55
+2016,D53,Other Criminal Code Violations,Other,490,454
+2016,D53,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,63,56
+2016,D53,Other Federal Statute Violations,Other,16,13
+2016,D54/D55,Controlled Drugs and Substances Act,Other,322,302
+2016,D54/D55,Crimes Against Property,Auto Theft,171,27
+2016,D54/D55,Crimes Against Property,Break & Enter-Apartment,181,69
+2016,D54/D55,Crimes Against Property,Break & Enter-Commercial,174,74
+2016,D54/D55,Crimes Against Property,Break & Enter-House,327,82
+2016,D54/D55,Crimes Against Property,Break & Enter-Other,68,16
+2016,D54/D55,Crimes Against Property,Fraud,671,109
+2016,D54/D55,Crimes Against Property,Other,1327,428
+2016,D54/D55,Crimes Against Property,Theft Over $5000,95,14
+2016,D54/D55,Crimes Against Property,Theft Under $5000,3316,958
+2016,D54/D55,Crimes Against the Person,Assault,1345,880
+2016,D54/D55,Crimes Against the Person,Attempt Murder,11,10
+2016,D54/D55,Crimes Against the Person,Other,463,249
+2016,D54/D55,Crimes Against the Person,Robbery-Financial,4,4
+2016,D54/D55,Crimes Against the Person,Robbery-Other,280,127
+2016,D54/D55,Crimes Against the Person,Sexual Violation,197,104
+2016,D54/D55,Criminal Code Traffic ,Other,159,150
+2016,D54/D55,Other Criminal Code Violations,Other,963,879
+2017,D33,Other Criminal Code Violations,Other,350,311
+2016,D54/D55,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,147,134
+2016,D54/D55,Other Federal Statute Violations,Other,15,14
+2016,NSA,Controlled Drugs and Substances Act,Other,113,104
+2016,NSA,Crimes Against Property,Auto Theft,23,6
+2016,NSA,Crimes Against Property,Break & Enter-Apartment,4,1
+2016,NSA,Crimes Against Property,Break & Enter-Commercial,3,1
+2016,NSA,Crimes Against Property,Break & Enter-House,7,3
+2017,D11,Crimes Against Property,Fraud,382,70
+2017,D13,Crimes Against Property,Break & Enter-Other,13,4
+2017,D32,Crimes Against Property,Theft Over $5000,133,18
+2017,D11,Crimes Against Property,Other,721,200
+2016,D41,Crimes Against the Person,Robbery-Financial,1,1
+2017,D13,Crimes Against Property,Fraud,301,101
+2017,D32,Crimes Against Property,Theft Under $5000,3449,1220
+2017,D11,Crimes Against Property,Theft Over $5000,41,5
+2016,D41,Crimes Against the Person,Robbery-Other,244,101
+2017,D13,Crimes Against Property,Other,497,205
+2017,D32,Crimes Against the Person,Assault,1042,658
+2017,D11,Crimes Against Property,Theft Under $5000,2265,755
+2016,D41,Crimes Against the Person,Sexual Violation,124,90
+2017,D13,Crimes Against Property,Theft Over $5000,47,15
+2017,D32,Crimes Against the Person,Attempt Murder,5,1
+2017,D11,Crimes Against the Person,Assault,662,454
+2016,D41,Criminal Code Traffic ,Other,173,166
+2017,D13,Crimes Against Property,Theft Under $5000,1139,266
+2017,D32,Crimes Against the Person,Other,365,229
+2017,D11,Crimes Against the Person,Attempt Murder,3,1
+2016,D41,Other Criminal Code Violations,Other,1328,1256
+2017,D13,Crimes Against the Person,Assault,511,384
+2017,D32,Crimes Against the Person,Robbery-Financial,13,8
+2017,D11,Crimes Against the Person,Other,210,121
+2016,D41,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,130,119
+2016,D41,Other Federal Statute Violations,Other,14,13
+2016,D42,Controlled Drugs and Substances Act,Other,141,133
+2016,D42,Crimes Against Property,Auto Theft,224,14
+2016,D42,Crimes Against Property,Break & Enter-Apartment,48,10
+2016,D42,Crimes Against Property,Break & Enter-Commercial,118,11
+2016,D42,Crimes Against Property,Break & Enter-House,282,35
+2016,D42,Crimes Against Property,Break & Enter-Other,16,5
+2016,D42,Crimes Against Property,Fraud,596,99
+2016,D42,Crimes Against Property,Other,647,198
+2016,D42,Crimes Against Property,Theft Over $5000,60,11
+2016,D42,Crimes Against Property,Theft Under $5000,1746,577
+2016,D42,Crimes Against the Person,Assault,894,586
+2016,D42,Crimes Against the Person,Attempt Murder,2,2
+2016,D42,Crimes Against the Person,Other,335,170
+2016,D42,Crimes Against the Person,Robbery-Financial,6,6
+2016,D42,Crimes Against the Person,Robbery-Other,228,86
+2016,D42,Crimes Against the Person,Sexual Violation,100,56
+2016,D42,Criminal Code Traffic ,Other,167,165
+2016,D42,Other Criminal Code Violations,Other,549,488
+2016,D42,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,98,89
+2016,D42,Other Federal Statute Violations,Other,22,22
+2016,D43,Controlled Drugs and Substances Act,Other,375,354
+2016,D43,Crimes Against Property,Auto Theft,135,54
+2016,D43,Crimes Against Property,Break & Enter-Apartment,86,27
+2016,D43,Crimes Against Property,Break & Enter-Commercial,95,33
+2016,D43,Crimes Against Property,Break & Enter-House,175,42
+2016,D43,Crimes Against the Person,Sexual Violation,189,130
+2017,D13,Crimes Against the Person,Attempt Murder,9,7
+2017,D32,Crimes Against the Person,Robbery-Other,256,81
+2017,D13,Crimes Against the Person,Other,143,108
+2017,D11,Crimes Against the Person,Robbery-Financial,12,12
+2017,D32,Crimes Against the Person,Sexual Violation,144,78
+2017,D13,Crimes Against the Person,Robbery-Financial,4,3
+2017,D11,Crimes Against the Person,Robbery-Other,148,58
+2017,D32,Criminal Code Traffic ,Other,93,89
+2017,D13,Crimes Against the Person,Robbery-Other,127,39
+2017,D11,Crimes Against the Person,Sexual Violation,96,55
+2017,D32,Other Criminal Code Violations,Other,791,701
+2017,D13,Crimes Against the Person,Sexual Violation,63,39
+2017,D11,Criminal Code Traffic ,Other,91,89
+2017,D32,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,85,78
+2017,D13,Criminal Code Traffic ,Other,96,94
+2017,D11,Other Criminal Code Violations,Other,516,455
+2017,D32,Other Federal Statute Violations,Other,13,13
+2017,D13,Other Criminal Code Violations,Other,477,441
+2017,D11,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,63,56
+2017,D33,Controlled Drugs and Substances Act,Other,58,51
+2017,D13,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,50,46
+2017,D11,Other Federal Statute Violations,Other,8,8
+2017,D33,Crimes Against Property,Auto Theft,202,23
+2017,D13,Other Federal Statute Violations,Other,15,12
+2017,D12,Controlled Drugs and Substances Act,Other,217,212
+2017,D33,Crimes Against Property,Break & Enter-Apartment,91,25
+2017,D14,Controlled Drugs and Substances Act,Other,456,440
+2017,D12,Crimes Against Property,Auto Theft,223,69
+2017,D33,Crimes Against Property,Break & Enter-Commercial,63,5
+2017,D14,Crimes Against Property,Auto Theft,154,32
+2017,D12,Crimes Against Property,Break & Enter-Apartment,60,32
+2017,D12,Crimes Against Property,Break & Enter-Commercial,70,25
+2017,D12,Crimes Against Property,Break & Enter-House,86,23
+2017,D12,Crimes Against Property,Break & Enter-Other,16,12
+2017,D12,Crimes Against Property,Fraud,386,106
+2017,D12,Crimes Against Property,Other,582,256
+2017,D12,Crimes Against Property,Theft Over $5000,38,15
+2017,D12,Crimes Against Property,Theft Under $5000,1307,464
+2017,D12,Crimes Against the Person,Assault,671,508
+2017,D12,Crimes Against the Person,Attempt Murder,12,9
+2017,D12,Crimes Against the Person,Other,172,125
+2017,D12,Crimes Against the Person,Robbery-Financial,2,2
+2017,D12,Crimes Against the Person,Robbery-Other,173,76
+2017,D12,Crimes Against the Person,Sexual Violation,95,58
+2016,D43,Criminal Code Traffic ,Other,160,155
+2017,D14,Crimes Against Property,Break & Enter-Apartment,212,51
+2017,D33,Crimes Against Property,Break & Enter-House,220,33
+2016,D43,Other Criminal Code Violations,Other,1111,1021
+2017,D14,Crimes Against Property,Break & Enter-Commercial,198,51
+2017,D33,Crimes Against Property,Break & Enter-Other,15,4
+2016,D43,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,167,160
+2017,D14,Crimes Against Property,Break & Enter-House,100,21
+2017,D33,Crimes Against Property,Fraud,535,87
+2016,D43,Other Federal Statute Violations,Other,22,21
+2017,D14,Crimes Against Property,Break & Enter-Other,37,6
+2017,D33,Crimes Against Property,Other,537,169
+2016,D51,Controlled Drugs and Substances Act,Other,539,517
+2017,D14,Crimes Against Property,Fraud,765,247
+2017,D33,Crimes Against Property,Theft Over $5000,63,11
+2016,D51,Crimes Against Property,Auto Theft,82,10
+2017,D14,Crimes Against Property,Other,1221,429
+2017,D33,Crimes Against Property,Theft Under $5000,2098,843
+2016,D51,Crimes Against Property,Break & Enter-Apartment,214,46
+2017,D14,Crimes Against Property,Theft Over $5000,70,10
+2017,D33,Crimes Against the Person,Assault,675,471
+2016,D51,Crimes Against Property,Break & Enter-Commercial,174,45
+2017,D14,Crimes Against Property,Theft Under $5000,3675,765
+2017,D33,Crimes Against the Person,Attempt Murder,7,7
+2016,D51,Crimes Against Property,Break & Enter-House,30,6
+2017,D14,Crimes Against the Person,Assault,1428,918
+2017,D33,Crimes Against the Person,Other,241,157
+2016,D51,Crimes Against Property,Break & Enter-Other,40,7
+2017,D14,Crimes Against the Person,Attempt Murder,8,3
+2017,D33,Crimes Against the Person,Robbery-Financial,2,2
+2016,D51,Crimes Against Property,Fraud,641,152
+2017,D14,Crimes Against the Person,Other,320,216
+2017,D33,Crimes Against the Person,Robbery-Other,127,52
+2016,D51,Crimes Against Property,Other,1080,453
+2017,D14,Crimes Against the Person,Robbery-Financial,5,5
+2017,D33,Crimes Against the Person,Sexual Violation,93,56
+2016,D51,Crimes Against Property,Theft Over $5000,85,17
+2017,D14,Crimes Against the Person,Robbery-Other,203,90
+2017,D33,Criminal Code Traffic ,Other,91,87
+2016,D51,Crimes Against Property,Theft Under $5000,3889,993
+2017,D14,Crimes Against the Person,Sexual Violation,170,105
+2016,D51,Crimes Against the Person,Assault,1389,854
+2017,D14,Criminal Code Traffic ,Other,125,118
+2017,D33,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,67,59
+2016,D51,Crimes Against the Person,Attempt Murder,14,9
+2017,D14,Other Criminal Code Violations,Other,919,861
+2017,D33,Other Federal Statute Violations,Other,9,7
+2017,D41,Controlled Drugs and Substances Act,Other,228,216
+2017,D41,Crimes Against Property,Auto Theft,251,36
+2017,D41,Crimes Against Property,Break & Enter-Apartment,145,30
+2017,D41,Crimes Against Property,Break & Enter-Commercial,227,65
+2017,D41,Crimes Against Property,Break & Enter-House,159,39
+2017,D41,Crimes Against Property,Break & Enter-Other,37,13
+2017,D14,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,99,92
+2017,D14,Other Federal Statute Violations,Other,9,7
+2017,D22,Controlled Drugs and Substances Act,Other,196,182
+2017,D22,Crimes Against Property,Auto Theft,323,37
+2017,D22,Crimes Against Property,Break & Enter-Apartment,81,33
+2017,D22,Crimes Against Property,Break & Enter-Commercial,145,60
+2017,D22,Crimes Against Property,Break & Enter-House,179,48
+2017,D22,Crimes Against Property,Break & Enter-Other,17,8
+2016,D51,Crimes Against the Person,Other,285,175
+2016,D51,Crimes Against the Person,Robbery-Financial,2,2
+2016,D51,Crimes Against the Person,Robbery-Other,290,103
+2016,D51,Crimes Against the Person,Sexual Violation,192,108
+2016,D51,Criminal Code Traffic ,Other,72,71
+2016,D51,Other Criminal Code Violations,Other,1058,1015
+2016,D51,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,151,136
+2016,D51,Other Federal Statute Violations,Other,21,20
+2016,D52,Controlled Drugs and Substances Act,Other,242,231
+2016,D52,Crimes Against Property,Auto Theft,80,22
+2016,D52,Crimes Against Property,Break & Enter-Apartment,85,22
+2016,D52,Crimes Against Property,Break & Enter-Commercial,162,51
+2016,D52,Crimes Against Property,Break & Enter-House,3,2
+2016,D52,Crimes Against Property,Break & Enter-Other,30,10
+2016,D52,Crimes Against Property,Fraud,908,223
+2016,D52,Crimes Against Property,Other,1013,429
+2016,D52,Crimes Against Property,Theft Over $5000,88,26
+2016,D52,Crimes Against Property,Theft Under $5000,5079,1866
+2016,D52,Crimes Against the Person,Assault,1271,794
+2016,D52,Crimes Against the Person,Attempt Murder,6,6
+2016,D52,Crimes Against the Person,Other,368,221
+2016,D52,Crimes Against the Person,Robbery-Financial,1,1
+2016,D52,Crimes Against the Person,Robbery-Other,156,73
+2017,D53,Crimes Against Property,Fraud,572,91
+2017,D53,Crimes Against Property,Other,730,220
+2017,D43,Criminal Code Traffic ,Other,187,178
+2017,D53,Crimes Against Property,Theft Over $5000,76,9
+2017,D53,Crimes Against Property,Theft Under $5000,2656,653
+2017,D53,Crimes Against the Person,Assault,681,469
+2017,D53,Crimes Against the Person,Attempt Murder,1,0
+2017,D43,Other Criminal Code Violations,Other,1308,1200
+2017,D53,Crimes Against the Person,Other,227,142
+2017,D43,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,165,152
+2017,D53,Crimes Against the Person,Robbery-Financial,5,4
+2017,D43,Other Federal Statute Violations,Other,18,15
+2018,D13,Crimes Against Property,Fraud,343,70
+2017,D53,Crimes Against the Person,Robbery-Other,123,53
+2017,D51,Controlled Drugs and Substances Act,Other,448,430
+2017,D53,Crimes Against the Person,Sexual Violation,105,55
+2018,D13,Crimes Against Property,Other,579,180
+2017,D51,Crimes Against Property,Auto Theft,110,10
+2017,D53,Criminal Code Traffic ,Other,58,57
+2018,D13,Crimes Against Property,Theft Over $5000,32,11
+2017,D51,Crimes Against Property,Break & Enter-Apartment,263,67
+2018,D32,Crimes Against Property,Fraud,1066,134
+2017,NSA,Criminal Code Traffic ,Other,81,78
+2017,D53,Other Criminal Code Violations,Other,474,419
+2017,D53,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,56,49
+2017,D53,Other Federal Statute Violations,Other,3,2
+2017,D54/D55,Controlled Drugs and Substances Act,Other,314,305
+2017,D54/D55,Crimes Against Property,Auto Theft,178,38
+2017,D54/D55,Crimes Against Property,Break & Enter-Apartment,130,41
+2017,D54/D55,Crimes Against Property,Break & Enter-Commercial,164,65
+2017,D54/D55,Crimes Against Property,Break & Enter-House,184,52
+2017,D54/D55,Crimes Against Property,Break & Enter-Other,30,6
+2017,D54/D55,Crimes Against Property,Fraud,593,97
+2017,D54/D55,Crimes Against Property,Other,1173,362
+2017,D54/D55,Crimes Against Property,Theft Over $5000,74,16
+2017,D54/D55,Crimes Against Property,Theft Under $5000,3367,997
+2017,D54/D55,Crimes Against the Person,Assault,1339,910
+2017,D54/D55,Crimes Against the Person,Attempt Murder,8,7
+2017,D54/D55,Crimes Against the Person,Other,450,269
+2017,D54/D55,Crimes Against the Person,Robbery-Financial,15,13
+2017,D54/D55,Crimes Against the Person,Robbery-Other,299,166
+2017,D54/D55,Crimes Against the Person,Sexual Violation,212,103
+2017,D54/D55,Criminal Code Traffic ,Other,162,156
+2017,D54/D55,Other Criminal Code Violations,Other,1061,953
+2017,D54/D55,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,133,119
+2017,D54/D55,Other Federal Statute Violations,Other,10,9
+2017,NSA,Controlled Drugs and Substances Act,Other,129,119
+2017,NSA,Crimes Against Property,Auto Theft,32,0
+2017,NSA,Crimes Against Property,Break & Enter-Apartment,8,1
+2017,NSA,Crimes Against Property,Break & Enter-Commercial,5,1
+2017,NSA,Crimes Against Property,Break & Enter-House,11,4
+2017,NSA,Crimes Against Property,Break & Enter-Other,4,3
+2017,NSA,Crimes Against Property,Fraud,250,50
+2017,NSA,Crimes Against Property,Other,153,53
+2017,NSA,Crimes Against Property,Theft Over $5000,17,5
+2017,NSA,Crimes Against Property,Theft Under $5000,256,48
+2017,NSA,Crimes Against the Person,Assault,225,101
+2017,NSA,Crimes Against the Person,Attempt Murder,1,1
+2017,NSA,Crimes Against the Person,Other,56,26
+2017,NSA,Crimes Against the Person,Robbery-Financial,11,10
+2017,NSA,Crimes Against the Person,Robbery-Other,48,18
+2017,NSA,Crimes Against the Person,Sexual Violation,138,31
+2018,D13,Crimes Against Property,Theft Under $5000,1443,391
+2017,D51,Crimes Against Property,Break & Enter-Commercial,190,40
+2018,D32,Crimes Against Property,Other,1148,499
+2017,NSA,Other Criminal Code Violations,Other,249,220
+2018,D13,Crimes Against the Person,Assault,585,389
+2017,D51,Crimes Against Property,Break & Enter-House,33,7
+2017,D41,Crimes Against Property,Fraud,520,108
+2018,D32,Crimes Against Property,Theft Over $5000,115,20
+2017,NSA,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,40,38
+2018,D13,Crimes Against the Person,Attempt Murder,8,6
+2017,D51,Crimes Against Property,Break & Enter-Other,43,11
+2017,D41,Crimes Against Property,Other,958,358
+2018,D32,Crimes Against Property,Theft Under $5000,3521,1035
+2018,D22,Criminal Code Traffic ,Other,98,93
+2017,NSA,Other Federal Statute Violations,Other,16,9
+2018,D13,Crimes Against the Person,Other,152,81
+2017,D51,Crimes Against Property,Fraud,735,192
+2017,D41,Crimes Against Property,Theft Over $5000,44,10
+2018,D32,Crimes Against the Person,Assault,1175,715
+2018,D22,Other Criminal Code Violations,Other,1207,1108
+2018,D11,Controlled Drugs and Substances Act,Other,108,100
+2018,D13,Crimes Against the Person,Robbery-Financial,13,13
+2018,D13,Crimes Against the Person,Robbery-Other,110,43
+2018,D13,Crimes Against the Person,Sexual Violation,109,70
+2018,D13,Criminal Code Traffic ,Other,75,74
+2018,D13,Other Criminal Code Violations,Other,469,421
+2018,D13,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,46,35
+2018,D13,Other Federal Statute Violations,Other,7,6
+2018,D14,Controlled Drugs and Substances Act,Other,359,351
+2018,D14,Crimes Against Property,Auto Theft,162,25
+2018,D14,Crimes Against Property,Break & Enter-Apartment,233,58
+2018,D14,Crimes Against Property,Break & Enter-Commercial,292,78
+2018,D14,Crimes Against Property,Break & Enter-House,120,40
+2018,D14,Crimes Against Property,Break & Enter-Other,53,14
+2018,D14,Crimes Against Property,Fraud,971,353
+2018,D14,Crimes Against Property,Other,1200,379
+2018,D14,Crimes Against Property,Theft Over $5000,100,22
+2018,D14,Crimes Against Property,Theft Under $5000,4568,884
+2018,D14,Crimes Against the Person,Assault,1355,834
+2018,D14,Crimes Against the Person,Attempt Murder,3,3
+2018,D14,Crimes Against the Person,Other,313,168
+2018,D14,Crimes Against the Person,Robbery-Financial,9,8
+2018,D14,Crimes Against the Person,Robbery-Other,212,99
+2018,D14,Crimes Against the Person,Sexual Violation,215,111
+2018,D14,Criminal Code Traffic ,Other,95,91
+2018,D14,Other Criminal Code Violations,Other,936,833
+2018,D14,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,103,97
+2018,D14,Other Federal Statute Violations,Other,14,11
+2018,D22,Controlled Drugs and Substances Act,Other,112,107
+2018,D22,Crimes Against Property,Auto Theft,381,40
+2018,D22,Crimes Against Property,Break & Enter-Apartment,82,24
+2018,D22,Crimes Against Property,Break & Enter-Commercial,161,50
+2018,D22,Crimes Against Property,Break & Enter-House,188,44
+2018,D22,Crimes Against Property,Break & Enter-Other,20,5
+2018,D22,Crimes Against Property,Fraud,745,123
+2018,D22,Crimes Against Property,Other,750,257
+2018,D22,Crimes Against Property,Theft Over $5000,110,25
+2018,D22,Crimes Against Property,Theft Under $5000,3011,898
+2018,D22,Crimes Against the Person,Assault,1083,560
+2018,D22,Crimes Against the Person,Attempt Murder,14,10
+2018,D22,Crimes Against the Person,Other,266,125
+2018,D22,Crimes Against the Person,Robbery-Financial,12,10
+2018,D22,Crimes Against the Person,Robbery-Other,142,56
+2018,D22,Crimes Against the Person,Sexual Violation,125,61
+2017,D51,Crimes Against Property,Other,1219,442
+2018,D11,Crimes Against Property,Auto Theft,189,31
+2018,D32,Crimes Against the Person,Attempt Murder,25,23
+2017,D51,Crimes Against Property,Theft Over $5000,82,11
+2018,D11,Crimes Against Property,Break & Enter-Apartment,117,35
+2018,D32,Crimes Against the Person,Other,370,170
+2017,D51,Crimes Against Property,Theft Under $5000,5465,1398
+2018,D11,Crimes Against Property,Break & Enter-Commercial,113,29
+2018,D32,Crimes Against the Person,Robbery-Financial,6,6
+2017,D51,Crimes Against the Person,Assault,1551,967
+2018,D11,Crimes Against Property,Break & Enter-House,131,24
+2018,D32,Crimes Against the Person,Robbery-Other,239,69
+2017,D51,Crimes Against the Person,Attempt Murder,8,1
+2018,D11,Crimes Against Property,Break & Enter-Other,47,7
+2018,D32,Crimes Against the Person,Sexual Violation,171,79
+2017,D51,Crimes Against the Person,Other,298,163
+2018,D11,Crimes Against Property,Fraud,393,53
+2018,D11,Crimes Against Property,Other,674,198
+2018,D11,Crimes Against Property,Theft Over $5000,41,17
+2018,D11,Crimes Against Property,Theft Under $5000,2788,835
+2018,D11,Crimes Against the Person,Assault,694,425
+2018,D11,Crimes Against the Person,Attempt Murder,1,1
+2018,D11,Crimes Against the Person,Other,188,89
+2018,D11,Crimes Against the Person,Robbery-Financial,7,7
+2018,D11,Crimes Against the Person,Robbery-Other,123,48
+2018,D11,Crimes Against the Person,Sexual Violation,104,48
+2018,D11,Criminal Code Traffic ,Other,63,59
+2018,D11,Other Criminal Code Violations,Other,565,499
+2018,D11,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,67,59
+2018,D11,Other Federal Statute Violations,Other,9,8
+2018,D12,Controlled Drugs and Substances Act,Other,170,159
+2018,D12,Crimes Against Property,Auto Theft,278,105
+2018,D12,Crimes Against Property,Break & Enter-Apartment,58,21
+2018,D12,Crimes Against Property,Break & Enter-Commercial,81,36
+2018,D12,Crimes Against Property,Break & Enter-House,51,15
+2018,D12,Crimes Against Property,Break & Enter-Other,23,6
+2018,D12,Crimes Against Property,Fraud,396,113
+2018,D12,Crimes Against Property,Other,543,232
+2018,D12,Crimes Against Property,Theft Over $5000,47,14
+2018,D12,Crimes Against Property,Theft Under $5000,1440,452
+2018,D12,Crimes Against the Person,Assault,682,483
+2018,D12,Crimes Against the Person,Attempt Murder,15,13
+2018,D12,Crimes Against the Person,Other,175,98
+2018,D12,Crimes Against the Person,Robbery-Financial,2,1
+2018,D12,Crimes Against the Person,Robbery-Other,141,66
+2018,D12,Crimes Against the Person,Sexual Violation,129,60
+2018,D12,Criminal Code Traffic ,Other,93,90
+2018,D12,Other Criminal Code Violations,Other,559,519
+2018,D12,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,93,81
+2018,D12,Other Federal Statute Violations,Other,22,19
+2018,D13,Controlled Drugs and Substances Act,Other,133,124
+2018,D13,Crimes Against Property,Auto Theft,219,35
+2018,D13,Crimes Against Property,Break & Enter-Apartment,66,14
+2018,D13,Crimes Against Property,Break & Enter-Commercial,71,21
+2018,D13,Crimes Against Property,Break & Enter-House,126,28
+2018,D13,Crimes Against Property,Break & Enter-Other,27,6
+2017,D51,Crimes Against the Person,Robbery-Financial,5,5
+2017,D51,Crimes Against the Person,Robbery-Other,308,121
+2017,D51,Crimes Against the Person,Sexual Violation,219,108
+2017,D51,Criminal Code Traffic ,Other,65,60
+2017,D51,Other Criminal Code Violations,Other,1229,1160
+2017,D41,Crimes Against Property,Theft Under $5000,2589,783
+2017,D51,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,191,182
+2017,D51,Other Federal Statute Violations,Other,10,5
+2017,D52,Controlled Drugs and Substances Act,Other,194,182
+2017,D52,Crimes Against Property,Auto Theft,71,17
+2017,D52,Crimes Against Property,Break & Enter-Apartment,121,39
+2017,D52,Crimes Against Property,Break & Enter-Commercial,210,90
+2017,D52,Crimes Against Property,Break & Enter-House,6,2
+2017,D52,Crimes Against Property,Break & Enter-Other,60,19
+2017,D52,Crimes Against Property,Fraud,1043,266
+2017,D52,Crimes Against Property,Other,1178,481
+2017,D52,Crimes Against Property,Theft Over $5000,97,20
+2017,D52,Crimes Against Property,Theft Under $5000,5261,1708
+2017,D52,Crimes Against the Person,Assault,1460,916
+2017,D52,Crimes Against the Person,Attempt Murder,2,2
+2017,D52,Crimes Against the Person,Other,374,210
+2017,D52,Crimes Against the Person,Robbery-Financial,5,4
+2017,D52,Crimes Against the Person,Robbery-Other,198,86
+2017,D52,Crimes Against the Person,Sexual Violation,184,93
+2017,D52,Criminal Code Traffic ,Other,72,70
+2017,D52,Other Criminal Code Violations,Other,1891,1802
+2017,D52,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,175,161
+2017,D52,Other Federal Statute Violations,Other,31,25
+2017,D53,Controlled Drugs and Substances Act,Other,118,107
+2017,D53,Crimes Against Property,Auto Theft,99,17
+2017,D53,Crimes Against Property,Break & Enter-Apartment,164,49
+2017,D53,Crimes Against Property,Break & Enter-Commercial,96,24
+2017,D53,Crimes Against Property,Break & Enter-House,197,38
+2017,D53,Crimes Against Property,Break & Enter-Other,19,5
+2018,D22,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,88,84
+2018,D32,Criminal Code Traffic ,Other,100,95
+2018,D41,Criminal Code Traffic ,Other,123,118
+2018,D32,Other Criminal Code Violations,Other,870,763
+2018,D41,Other Criminal Code Violations,Other,1386,1245
+2018,D32,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,101,89
+2018,D41,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,149,136
+2018,D32,Other Federal Statute Violations,Other,12,7
+2018,D41,Other Federal Statute Violations,Other,14,14
+2018,D33,Controlled Drugs and Substances Act,Other,70,62
+2017,D41,Crimes Against the Person,Assault,1303,923
+2018,D22,Other Federal Statute Violations,Other,8,7
+2018,D42,Controlled Drugs and Substances Act,Other,80,74
+2018,D33,Crimes Against Property,Auto Theft,173,16
+2017,D41,Crimes Against the Person,Attempt Murder,6,4
+2018,D23,Controlled Drugs and Substances Act,Other,106,99
+2018,D42,Crimes Against Property,Auto Theft,376,29
+2018,D33,Crimes Against Property,Break & Enter-Apartment,107,17
+2017,D41,Crimes Against the Person,Other,333,217
+2018,D23,Crimes Against Property,Auto Theft,841,76
+2018,D42,Crimes Against Property,Break & Enter-Apartment,72,6
+2018,D33,Crimes Against Property,Break & Enter-Commercial,61,15
+2017,D41,Crimes Against the Person,Robbery-Financial,5,4
+2018,D23,Crimes Against Property,Break & Enter-Apartment,77,6
+2018,D42,Crimes Against Property,Break & Enter-Commercial,194,23
+2018,D33,Crimes Against Property,Break & Enter-House,298,13
+2017,D41,Crimes Against the Person,Robbery-Other,260,121
+2018,D23,Crimes Against Property,Break & Enter-Commercial,182,40
+2018,D42,Crimes Against Property,Break & Enter-House,344,22
+2018,D33,Crimes Against Property,Break & Enter-Other,8,0
+2017,D41,Crimes Against the Person,Sexual Violation,158,103
+2018,D23,Crimes Against Property,Break & Enter-House,104,8
+2018,D42,Crimes Against Property,Break & Enter-Other,13,1
+2018,D33,Crimes Against Property,Fraud,668,55
+2017,D41,Criminal Code Traffic ,Other,125,119
+2018,D23,Crimes Against Property,Break & Enter-Other,14,3
+2018,D42,Crimes Against Property,Fraud,622,73
+2018,D33,Crimes Against Property,Other,481,130
+2017,D41,Other Criminal Code Violations,Other,1275,1135
+2018,D23,Crimes Against Property,Fraud,655,126
+2018,D42,Crimes Against Property,Other,582,149
+2018,D33,Crimes Against Property,Theft Over $5000,61,6
+2017,D41,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,156,144
+2018,D23,Crimes Against Property,Other,613,181
+2018,D42,Crimes Against Property,Theft Over $5000,76,12
+2018,D33,Crimes Against Property,Theft Under $5000,2005,559
+2017,D41,Other Federal Statute Violations,Other,6,5
+2017,D42,Controlled Drugs and Substances Act,Other,117,108
+2017,D42,Crimes Against Property,Auto Theft,301,19
+2017,D42,Crimes Against Property,Break & Enter-Apartment,35,1
+2017,D42,Crimes Against Property,Break & Enter-Commercial,194,15
+2017,D42,Crimes Against Property,Break & Enter-House,282,20
+2017,D42,Crimes Against Property,Break & Enter-Other,11,1
+2017,D42,Crimes Against Property,Fraud,596,84
+2017,D42,Crimes Against Property,Other,796,204
+2017,D42,Crimes Against Property,Theft Over $5000,83,10
+2017,D42,Crimes Against Property,Theft Under $5000,1934,480
+2017,D42,Crimes Against the Person,Assault,933,624
+2017,D42,Crimes Against the Person,Attempt Murder,6,4
+2017,D42,Crimes Against the Person,Other,326,168
+2017,D42,Crimes Against the Person,Robbery-Financial,3,2
+2017,D42,Crimes Against the Person,Robbery-Other,235,84
+2017,D42,Crimes Against the Person,Sexual Violation,132,70
+2017,D42,Criminal Code Traffic ,Other,160,157
+2017,D42,Other Criminal Code Violations,Other,473,404
+2017,D42,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,86,81
+2017,D42,Other Federal Statute Violations,Other,24,20
+2017,D43,Controlled Drugs and Substances Act,Other,361,337
+2017,D43,Crimes Against Property,Auto Theft,195,30
+2017,D43,Crimes Against Property,Break & Enter-Apartment,97,42
+2017,D43,Crimes Against Property,Break & Enter-Commercial,102,26
+2017,D43,Crimes Against Property,Break & Enter-House,173,37
+2017,D43,Crimes Against Property,Break & Enter-Other,18,7
+2017,D43,Crimes Against Property,Fraud,693,129
+2017,D43,Crimes Against Property,Other,997,439
+2017,D43,Crimes Against Property,Theft Over $5000,74,20
+2017,D43,Crimes Against Property,Theft Under $5000,2497,993
+2017,D43,Crimes Against the Person,Assault,1468,1050
+2017,D43,Crimes Against the Person,Attempt Murder,8,7
+2017,D43,Crimes Against the Person,Other,485,330
+2017,D43,Crimes Against the Person,Robbery-Financial,6,4
+2017,D43,Crimes Against the Person,Robbery-Other,332,163
+2017,D43,Crimes Against the Person,Sexual Violation,148,86
+2018,D33,Crimes Against the Person,Assault,669,437
+2018,D42,Crimes Against Property,Theft Under $5000,2328,525
+2018,D33,Crimes Against the Person,Attempt Murder,3,0
+2018,D42,Crimes Against the Person,Assault,902,579
+2018,D33,Crimes Against the Person,Other,212,95
+2018,D42,Crimes Against the Person,Attempt Murder,9,5
+2018,D33,Crimes Against the Person,Robbery-Financial,2,2
+2018,D42,Crimes Against the Person,Other,322,152
+2018,D33,Crimes Against the Person,Robbery-Other,113,34
+2018,D42,Crimes Against the Person,Robbery-Financial,6,6
+2018,D33,Crimes Against the Person,Sexual Violation,91,44
+2018,D42,Crimes Against the Person,Robbery-Other,213,61
+2018,D23,Crimes Against Property,Theft Over $5000,72,12
+2018,D33,Criminal Code Traffic ,Other,102,99
+2018,D42,Crimes Against the Person,Sexual Violation,131,56
+2018,D23,Crimes Against Property,Theft Under $5000,1936,375
+2018,D33,Other Criminal Code Violations,Other,288,244
+2018,D42,Criminal Code Traffic ,Other,131,128
+2018,D23,Crimes Against the Person,Assault,875,539
+2018,D33,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,51,42
+2018,D42,Other Criminal Code Violations,Other,436,379
+2018,D23,Crimes Against the Person,Attempt Murder,17,10
+2018,D33,Other Federal Statute Violations,Other,4,4
+2018,D41,Controlled Drugs and Substances Act,Other,150,138
+2018,D41,Crimes Against Property,Auto Theft,330,43
+2018,D41,Crimes Against Property,Break & Enter-Apartment,122,33
+2018,D41,Crimes Against Property,Break & Enter-Commercial,188,48
+2018,D41,Crimes Against Property,Break & Enter-House,148,32
+2018,D41,Crimes Against Property,Break & Enter-Other,39,8
+2018,D41,Crimes Against Property,Fraud,603,85
+2018,D41,Crimes Against Property,Other,945,415
+2018,D41,Crimes Against Property,Theft Over $5000,78,21
+2018,D41,Crimes Against Property,Theft Under $5000,2990,918
+2018,D41,Crimes Against the Person,Assault,1388,904
+2018,D41,Crimes Against the Person,Attempt Murder,11,10
+2018,D41,Crimes Against the Person,Other,331,200
+2018,D41,Crimes Against the Person,Robbery-Financial,7,6
+2018,D41,Crimes Against the Person,Robbery-Other,200,87
+2018,D41,Crimes Against the Person,Sexual Violation,191,117
+2018,D23,Crimes Against the Person,Other,242,112
+2018,D23,Crimes Against the Person,Robbery-Financial,8,6
+2018,D23,Crimes Against the Person,Robbery-Other,206,67
+2018,D23,Crimes Against the Person,Sexual Violation,130,77
+2018,D42,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,78,68
+2018,D23,Criminal Code Traffic ,Other,85,82
+2018,D42,Other Federal Statute Violations,Other,16,12
+2018,D23,Other Criminal Code Violations,Other,396,348
+2018,D43,Controlled Drugs and Substances Act,Other,280,255
+2018,D23,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,67,61
+2018,D43,Crimes Against Property,Auto Theft,211,58
+2018,D23,Other Federal Statute Violations,Other,15,14
+2018,D43,Crimes Against Property,Break & Enter-Apartment,110,49
+2018,D31,Controlled Drugs and Substances Act,Other,201,190
+2018,D43,Crimes Against Property,Break & Enter-Commercial,142,62
+2018,D31,Crimes Against Property,Auto Theft,485,51
+2018,D43,Crimes Against Property,Break & Enter-House,157,32
+2018,D31,Crimes Against Property,Break & Enter-Apartment,106,36
+2018,D43,Crimes Against Property,Break & Enter-Other,24,7
+2018,D31,Crimes Against Property,Break & Enter-Commercial,103,18
+2018,D43,Crimes Against Property,Fraud,732,104
+2018,D31,Crimes Against Property,Break & Enter-House,76,13
+2018,D43,Crimes Against Property,Other,1045,489
+2018,D31,Crimes Against Property,Break & Enter-Other,17,5
+2018,D43,Crimes Against Property,Theft Over $5000,51,14
+2018,D31,Crimes Against Property,Fraud,642,93
+2018,D43,Crimes Against Property,Theft Under $5000,2613,1098
+2018,D31,Crimes Against Property,Other,749,243
+2018,D43,Crimes Against the Person,Assault,1476,986
+2018,D31,Crimes Against Property,Theft Over $5000,72,8
+2018,D43,Crimes Against the Person,Attempt Murder,8,7
+2018,D31,Crimes Against Property,Theft Under $5000,2166,526
+2018,D43,Crimes Against the Person,Other,471,277
+2018,D31,Crimes Against the Person,Assault,1254,761
+2018,D43,Crimes Against the Person,Robbery-Financial,7,6
+2018,D31,Crimes Against the Person,Attempt Murder,25,18
+2018,D43,Crimes Against the Person,Robbery-Other,210,113
+2018,D31,Crimes Against the Person,Other,343,176
+2018,D43,Crimes Against the Person,Sexual Violation,224,128
+2018,D31,Crimes Against the Person,Robbery-Financial,5,5
+2018,D43,Criminal Code Traffic ,Other,182,171
+2018,D31,Crimes Against the Person,Robbery-Other,247,117
+2018,D31,Crimes Against the Person,Sexual Violation,193,115
+2018,D31,Criminal Code Traffic ,Other,134,125
+2018,D31,Other Criminal Code Violations,Other,761,673
+2018,D31,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,168,137
+2018,D31,Other Federal Statute Violations,Other,25,23
+2018,D32,Controlled Drugs and Substances Act,Other,96,91
+2018,D32,Crimes Against Property,Auto Theft,484,60
+2018,D32,Crimes Against Property,Break & Enter-Apartment,124,14
+2018,D32,Crimes Against Property,Break & Enter-Commercial,185,26
+2018,D32,Crimes Against Property,Break & Enter-House,387,20
+2018,D32,Crimes Against Property,Break & Enter-Other,33,4
+2018,D43,Other Criminal Code Violations,Other,1330,1212
+2018,D43,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,261,240
+2018,D43,Other Federal Statute Violations,Other,13,11
+2018,D51,Controlled Drugs and Substances Act,Other,425,398
+2018,D51,Crimes Against Property,Auto Theft,196,33
+2018,D51,Crimes Against Property,Break & Enter-Apartment,255,48
+2018,D51,Crimes Against Property,Break & Enter-Commercial,192,43
+2018,D51,Crimes Against Property,Break & Enter-House,42,9
+2018,D51,Crimes Against Property,Break & Enter-Other,58,11
+2019,D51,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,259,228
+2019,D51,Other Federal Statute Violations,Other,26,25
+2019,D52,Controlled Drugs and Substances Act,Other,154,143
+2019,D52,Crimes Against Property,Auto Theft,111,36
+2019,D52,Crimes Against Property,Break & Enter-Apartment,174,33
+2019,D52,Crimes Against Property,Break & Enter-Commercial,301,91
+2019,D52,Crimes Against Property,Break & Enter-House,15,8
+2019,D52,Crimes Against Property,Break & Enter-Other,38,13
+2019,D52,Crimes Against Property,Fraud,1329,161
+2019,D52,Crimes Against Property,Other,1190,405
+2019,D52,Crimes Against Property,Theft Over $5000,142,28
+2019,D52,Crimes Against Property,Theft Under $5000,5992,1762
+2019,D52,Crimes Against the Person,Assault,1459,882
+2019,D52,Crimes Against the Person,Attempt Murder,6,4
+2019,D52,Crimes Against the Person,Other,265,144
+2019,D52,Crimes Against the Person,Robbery-Financial,7,7
+2019,D52,Crimes Against the Person,Robbery-Other,153,69
+2019,D52,Crimes Against the Person,Sexual Violation,209,98
+2019,D52,Criminal Code Traffic ,Other,81,76
+2019,D52,Other Criminal Code Violations,Other,2552,1802
+2019,D52,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,171,162
+2019,D52,Other Federal Statute Violations,Other,29,17
+2019,D53,Controlled Drugs and Substances Act,Other,44,42
+2019,D53,Crimes Against Property,Auto Theft,216,26
+2019,D53,Crimes Against Property,Break & Enter-Apartment,243,36
+2019,D53,Crimes Against Property,Break & Enter-Commercial,245,51
+2019,D53,Crimes Against Property,Break & Enter-House,184,27
+2018,D53,Criminal Code Traffic ,Other,63,58
+2019,D53,Crimes Against Property,Break & Enter-Other,43,12
+2019,D53,Crimes Against Property,Fraud,953,72
+2019,D53,Crimes Against Property,Other,614,134
+2019,D53,Crimes Against Property,Theft Over $5000,97,12
+2018,D53,Other Criminal Code Violations,Other,436,375
+2019,D53,Crimes Against Property,Theft Under $5000,3118,704
+2018,D53,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,61,49
+2019,D53,Crimes Against the Person,Assault,816,470
+2018,D53,Other Federal Statute Violations,Other,5,4
+2019,D32,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,119,101
+2019,D13,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,51,43
+2019,D23,Crimes Against Property,Theft Over $5000,95,17
+2019,D53,Crimes Against the Person,Other,175,81
+2019,D53,Crimes Against the Person,Robbery-Financial,1,1
+2019,D53,Crimes Against the Person,Robbery-Other,133,47
+2019,D53,Crimes Against the Person,Sexual Violation,141,52
+2019,D53,Criminal Code Traffic ,Other,50,48
+2019,D53,Other Criminal Code Violations,Other,454,381
+2019,D53,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,66,50
+2019,D53,Other Federal Statute Violations,Other,6,5
+2019,D54/D55,Controlled Drugs and Substances Act,Other,129,121
+2019,D54/D55,Crimes Against Property,Auto Theft,239,25
+2019,D54/D55,Crimes Against Property,Break & Enter-Apartment,216,52
+2019,D54/D55,Crimes Against Property,Break & Enter-Commercial,251,56
+2019,D54/D55,Crimes Against Property,Break & Enter-House,209,51
+2019,D54/D55,Crimes Against Property,Break & Enter-Other,25,3
+2019,D54/D55,Crimes Against Property,Fraud,873,90
+2019,D54/D55,Crimes Against Property,Other,1229,350
+2019,D54/D55,Crimes Against Property,Theft Over $5000,96,21
+2019,D11,Crimes Against Property,Fraud,482,70
+2019,D42,Crimes Against Property,Theft Over $5000,72,11
+2019,D32,Other Federal Statute Violations,Other,11,9
+2019,D11,Crimes Against Property,Other,670,170
+2018,D54/D55,Controlled Drugs and Substances Act,Other,234,221
+2019,D13,Other Federal Statute Violations,Other,7,7
+2019,D33,Controlled Drugs and Substances Act,Other,40,34
+2019,D23,Crimes Against Property,Theft Under $5000,2153,437
+2018,D51,Crimes Against Property,Fraud,1007,155
+2019,D11,Crimes Against Property,Theft Over $5000,59,9
+2018,D54/D55,Crimes Against Property,Auto Theft,263,52
+2019,D14,Controlled Drugs and Substances Act,Other,149,136
+2019,D33,Crimes Against Property,Auto Theft,268,27
+2019,D42,Crimes Against Property,Theft Under $5000,2298,609
+2019,D23,Crimes Against the Person,Assault,873,547
+2018,D51,Crimes Against Property,Other,1841,500
+2019,D11,Crimes Against Property,Theft Under $5000,2654,816
+2018,D54/D55,Crimes Against Property,Break & Enter-Apartment,175,51
+2019,D14,Crimes Against Property,Auto Theft,187,35
+2019,D33,Crimes Against Property,Break & Enter-Apartment,133,10
+2019,D42,Crimes Against the Person,Assault,1038,672
+2019,D23,Crimes Against the Person,Attempt Murder,6,5
+2018,D51,Crimes Against Property,Theft Over $5000,108,20
+2019,D11,Crimes Against the Person,Assault,707,478
+2018,D54/D55,Crimes Against Property,Break & Enter-Commercial,170,63
+2019,D14,Crimes Against Property,Break & Enter-Apartment,268,63
+2019,D33,Crimes Against Property,Break & Enter-Commercial,62,2
+2019,D42,Crimes Against the Person,Attempt Murder,6,4
+2019,D23,Crimes Against the Person,Other,213,128
+2018,D51,Crimes Against Property,Theft Under $5000,7256,1337
+2019,D11,Crimes Against the Person,Other,172,98
+2018,D54/D55,Crimes Against Property,Break & Enter-House,156,39
+2019,D14,Crimes Against Property,Break & Enter-Commercial,464,120
+2019,D33,Crimes Against Property,Break & Enter-House,194,9
+2019,D42,Crimes Against the Person,Other,241,129
+2019,D23,Crimes Against the Person,Robbery-Financial,13,4
+2018,D51,Crimes Against the Person,Assault,1770,982
+2019,D11,Crimes Against the Person,Robbery-Financial,2,2
+2018,D54/D55,Crimes Against Property,Break & Enter-Other,51,14
+2019,D14,Crimes Against Property,Break & Enter-House,106,16
+2019,D33,Crimes Against Property,Break & Enter-Other,15,3
+2019,D42,Crimes Against the Person,Robbery-Financial,5,3
+2019,D23,Crimes Against the Person,Robbery-Other,198,81
+2018,D51,Crimes Against the Person,Attempt Murder,16,10
+2018,D51,Crimes Against the Person,Other,373,192
+2018,D51,Crimes Against the Person,Robbery-Financial,7,7
+2018,D51,Crimes Against the Person,Robbery-Other,390,133
+2018,D51,Crimes Against the Person,Sexual Violation,256,80
+2018,D51,Criminal Code Traffic ,Other,70,67
+2018,D51,Other Criminal Code Violations,Other,1317,1137
+2018,D51,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,214,182
+2018,D51,Other Federal Statute Violations,Other,34,27
+2018,D52,Controlled Drugs and Substances Act,Other,206,195
+2018,D52,Crimes Against Property,Auto Theft,98,18
+2018,D52,Crimes Against Property,Break & Enter-Apartment,138,43
+2018,D52,Crimes Against Property,Break & Enter-Commercial,292,128
+2018,D52,Crimes Against Property,Break & Enter-House,8,3
+2018,D52,Crimes Against Property,Break & Enter-Other,54,17
+2018,D52,Crimes Against Property,Fraud,1171,422
+2018,D52,Crimes Against Property,Other,1231,490
+2018,D52,Crimes Against Property,Theft Over $5000,112,33
+2018,D52,Crimes Against Property,Theft Under $5000,6217,1796
+2018,D52,Crimes Against the Person,Assault,1464,915
+2018,D52,Crimes Against the Person,Attempt Murder,6,6
+2018,D52,Crimes Against the Person,Other,295,136
+2018,D52,Crimes Against the Person,Robbery-Financial,11,9
+2018,D52,Crimes Against the Person,Robbery-Other,199,111
+2018,D52,Crimes Against the Person,Sexual Violation,210,92
+2018,D52,Criminal Code Traffic ,Other,71,68
+2018,D52,Other Criminal Code Violations,Other,2425,2161
+2018,D52,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,168,158
+2018,D52,Other Federal Statute Violations,Other,31,24
+2018,D53,Controlled Drugs and Substances Act,Other,90,85
+2018,D53,Crimes Against Property,Auto Theft,227,37
+2018,D53,Crimes Against Property,Break & Enter-Apartment,153,33
+2018,D53,Crimes Against Property,Break & Enter-Commercial,148,31
+2018,D53,Crimes Against Property,Break & Enter-House,178,13
+2018,D53,Crimes Against Property,Break & Enter-Other,35,5
+2018,D53,Crimes Against Property,Fraud,737,75
+2018,D53,Crimes Against Property,Other,704,170
+2018,D53,Crimes Against Property,Theft Over $5000,89,12
+2018,D53,Crimes Against Property,Theft Under $5000,3399,779
+2018,D53,Crimes Against the Person,Assault,704,351
+2018,D53,Crimes Against the Person,Attempt Murder,1,1
+2018,D53,Crimes Against the Person,Other,228,103
+2018,D53,Crimes Against the Person,Robbery-Financial,6,5
+2018,D53,Crimes Against the Person,Robbery-Other,120,46
+2018,D53,Crimes Against the Person,Sexual Violation,116,46
+2019,D42,Crimes Against the Person,Robbery-Other,245,91
+2019,D11,Crimes Against the Person,Robbery-Other,134,72
+2019,D33,Crimes Against Property,Fraud,757,50
+2019,D14,Crimes Against Property,Break & Enter-Other,72,16
+2018,D54/D55,Crimes Against Property,Fraud,747,129
+2019,D23,Crimes Against the Person,Sexual Violation,130,85
+2019,D42,Crimes Against the Person,Sexual Violation,142,71
+2019,D11,Crimes Against the Person,Sexual Violation,117,59
+2019,D33,Crimes Against Property,Other,543,132
+2019,D14,Crimes Against Property,Fraud,1156,90
+2018,D54/D55,Crimes Against Property,Other,1348,583
+2019,D23,Criminal Code Traffic ,Other,84,81
+2019,D42,Criminal Code Traffic ,Other,177,172
+2019,D11,Criminal Code Traffic ,Other,73,71
+2019,D33,Crimes Against Property,Theft Over $5000,78,11
+2019,D33,Crimes Against Property,Theft Under $5000,2170,486
+2019,D33,Crimes Against the Person,Assault,720,467
+2019,D33,Crimes Against the Person,Attempt Murder,9,4
+2019,D33,Crimes Against the Person,Other,189,106
+2019,D33,Crimes Against the Person,Robbery-Financial,2,0
+2019,D33,Crimes Against the Person,Robbery-Other,149,38
+2019,D33,Crimes Against the Person,Sexual Violation,106,55
+2019,D33,Criminal Code Traffic ,Other,75,73
+2019,D33,Other Criminal Code Violations,Other,279,235
+2019,D33,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,51,42
+2019,D33,Other Federal Statute Violations,Other,2,2
+2019,D41,Controlled Drugs and Substances Act,Other,97,88
+2019,D41,Crimes Against Property,Auto Theft,338,27
+2019,D41,Crimes Against Property,Break & Enter-Apartment,109,33
+2019,D41,Crimes Against Property,Break & Enter-Commercial,191,50
+2019,D41,Crimes Against Property,Break & Enter-House,100,18
+2019,D41,Crimes Against Property,Break & Enter-Other,39,16
+2019,D41,Crimes Against Property,Fraud,681,116
+2019,D41,Crimes Against Property,Other,852,301
+2019,D41,Crimes Against Property,Theft Over $5000,63,9
+2019,D41,Crimes Against Property,Theft Under $5000,3272,1299
+2019,D41,Crimes Against the Person,Assault,1390,880
+2019,D41,Crimes Against the Person,Attempt Murder,2,2
+2019,D41,Crimes Against the Person,Other,320,197
+2019,D41,Crimes Against the Person,Robbery-Financial,3,0
+2019,D41,Crimes Against the Person,Robbery-Other,197,84
+2019,D41,Crimes Against the Person,Sexual Violation,187,97
+2019,D41,Criminal Code Traffic ,Other,136,127
+2019,D41,Other Criminal Code Violations,Other,1389,1280
+2019,D41,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,135,119
+2019,D41,Other Federal Statute Violations,Other,11,10
+2019,D42,Controlled Drugs and Substances Act,Other,31,27
+2019,D42,Crimes Against Property,Auto Theft,440,42
+2019,D42,Crimes Against Property,Break & Enter-Apartment,59,8
+2019,D42,Crimes Against Property,Break & Enter-Commercial,199,68
+2019,D42,Crimes Against Property,Break & Enter-House,327,12
+2019,D42,Crimes Against Property,Break & Enter-Other,11,1
+2019,D42,Crimes Against Property,Fraud,757,72
+2019,D42,Crimes Against Property,Other,676,165
+2019,D11,Other Criminal Code Violations,Other,702,637
+2018,D54/D55,Crimes Against Property,Theft Over $5000,78,16
+2019,D11,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,86,76
+2019,D14,Crimes Against Property,Other,1178,351
+2018,D54/D55,Crimes Against Property,Theft Under $5000,4770,1114
+2019,D11,Other Federal Statute Violations,Other,9,7
+2019,D14,Crimes Against Property,Theft Over $5000,111,20
+2018,D54/D55,Crimes Against the Person,Assault,1512,1015
+2019,D12,Controlled Drugs and Substances Act,Other,96,94
+2019,D14,Crimes Against Property,Theft Under $5000,4296,734
+2018,D54/D55,Crimes Against the Person,Attempt Murder,23,19
+2019,D12,Crimes Against Property,Auto Theft,307,48
+2019,D23,Other Criminal Code Violations,Other,371,343
+2019,D14,Crimes Against the Person,Assault,1431,894
+2018,D54/D55,Crimes Against the Person,Other,442,259
+2019,D12,Crimes Against Property,Break & Enter-Apartment,78,20
+2019,D23,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,60,53
+2019,D14,Crimes Against the Person,Attempt Murder,4,4
+2018,D54/D55,Crimes Against the Person,Robbery-Financial,10,9
+2019,D12,Crimes Against Property,Break & Enter-Commercial,110,27
+2019,D12,Crimes Against Property,Break & Enter-House,37,7
+2019,D12,Crimes Against Property,Break & Enter-Other,21,7
+2019,D12,Crimes Against Property,Fraud,388,69
+2019,D12,Crimes Against Property,Other,564,206
+2019,D12,Crimes Against Property,Theft Over $5000,45,6
+2019,D12,Crimes Against Property,Theft Under $5000,1501,525
+2019,D12,Crimes Against the Person,Assault,741,519
+2019,D12,Crimes Against the Person,Attempt Murder,23,14
+2019,D12,Crimes Against the Person,Other,152,90
+2019,D12,Crimes Against the Person,Robbery-Other,97,43
+2019,D12,Crimes Against the Person,Sexual Violation,110,65
+2019,D12,Criminal Code Traffic ,Other,63,60
+2019,D12,Other Criminal Code Violations,Other,519,478
+2019,D12,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,84,76
+2019,D12,Other Federal Statute Violations,Other,20,19
+2019,D13,Controlled Drugs and Substances Act,Other,46,46
+2019,D13,Crimes Against Property,Auto Theft,187,40
+2019,D13,Crimes Against Property,Break & Enter-Apartment,74,22
+2019,D13,Crimes Against Property,Break & Enter-Commercial,143,66
+2019,D13,Crimes Against Property,Break & Enter-House,99,29
+2019,D13,Crimes Against Property,Break & Enter-Other,30,8
+2019,D13,Crimes Against Property,Fraud,426,61
+2019,D13,Crimes Against Property,Other,533,168
+2019,D13,Crimes Against Property,Theft Over $5000,31,5
+2019,D13,Crimes Against Property,Theft Under $5000,1616,442
+2019,D13,Crimes Against the Person,Assault,617,397
+2019,D13,Crimes Against the Person,Attempt Murder,9,3
+2019,D13,Crimes Against the Person,Other,144,67
+2019,D13,Crimes Against the Person,Robbery-Financial,7,6
+2019,D13,Crimes Against the Person,Robbery-Other,159,59
+2019,D13,Crimes Against the Person,Sexual Violation,105,54
+2019,D13,Criminal Code Traffic ,Other,87,83
+2019,D13,Other Criminal Code Violations,Other,383,340
+2019,D23,Other Federal Statute Violations,Other,8,6
+2018,D54/D55,Crimes Against the Person,Robbery-Other,234,118
+2019,D31,Controlled Drugs and Substances Act,Other,78,72
+2018,D54/D55,Crimes Against the Person,Sexual Violation,212,99
+2019,D31,Crimes Against Property,Auto Theft,665,39
+2018,D54/D55,Criminal Code Traffic ,Other,121,120
+2019,D31,Crimes Against Property,Break & Enter-Apartment,112,28
+2018,D54/D55,Other Criminal Code Violations,Other,1006,880
+2019,D31,Crimes Against Property,Break & Enter-Commercial,173,40
+2019,D14,Crimes Against the Person,Other,232,140
+2018,D54/D55,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,142,131
+2019,D31,Crimes Against Property,Break & Enter-House,69,12
+2019,D14,Crimes Against the Person,Robbery-Financial,5,3
+2018,D54/D55,Other Federal Statute Violations,Other,4,3
+2019,D31,Crimes Against Property,Break & Enter-Other,37,2
+2019,D14,Crimes Against the Person,Robbery-Other,170,63
+2018,NSA,Controlled Drugs and Substances Act,Other,133,114
+2019,D31,Crimes Against Property,Fraud,715,78
+2019,D14,Crimes Against the Person,Sexual Violation,193,101
+2018,NSA,Crimes Against Property,Auto Theft,33,5
+2019,D31,Crimes Against Property,Other,728,277
+2019,D14,Criminal Code Traffic ,Other,116,111
+2018,NSA,Crimes Against Property,Break & Enter-Apartment,8,3
+2019,D31,Crimes Against Property,Theft Over $5000,86,18
+2019,D14,Other Criminal Code Violations,Other,957,867
+2019,D14,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,91,81
+2019,D14,Other Federal Statute Violations,Other,10,10
+2019,D22,Controlled Drugs and Substances Act,Other,108,97
+2019,D22,Crimes Against Property,Auto Theft,468,24
+2019,D22,Crimes Against Property,Break & Enter-Apartment,126,31
+2019,D22,Crimes Against Property,Break & Enter-Commercial,165,40
+2019,D22,Crimes Against Property,Break & Enter-House,195,36
+2019,D22,Crimes Against Property,Break & Enter-Other,25,5
+2019,D22,Crimes Against Property,Fraud,814,123
+2019,D22,Crimes Against Property,Other,787,217
+2019,D22,Crimes Against Property,Theft Over $5000,101,15
+2019,D22,Crimes Against Property,Theft Under $5000,3203,810
+2019,D22,Crimes Against the Person,Assault,915,592
+2019,D22,Crimes Against the Person,Attempt Murder,9,7
+2019,D22,Crimes Against the Person,Other,233,141
+2019,D22,Crimes Against the Person,Robbery-Financial,10,9
+2019,D22,Crimes Against the Person,Robbery-Other,158,71
+2019,D22,Crimes Against the Person,Sexual Violation,133,75
+2019,D22,Criminal Code Traffic ,Other,139,133
+2019,D22,Other Criminal Code Violations,Other,1218,1146
+2019,D22,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,96,91
+2019,D22,Other Federal Statute Violations,Other,12,8
+2019,D23,Controlled Drugs and Substances Act,Other,80,69
+2019,D23,Crimes Against Property,Auto Theft,809,48
+2019,D23,Crimes Against Property,Break & Enter-Apartment,78,11
+2019,D23,Crimes Against Property,Break & Enter-Commercial,131,12
+2019,D23,Crimes Against Property,Break & Enter-House,82,9
+2019,D23,Crimes Against Property,Break & Enter-Other,16,3
+2019,D23,Crimes Against Property,Fraud,646,99
+2019,D23,Crimes Against Property,Other,618,148
+2019,D42,Other Criminal Code Violations,Other,424,369
+2019,D31,Crimes Against Property,Theft Under $5000,2359,763
+2019,D31,Crimes Against the Person,Assault,1395,949
+2018,NSA,Crimes Against Property,Break & Enter-Commercial,16,7
+2019,D31,Crimes Against the Person,Attempt Murder,17,10
+2018,NSA,Crimes Against Property,Break & Enter-House,9,1
+2019,D31,Crimes Against the Person,Other,332,188
+2018,NSA,Crimes Against Property,Break & Enter-Other,2,1
+2019,D31,Crimes Against the Person,Robbery-Financial,2,2
+2018,NSA,Crimes Against Property,Fraud,230,30
+2019,D31,Crimes Against the Person,Robbery-Other,239,91
+2018,NSA,Crimes Against Property,Other,191,51
+2019,D31,Crimes Against the Person,Sexual Violation,199,111
+2018,NSA,Crimes Against Property,Theft Over $5000,26,5
+2019,D31,Criminal Code Traffic ,Other,112,100
+2018,NSA,Crimes Against Property,Theft Under $5000,353,71
+2019,D31,Other Criminal Code Violations,Other,795,679
+2018,NSA,Crimes Against the Person,Assault,257,94
+2019,D31,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,166,128
+2018,NSA,Crimes Against the Person,Attempt Murder,1,0
+2019,D31,Other Federal Statute Violations,Other,26,22
+2018,NSA,Crimes Against the Person,Other,88,37
+2019,D32,Controlled Drugs and Substances Act,Other,53,48
+2018,NSA,Crimes Against the Person,Robbery-Financial,5,5
+2019,D32,Crimes Against Property,Auto Theft,547,43
+2018,NSA,Crimes Against the Person,Robbery-Other,94,48
+2019,D32,Crimes Against Property,Break & Enter-Apartment,139,13
+2018,NSA,Crimes Against the Person,Sexual Violation,159,26
+2019,D42,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,57,50
+2019,D32,Crimes Against Property,Break & Enter-Commercial,178,26
+2019,D32,Crimes Against Property,Break & Enter-House,286,16
+2019,D32,Crimes Against Property,Break & Enter-Other,49,10
+2019,D32,Crimes Against Property,Fraud,1181,133
+2019,D32,Crimes Against Property,Other,1113,461
+2019,D32,Crimes Against Property,Theft Over $5000,147,24
+2019,D32,Crimes Against Property,Theft Under $5000,4287,1028
+2019,D32,Crimes Against the Person,Assault,1204,759
+2019,D32,Crimes Against the Person,Attempt Murder,10,7
+2019,D32,Crimes Against the Person,Other,279,176
+2019,D32,Crimes Against the Person,Robbery-Financial,2,1
+2019,D32,Crimes Against the Person,Robbery-Other,202,61
+2019,D32,Crimes Against the Person,Sexual Violation,159,76
+2019,D32,Criminal Code Traffic ,Other,115,106
+2019,D32,Other Criminal Code Violations,Other,970,833
+2019,D42,Other Federal Statute Violations,Other,16,15
+2018,NSA,Criminal Code Traffic ,Other,75,74
+2019,D43,Controlled Drugs and Substances Act,Other,101,92
+2018,NSA,Other Criminal Code Violations,Other,228,210
+2019,D43,Crimes Against Property,Auto Theft,265,36
+2018,NSA,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,39,35
+2019,D43,Crimes Against Property,Break & Enter-Apartment,98,37
+2018,NSA,Other Federal Statute Violations,Other,15,13
+2019,D43,Crimes Against Property,Break & Enter-Commercial,156,56
+2019,D11,Controlled Drugs and Substances Act,Other,89,86
+2019,D43,Crimes Against Property,Break & Enter-House,131,33
+2019,D11,Crimes Against Property,Auto Theft,165,32
+2019,D43,Crimes Against Property,Break & Enter-Other,31,15
+2019,D43,Crimes Against Property,Fraud,803,90
+2019,D43,Crimes Against Property,Other,843,378
+2019,D43,Crimes Against Property,Theft Over $5000,38,5
+2019,D43,Crimes Against Property,Theft Under $5000,2730,1066
+2019,D43,Crimes Against the Person,Assault,1617,1160
+2019,D43,Crimes Against the Person,Attempt Murder,14,8
+2019,D43,Crimes Against the Person,Other,392,255
+2019,D43,Crimes Against the Person,Robbery-Financial,4,4
+2019,D43,Crimes Against the Person,Robbery-Other,247,116
+2019,D43,Crimes Against the Person,Sexual Violation,188,118
+2019,D43,Criminal Code Traffic ,Other,151,144
+2019,D43,Other Criminal Code Violations,Other,1109,1028
+2019,D43,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,174,159
+2019,D43,Other Federal Statute Violations,Other,11,11
+2019,D51,Controlled Drugs and Substances Act,Other,314,304
+2019,D51,Crimes Against Property,Auto Theft,200,45
+2019,D51,Crimes Against Property,Break & Enter-Apartment,380,104
+2019,D51,Crimes Against Property,Break & Enter-Commercial,351,64
+2019,D51,Crimes Against Property,Break & Enter-House,65,11
+2019,D51,Crimes Against Property,Break & Enter-Other,68,23
+2019,D51,Crimes Against Property,Fraud,1116,95
+2019,D51,Crimes Against Property,Other,1640,541
+2019,D51,Crimes Against Property,Theft Over $5000,115,24
+2019,D51,Crimes Against Property,Theft Under $5000,6037,1043
+2019,D51,Crimes Against the Person,Assault,2027,1152
+2019,D51,Crimes Against the Person,Attempt Murder,17,16
+2019,D51,Crimes Against the Person,Other,279,142
+2019,D51,Crimes Against the Person,Robbery-Financial,1,1
+2019,D51,Crimes Against the Person,Robbery-Other,328,120
+2019,D51,Crimes Against the Person,Sexual Violation,247,116
+2019,D51,Criminal Code Traffic ,Other,98,91
+2019,D51,Other Criminal Code Violations,Other,1465,1355
+2019,D11,Crimes Against Property,Break & Enter-Apartment,138,26
+2019,D11,Crimes Against Property,Break & Enter-Commercial,185,40
+2019,D11,Crimes Against Property,Break & Enter-House,86,7
+2019,D11,Crimes Against Property,Break & Enter-Other,38,6
+2019,D54/D55,Crimes Against Property,Theft Under $5000,3969,1014
+2019,D54/D55,Crimes Against the Person,Assault,1564,1026
+2019,D54/D55,Crimes Against the Person,Attempt Murder,12,10
+2019,D54/D55,Crimes Against the Person,Other,336,212
+2019,D54/D55,Crimes Against the Person,Robbery-Financial,9,7
+2019,D54/D55,Crimes Against the Person,Robbery-Other,202,95
+2019,D54/D55,Crimes Against the Person,Sexual Violation,208,108
+2019,D54/D55,Criminal Code Traffic ,Other,146,140
+2019,D54/D55,Other Criminal Code Violations,Other,1028,921
+2019,D54/D55,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,134,120
+2019,D54/D55,Other Federal Statute Violations,Other,9,8
+2019,NSA,Controlled Drugs and Substances Act,Other,97,83
+2019,NSA,Crimes Against Property,Auto Theft,49,8
+2019,NSA,Crimes Against Property,Break & Enter-Apartment,29,7
+2019,NSA,Crimes Against Property,Break & Enter-Commercial,37,13
+2019,NSA,Crimes Against Property,Break & Enter-House,17,1
+2019,NSA,Crimes Against Property,Break & Enter-Other,11,3
+2019,NSA,Crimes Against Property,Fraud,293,22
+2019,NSA,Crimes Against Property,Other,279,86
+2019,NSA,Crimes Against Property,Theft Over $5000,26,5
+2019,NSA,Crimes Against Property,Theft Under $5000,478,110
+2020,D14,Crimes Against the Person,Sexual Violation,160,66
+2020,D31,Crimes Against Property,Theft Over $5000,132,16
+2020,D41,Crimes Against Property,Auto Theft,340,46
+2020,D43,Crimes Against the Person,Robbery-Other,148,74
+2019,NSA,Crimes Against the Person,Assault,384,160
+2019,NSA,Crimes Against the Person,Attempt Murder,3,2
+2019,NSA,Crimes Against the Person,Other,85,38
+2019,NSA,Crimes Against the Person,Robbery-Financial,31,30
+2019,NSA,Crimes Against the Person,Robbery-Other,139,78
+2019,NSA,Crimes Against the Person,Sexual Violation,166,38
+2019,NSA,Criminal Code Traffic ,Other,94,88
+2019,NSA,Other Criminal Code Violations,Other,358,333
+2019,NSA,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,51,46
+2019,NSA,Other Federal Statute Violations,Other,15,9
+2020,D11,Controlled Drugs and Substances Act,Other,70,58
+2020,D11,Crimes Against Property,Auto Theft,195,16
+2020,D11,Crimes Against Property,Break & Enter-Apartment,110,21
+2020,D11,Crimes Against Property,Break & Enter-Commercial,151,38
+2020,D11,Crimes Against Property,Break & Enter-House,92,19
+2020,D11,Crimes Against Property,Break & Enter-Other,37,8
+2020,D11,Crimes Against Property,Fraud,444,28
+2020,D11,Crimes Against Property,Other,677,165
+2020,D11,Crimes Against Property,Theft Over $5000,43,9
+2020,D11,Crimes Against Property,Theft Under $5000,2082,417
+2020,D11,Crimes Against the Person,Assault,653,396
+2020,D11,Crimes Against the Person,Attempt Murder,3,3
+2020,D11,Crimes Against the Person,Other,122,69
+2020,D11,Crimes Against the Person,Robbery-Financial,4,2
+2020,D11,Crimes Against the Person,Robbery-Other,82,33
+2020,D11,Crimes Against the Person,Sexual Violation,103,48
+2020,D11,Criminal Code Traffic ,Other,60,53
+2020,D11,Other Criminal Code Violations,Other,600,552
+2020,D11,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,45,40
+2020,D11,Other Federal Statute Violations,Other,11,8
+2020,D12,Controlled Drugs and Substances Act,Other,84,80
+2020,D12,Crimes Against Property,Auto Theft,336,25
+2020,D12,Crimes Against Property,Break & Enter-Apartment,49,20
+2020,D14,Criminal Code Traffic ,Other,106,100
+2020,D31,Crimes Against Property,Theft Under $5000,1928,369
+2020,D43,Crimes Against the Person,Sexual Violation,166,94
+2020,D14,Other Criminal Code Violations,Other,841,735
+2020,D41,Crimes Against Property,Break & Enter-Apartment,78,28
+2020,D31,Crimes Against the Person,Assault,1191,750
+2020,D43,Criminal Code Traffic ,Other,170,150
+2020,D14,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,81,73
+2020,D41,Crimes Against Property,Break & Enter-Commercial,186,63
+2020,D31,Crimes Against the Person,Attempt Murder,26,20
+2020,D43,Other Criminal Code Violations,Other,794,663
+2020,D14,Other Federal Statute Violations,Other,14,11
+2020,D41,Crimes Against Property,Break & Enter-House,72,17
+2020,D31,Crimes Against the Person,Other,263,144
+2020,D43,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,122,106
+2020,D22,Controlled Drugs and Substances Act,Other,75,66
+2020,D41,Crimes Against Property,Break & Enter-Other,33,13
+2020,D31,Crimes Against the Person,Robbery-Financial,1,1
+2020,D43,Other Federal Statute Violations,Other,14,11
+2020,D22,Crimes Against Property,Auto Theft,490,25
+2020,D41,Crimes Against Property,Fraud,675,67
+2020,D31,Crimes Against the Person,Robbery-Other,176,82
+2020,D51,Controlled Drugs and Substances Act,Other,351,332
+2020,D22,Crimes Against Property,Break & Enter-Apartment,92,37
+2020,D41,Crimes Against Property,Other,851,259
+2020,D31,Crimes Against the Person,Sexual Violation,161,75
+2020,D53,Crimes Against Property,Theft Over $5000,99,5
+2020,D51,Crimes Against Property,Auto Theft,144,25
+2020,D51,Crimes Against Property,Break & Enter-Apartment,284,81
+2020,D51,Crimes Against Property,Break & Enter-Commercial,291,87
+2020,D51,Crimes Against Property,Break & Enter-House,30,5
+2020,D51,Crimes Against Property,Break & Enter-Other,74,24
+2020,D51,Crimes Against Property,Fraud,814,58
+2020,D51,Crimes Against Property,Other,1607,560
+2020,D51,Crimes Against Property,Theft Over $5000,93,13
+2020,D51,Crimes Against Property,Theft Under $5000,3382,571
+2020,D51,Crimes Against the Person,Assault,1966,1214
+2020,D51,Crimes Against the Person,Attempt Murder,4,2
+2020,D51,Crimes Against the Person,Other,286,151
+2020,D51,Crimes Against the Person,Robbery-Other,305,138
+2020,D51,Crimes Against the Person,Sexual Violation,193,87
+2020,D51,Criminal Code Traffic ,Other,80,69
+2020,D51,Other Criminal Code Violations,Other,1469,1313
+2020,D51,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,215,182
+2020,D51,Other Federal Statute Violations,Other,14,8
+2020,D52,Controlled Drugs and Substances Act,Other,67,64
+2020,D52,Crimes Against Property,Auto Theft,86,11
+2020,D52,Crimes Against Property,Break & Enter-Apartment,131,34
+2020,D52,Crimes Against Property,Break & Enter-Commercial,314,127
+2020,D52,Crimes Against Property,Break & Enter-House,15,4
+2020,D52,Crimes Against Property,Break & Enter-Other,39,12
+2020,D52,Crimes Against Property,Fraud,952,105
+2020,D52,Crimes Against Property,Other,1112,230
+2020,D52,Crimes Against Property,Theft Over $5000,91,21
+2020,D52,Crimes Against Property,Theft Under $5000,2887,450
+2020,D52,Crimes Against the Person,Assault,1094,677
+2020,D52,Crimes Against the Person,Attempt Murder,4,4
+2020,D52,Crimes Against the Person,Other,185,106
+2020,D52,Crimes Against the Person,Robbery-Financial,3,2
+2020,D52,Crimes Against the Person,Robbery-Other,127,57
+2020,D52,Crimes Against the Person,Sexual Violation,151,78
+2020,D52,Criminal Code Traffic ,Other,64,60
+2020,D52,Other Criminal Code Violations,Other,1539,743
+2020,D52,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,102,88
+2020,D52,Other Federal Statute Violations,Other,28,13
+2020,D53,Controlled Drugs and Substances Act,Other,33,32
+2020,D53,Crimes Against Property,Auto Theft,319,31
+2020,D53,Crimes Against Property,Break & Enter-Apartment,230,44
+2020,D53,Crimes Against Property,Break & Enter-Commercial,235,50
+2020,D53,Crimes Against Property,Break & Enter-House,175,22
+2020,D53,Crimes Against Property,Break & Enter-Other,72,9
+2020,D53,Crimes Against Property,Fraud,724,72
+2020,D53,Crimes Against Property,Other,745,141
+2020,D41,Crimes Against Property,Theft Over $5000,48,7
+2020,D41,Crimes Against Property,Theft Under $5000,2264,598
+2020,D41,Crimes Against the Person,Assault,1065,691
+2020,D41,Crimes Against the Person,Attempt Murder,3,3
+2020,D41,Crimes Against the Person,Other,238,151
+2020,D41,Crimes Against the Person,Robbery-Financial,1,1
+2020,D41,Crimes Against the Person,Robbery-Other,150,76
+2020,D41,Crimes Against the Person,Sexual Violation,132,72
+2020,D41,Criminal Code Traffic ,Other,142,124
+2020,D41,Other Criminal Code Violations,Other,1106,943
+2020,D41,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,99,84
+2020,D41,Other Federal Statute Violations,Other,4,2
+2020,D42,Controlled Drugs and Substances Act,Other,43,39
+2020,D42,Crimes Against Property,Auto Theft,418,20
+2020,D42,Crimes Against Property,Break & Enter-Apartment,62,13
+2020,D42,Crimes Against Property,Break & Enter-Commercial,149,42
+2020,D42,Crimes Against Property,Break & Enter-House,118,26
+2020,D42,Crimes Against Property,Break & Enter-Other,18,7
+2020,D42,Crimes Against Property,Fraud,692,36
+2020,D42,Crimes Against Property,Other,657,161
+2020,D42,Crimes Against Property,Theft Over $5000,49,5
+2020,D42,Crimes Against Property,Theft Under $5000,1751,241
+2020,D42,Crimes Against the Person,Assault,905,580
+2020,D42,Crimes Against the Person,Attempt Murder,8,6
+2020,D42,Crimes Against the Person,Other,225,111
+2020,D42,Crimes Against the Person,Robbery-Financial,9,8
+2020,D42,Crimes Against the Person,Robbery-Other,150,62
+2020,D42,Crimes Against the Person,Sexual Violation,110,55
+2020,D42,Criminal Code Traffic ,Other,140,128
+2020,D42,Other Criminal Code Violations,Other,390,300
+2020,D42,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,53,47
+2020,D42,Other Federal Statute Violations,Other,7,5
+2020,D43,Controlled Drugs and Substances Act,Other,74,71
+2020,D43,Crimes Against Property,Auto Theft,318,35
+2020,D43,Crimes Against Property,Break & Enter-Apartment,69,27
+2020,D43,Crimes Against Property,Break & Enter-Commercial,78,29
+2020,D43,Crimes Against Property,Break & Enter-House,81,25
+2020,D43,Crimes Against Property,Break & Enter-Other,30,12
+2020,D43,Crimes Against Property,Fraud,679,99
+2020,D43,Crimes Against Property,Other,781,218
+2020,D43,Crimes Against Property,Theft Over $5000,58,16
+2020,D43,Crimes Against Property,Theft Under $5000,1971,418
+2020,D43,Crimes Against the Person,Assault,1330,866
+2020,D43,Crimes Against the Person,Attempt Murder,7,2
+2020,D43,Crimes Against the Person,Other,321,179
+2020,D43,Crimes Against the Person,Robbery-Financial,2,2
+2020,D12,Crimes Against Property,Break & Enter-Commercial,86,21
+2020,D31,Criminal Code Traffic ,Other,131,115
+2020,D12,Crimes Against Property,Break & Enter-House,51,15
+2020,D53,Crimes Against Property,Theft Under $5000,2640,386
+2020,D22,Crimes Against Property,Break & Enter-Commercial,172,51
+2020,D31,Other Criminal Code Violations,Other,611,483
+2020,D22,Crimes Against Property,Break & Enter-House,100,22
+2020,D31,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,142,105
+2020,D22,Crimes Against Property,Break & Enter-Other,35,8
+2020,D31,Other Federal Statute Violations,Other,12,10
+2020,D22,Crimes Against Property,Fraud,712,59
+2020,D32,Controlled Drugs and Substances Act,Other,38,35
+2020,D22,Crimes Against Property,Other,905,226
+2020,D32,Crimes Against Property,Auto Theft,664,44
+2020,D22,Crimes Against Property,Theft Over $5000,94,9
+2020,D32,Crimes Against Property,Break & Enter-Apartment,68,19
+2020,D22,Crimes Against Property,Theft Under $5000,2551,389
+2020,D32,Crimes Against Property,Break & Enter-Commercial,220,46
+2020,D22,Crimes Against the Person,Assault,904,576
+2020,D32,Crimes Against Property,Break & Enter-House,193,20
+2020,D22,Crimes Against the Person,Attempt Murder,1,1
+2020,D32,Crimes Against Property,Break & Enter-Other,27,6
+2020,D22,Crimes Against the Person,Other,188,121
+2020,D32,Crimes Against Property,Fraud,1172,96
+2020,D22,Crimes Against the Person,Robbery-Financial,10,9
+2020,D32,Crimes Against Property,Other,1162,362
+2020,D22,Crimes Against the Person,Robbery-Other,131,63
+2020,D32,Crimes Against Property,Theft Over $5000,116,16
+2020,D22,Crimes Against the Person,Sexual Violation,105,60
+2020,D32,Crimes Against Property,Theft Under $5000,3483,558
+2020,D22,Criminal Code Traffic ,Other,142,136
+2020,D22,Other Criminal Code Violations,Other,692,605
+2020,D22,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,104,90
+2020,D22,Other Federal Statute Violations,Other,7,6
+2020,D23,Controlled Drugs and Substances Act,Other,35,31
+2020,D23,Crimes Against Property,Auto Theft,776,29
+2020,D23,Crimes Against Property,Break & Enter-Apartment,31,6
+2020,D23,Crimes Against Property,Break & Enter-Commercial,111,17
+2020,D23,Crimes Against Property,Break & Enter-House,49,13
+2020,D23,Crimes Against Property,Break & Enter-Other,25,6
+2020,D23,Crimes Against Property,Fraud,571,57
+2020,D23,Crimes Against Property,Other,555,107
+2020,D23,Crimes Against Property,Theft Over $5000,84,8
+2020,D23,Crimes Against Property,Theft Under $5000,1668,180
+2020,D23,Crimes Against the Person,Assault,770,504
+2020,D23,Crimes Against the Person,Attempt Murder,11,8
+2020,D23,Crimes Against the Person,Other,155,93
+2020,D23,Crimes Against the Person,Robbery-Financial,1,1
+2020,D23,Crimes Against the Person,Robbery-Other,138,50
+2020,D23,Crimes Against the Person,Sexual Violation,94,49
+2020,D23,Criminal Code Traffic ,Other,97,89
+2020,D23,Other Criminal Code Violations,Other,295,249
+2020,D23,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,34,25
+2020,D23,Other Federal Statute Violations,Other,6,3
+2020,D31,Controlled Drugs and Substances Act,Other,65,52
+2020,D31,Crimes Against Property,Auto Theft,699,26
+2020,D31,Crimes Against Property,Break & Enter-Apartment,76,29
+2020,D31,Crimes Against Property,Break & Enter-Commercial,133,27
+2020,D31,Crimes Against Property,Break & Enter-House,55,13
+2020,D31,Crimes Against Property,Break & Enter-Other,29,5
+2020,D31,Crimes Against Property,Fraud,685,42
+2020,D31,Crimes Against Property,Other,801,237
+2020,D12,Crimes Against Property,Break & Enter-Other,19,5
+2020,D53,Crimes Against the Person,Assault,789,412
+2020,D32,Crimes Against the Person,Assault,1089,621
+2020,D53,Crimes Against the Person,Attempt Murder,1,1
+2020,D12,Crimes Against Property,Fraud,411,32
+2020,D32,Crimes Against the Person,Attempt Murder,7,5
+2020,D53,Crimes Against the Person,Other,205,95
+2020,D12,Crimes Against Property,Other,535,180
+2020,D32,Crimes Against the Person,Other,257,138
+2020,D53,Crimes Against the Person,Robbery-Other,101,52
+2020,D12,Crimes Against Property,Theft Over $5000,43,5
+2020,D32,Crimes Against the Person,Robbery-Financial,4,3
+2020,D53,Crimes Against the Person,Sexual Violation,131,48
+2020,D12,Crimes Against Property,Theft Under $5000,1311,244
+2020,D32,Crimes Against the Person,Robbery-Other,190,70
+2020,D53,Criminal Code Traffic ,Other,67,56
+2020,D12,Crimes Against the Person,Assault,689,493
+2020,D32,Crimes Against the Person,Sexual Violation,138,64
+2020,D53,Other Criminal Code Violations,Other,452,370
+2020,D12,Crimes Against the Person,Attempt Murder,10,8
+2020,D32,Criminal Code Traffic ,Other,114,104
+2020,D53,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,65,51
+2020,D12,Crimes Against the Person,Other,127,72
+2020,D32,Other Criminal Code Violations,Other,764,631
+2020,D53,Other Federal Statute Violations,Other,7,6
+2020,D12,Crimes Against the Person,Robbery-Financial,1,1
+2020,D32,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,94,78
+2020,D54/D55,Controlled Drugs and Substances Act,Other,92,88
+2020,D12,Crimes Against the Person,Robbery-Other,85,34
+2020,D32,Other Federal Statute Violations,Other,10,8
+2020,D33,Controlled Drugs and Substances Act,Other,33,22
+2020,D33,Crimes Against Property,Auto Theft,274,14
+2020,D33,Crimes Against Property,Break & Enter-Apartment,88,20
+2020,D33,Crimes Against Property,Break & Enter-Commercial,54,9
+2020,D33,Crimes Against Property,Break & Enter-House,134,4
+2020,D33,Crimes Against Property,Break & Enter-Other,17,5
+2020,D33,Crimes Against Property,Fraud,711,25
+2020,D33,Crimes Against Property,Other,683,115
+2020,D33,Crimes Against Property,Theft Over $5000,55,6
+2020,D33,Crimes Against Property,Theft Under $5000,1622,236
+2020,D33,Crimes Against the Person,Assault,616,364
+2020,D33,Crimes Against the Person,Attempt Murder,1,0
+2020,D33,Crimes Against the Person,Other,154,93
+2020,D33,Crimes Against the Person,Robbery-Financial,4,4
+2020,D33,Crimes Against the Person,Robbery-Other,75,19
+2020,D33,Crimes Against the Person,Sexual Violation,104,44
+2020,D33,Criminal Code Traffic ,Other,74,63
+2020,D33,Other Criminal Code Violations,Other,261,206
+2020,D33,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,45,39
+2020,D33,Other Federal Statute Violations,Other,6,4
+2020,D41,Controlled Drugs and Substances Act,Other,85,80
+2020,D54/D55,Crimes Against Property,Auto Theft,254,29
+2020,D54/D55,Crimes Against Property,Break & Enter-Apartment,159,37
+2020,D54/D55,Crimes Against Property,Break & Enter-Commercial,255,61
+2020,D54/D55,Crimes Against Property,Break & Enter-House,198,49
+2020,D54/D55,Crimes Against Property,Break & Enter-Other,56,4
+2020,D54/D55,Crimes Against Property,Fraud,803,52
+2020,D54/D55,Crimes Against Property,Other,1302,310
+2020,D54/D55,Crimes Against Property,Theft Over $5000,98,16
+2020,D54/D55,Crimes Against Property,Theft Under $5000,3151,574
+2020,D54/D55,Crimes Against the Person,Assault,1313,815
+2020,D54/D55,Crimes Against the Person,Attempt Murder,11,6
+2020,D54/D55,Crimes Against the Person,Other,272,157
+2020,D54/D55,Crimes Against the Person,Robbery-Financial,7,3
+2020,D54/D55,Crimes Against the Person,Robbery-Other,183,81
+2020,D54/D55,Crimes Against the Person,Sexual Violation,182,89
+2020,D54/D55,Criminal Code Traffic ,Other,111,103
+2020,D54/D55,Other Criminal Code Violations,Other,822,691
+2020,D54/D55,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,92,77
+2020,D54/D55,Other Federal Statute Violations,Other,9,6
+2020,NSA,Controlled Drugs and Substances Act,Other,90,74
+2020,NSA,Crimes Against Property,Auto Theft,29,4
+2020,NSA,Crimes Against Property,Break & Enter-Apartment,17,3
+2020,NSA,Crimes Against Property,Break & Enter-Commercial,28,4
+2020,NSA,Crimes Against Property,Break & Enter-House,5,0
+2020,NSA,Crimes Against Property,Break & Enter-Other,2,1
+2020,NSA,Crimes Against Property,Fraud,191,16
+2020,NSA,Crimes Against Property,Other,156,58
+2020,NSA,Crimes Against Property,Theft Over $5000,13,4
+2020,NSA,Crimes Against Property,Theft Under $5000,204,30
+2020,NSA,Crimes Against the Person,Assault,255,115
+2020,NSA,Crimes Against the Person,Attempt Murder,1,1
+2020,NSA,Crimes Against the Person,Other,72,21
+2020,NSA,Crimes Against the Person,Robbery-Financial,17,17
+2020,NSA,Crimes Against the Person,Robbery-Other,46,22
+2020,NSA,Crimes Against the Person,Sexual Violation,138,32
+2020,NSA,Criminal Code Traffic ,Other,84,74
+2020,NSA,Other Criminal Code Violations,Other,205,182
+2020,NSA,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,61,54
+2020,NSA,Other Federal Statute Violations,Other,11,4
+2020,D12,Crimes Against the Person,Sexual Violation,84,40
+2020,D12,Criminal Code Traffic ,Other,109,91
+2020,D12,Other Criminal Code Violations,Other,420,366
+2020,D12,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,65,55
+2020,D12,Other Federal Statute Violations,Other,14,12
+2020,D13,Controlled Drugs and Substances Act,Other,48,40
+2020,D13,Crimes Against Property,Auto Theft,271,20
+2020,D13,Crimes Against Property,Break & Enter-Apartment,73,21
+2020,D13,Crimes Against Property,Break & Enter-Commercial,127,48
+2020,D13,Crimes Against Property,Break & Enter-House,125,23
+2020,D13,Crimes Against Property,Break & Enter-Other,42,10
+2020,D13,Crimes Against Property,Fraud,392,33
+2020,D13,Crimes Against Property,Other,603,157
+2020,D13,Crimes Against Property,Theft Over $5000,41,10
+2020,D13,Crimes Against Property,Theft Under $5000,1620,204
+2020,D13,Crimes Against the Person,Assault,579,381
+2020,D13,Crimes Against the Person,Attempt Murder,4,3
+2020,D13,Crimes Against the Person,Other,112,58
+2020,D13,Crimes Against the Person,Robbery-Financial,3,3
+2020,D13,Crimes Against the Person,Robbery-Other,95,39
+2020,D13,Crimes Against the Person,Sexual Violation,76,31
+2020,D13,Criminal Code Traffic ,Other,86,72
+2020,D13,Other Criminal Code Violations,Other,379,324
+2020,D13,Other Criminal Code Violations,Other Criminal Violations - Offensive Weapons,42,38
+2020,D13,Other Federal Statute Violations,Other,5,5
+2020,D14,Controlled Drugs and Substances Act,Other,137,126
+2020,D14,Crimes Against Property,Auto Theft,207,18
+2020,D14,Crimes Against Property,Break & Enter-Apartment,268,81
+2020,D14,Crimes Against Property,Break & Enter-Commercial,328,86
+2020,D14,Crimes Against Property,Break & Enter-House,95,27
+2020,D14,Crimes Against Property,Break & Enter-Other,52,18
+2020,D14,Crimes Against Property,Fraud,908,78
+2020,D14,Crimes Against Property,Other,1173,330
+2020,D14,Crimes Against Property,Theft Over $5000,80,10
+2020,D14,Crimes Against Property,Theft Under $5000,3180,478
+2020,D14,Crimes Against the Person,Assault,1252,751
+2020,D14,Crimes Against the Person,Attempt Murder,3,1
+2020,D14,Crimes Against the Person,Other,183,101
+2020,D14,Crimes Against the Person,Robbery-Financial,3,3
+2020,D14,Crimes Against the Person,Robbery-Other,117,64

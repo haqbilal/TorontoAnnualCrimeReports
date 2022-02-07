@@ -1,13 +1,11 @@
 ---
-title: "Using data to fight crime in Toronto"
+title: "Using data to fight crime"
 subtitle: "A look at the Toronto Police Service Annual Statistical Report"
-author: 
-  - Bilal Haq
+author: Bilal Haq
 thanks: "Code and data are available at: https://github.com/haqbilal/TorontoAnnualCrimeReports"
 date: "`r format(Sys.time(), '%d %B %Y')`"
-abstract: "Crime seriously and negatively affects quality of life and economic growth of a city. In this report, we look at the Annual Statistical Report released by the Toronto Police Service to seek the most effective way to minimize crime in Toronto. We discover that the most popular type of crime is against property, and that the majority of it takes place at Toronto's core, downtown. In doing so, we provide insight into reducing crime and a means to justify implementing preventative measures in public policy."
-output:
-  bookdown::pdf_document2
+abstract: "Policing is heavily relied on to ensure order in the city of Toronto, but it is up to the public to decide if they are doing a proper job. We will look at the Toronto Police Service Annual Statistical Report and use data and statistics to aid in the decision making process about dealing with crime in the City. We seek two key factors: the most popular type of crime, and where the most crime occurs, in working out how to lower the crime rate. We will conclude that our findings align with the Toronto Police Service's goals as a police department, which bodes well for Toronto's safety and security."
+output: bookdown::pdf_document2
 toc: FALSE
 bibliography: references.bib
 ---
@@ -20,89 +18,114 @@ library(knitr)
 library(here)
 ```
 
-
 # Introduction
 
-First paragraph is motivational and broad (first sentence of abstract <- add water)
-One of the biggest concerns of a person walking the streets of a major city is the kind of people they will encounter. Everyday, there are new victims of homicide, assault, robbery, drug abuse, property damage, and other crimes, instilling fear, unease, and mistrust in the population with their police department.
+To serve and protect. Police departments worldwide share this common goal, as their number one priority is to ensure the safety and security of civilians and innocents living their lives in the city. The Toronto Police Service (TPS) is one of the largest municipal police departments worldwide, among NYPD in New York, LAPD in Los Angeles, and CPD in Chicago. The TPS has over 5500 officers and 2200 civilian employees dedicated to keeping the City of Toronto a safe place to live [@citetpshistory]. With this abundance in resources, it is critical to ensure that they are being used effectively and efficiently, to protect Toronto’s population of over 7 million as of 2020 [@citecityoftoronto]. However, in recent years, mistrust in the police department among civilians has gone up, causing reported crimes to go down, and police departments to undergo severe scrutiny. On May 25th, 2020, George Floyd, a citizen of Minneapolis, Minnesota, had been arrested by police on suspicion of using counterfeit bills, which led to an officer pinning their leg down on his neck for 9 minutes, and three other officers supporting his actions by keeping bystanders back and holding guns to his head [@citefloyd]. George Floyd was murdered, his death ruled a homicide, and the four officers involved were fired. This event of police brutality, excessive and unnecessary force in violation of human rights [@citebrutality], added enough fuel to the fire of people, worldwide, calling towards defunding the police, claiming that crime rates are going down while officer hiring rates are going up [@citecrimerate].
 
-Second paragraph is about what was done and what was found (second and third sentence of abstract <- add water)
+Statistics plays a significant role in resource allocation because it allows executives in command to make informed, critical decisions based on prerequisite data, and using projections to meet their desired goal. Thus in the case of spending police resources effectively, we will analyze data provided in the Toronto Police Annual Statistical Report (TPSASR), freely provided by the TPS through the Open Data Toronto portal. Crime statistics can be used to make better decisions in allocating TPS resources. This  will address the claims people have on overfunding of police departments by ensuring efficient spending. At the same time, they can accomplish their main goal to keep crime rates low. Further, data, predictions, interpolations, and extrapolations, can be utilized to develop new, more focused, approaches in dealing with popular types of crime.
 
-Third paragraph is about implications (take final sentence of abstract <- add water)
-
-Final paragraph is about the remainder of this paper: i.e. Section \@ref(data) explains the data.
+In this paper, I will discuss how the data is presented in the TPSASR, through the use of charts and graphs. Furthermore, I will conduct an analysis on how to interpret the data, and use it to make better decisions, while covering the real world implications this has, as both a data scientist, and crime statistician. We will determine that the most popular type of crime is against property, which includes auto theft, breaking and entering, fraud, and theft. From this we discuss how the data can be used to develop preventative measures in property crime, targeting the largest issue, to help reduce the crime rate in Toronto overall. 
 
 # Data
 
-## Data Collection
+## Source
 
-The dataset(s) used were obtained through the City of Toronto Open Data portal, using the 'opendatatoronto' package [@citeopendatatoronto]. The statistical programming language R [@citeR] was used to conduct the analysis.
+The statistical programming language R [@citeR] was used to conduct the analysis. The data has been sourced in a reproducible way, from the TPSASR, using the 'opendatatoronto' package [@citeopendatatoronto]. It is an in-depth review of police-related statistics including reported crimes, victims of crime, search of persons, firearms, traffic collisions, personnel, budget, communications, public complaints, regulated interactions and other administrative information [@citeopendatadataset]. To address the ethical concern of privacy, the Toronto Police service, in collecting this data, has adhered to the Municipal Freedom of Information and Protection of Privacy Act, thus protecting all individuals involved in the reported occurrences. Furthermore, this year's report will be compared with reports from previous years, but cannot accurately be compared with reports from other agencies. The differing methods in categorization, as well as geographic, technical, data, and time constraints may affect results.
 
-## Annual Statistical Report
+```{r readdata, echo=FALSE, include=FALSE, warning=FALSE, message=FALSE}
+annual_reported_crimes <- 
+  read_csv(here::here("inputs/data/annual_reported_crimes.csv"))
+```
 
-Every year, the Toronto Police Service (TPS) performs a comprehensive analysis of police-related statistics, such as reported crimes, victims of crime, search of persons, firearms, traffic collisions, personnel, budget, communications, public complaints, regulated interactions and other administrative information. To address the ethical concern of privacy, the Toronto Police service, in collecting this data, has adhered to the Municipal Freedom of Information and Protection of Privacy Act, thus protecting all individuals involved in the reported occurrences. Furthermore, this year's report will be compared with reports from previous years, but cannot accurately be compared with reports from other agencies. The differing methods in categorization, as well as geographic, technical, data, and time constraints may affect results.
+## Methodology
 
-## Analyzing the dataset
 
-This dataset contains counts of all reported crime offences from 2014 to 2020, categorized by police division, as per the map Figure \@ref(fig:divisions). In particular, we will look at crimes against: The Controlled Drugs and Substances Act, Property, the Person, and the Traffic Code. Reports on other violations, and those on the Federal Statute level will also be examined. 
-
-```{r divisions, echo=FALSE, fig.align="center", fig.cap="Command and Divionsal Boundaries", out.width = '75%'}
+```{r mapofdivisions, echo=FALSE, fig.align="center", fig.cap="Command and Divionsal Boundaries", out.width = '75%'}
 include_graphics(here::here("inputs/data/divisional_boundaries.png"))
 ```
 
-For example, Table \@ref(tab:dataextract) shows a slice of the dataset for 10 crimes, including the division and counts of that crime for 2020. So 132 counts of theft over $5000 occurred in 31-division. 
+The dataset was prepared by the Toronto Police Service, using Versadex; their records management system. It contains logs from January 1st, 2014 at the earliest, to the current date, but only the past 5 years are used for each annual statistical report. This practice ensures that the data being used and analyzed comes from a modern context, and accurately reflects the public policies of the current age. Crime statistics are and will be based on the information as soon as it becomes available to the police. This ensures consistency in results, and allows for the data to be accurately compared over the years. While this paper will focus on the dataset of crime reports in 2020, the TPSASR also has datasets featuring: Victims of Crime, Search of Persons, Firearms, Traffic, Personnel and Budget, Calls for Service, Public Complaints, Regulated Interactions, and Administrative data. The reader is encouraged to view and cross reference the other datasets on their own, comparing with the analysis here, for an even broader context.
 
-```{r dataextract, echo=FALSE, warning=FALSE, message=FALSE}
-annual_reported_crimes <- 
-  read_csv(here::here("inputs/data/annual_reported_crimes.csv"))
+The dataset contains reports on crime offences sorted by the year, from 2014 to 2020, and by police division \@ref(fig:mapofdivisions). The data includes 5 categories of crime: Crimes against the Person, Crimes against Property, Criminal Code Traffic, Controlled Drugs and Substances Act, Other Criminal Code Violations, Other Federal Statute Violations. For subtypes see the table \@ref(fig:subtypes). If a crime occurrence belongs to multiple categories, it will be counted once for each category [@citeassrdoc]. Some occurrences may occur outside Toronto limits, in which case the division is NSA, for not specified address. Note that the dataset counts crimes that were later deemed unfounded, meaning that the crime was initially reported, but later found to not have happened. A critique of the dataset is that it is currently impossible to determine the number of unfounded crimes, indicating they are not distinguished in the early phases of data reporting. However, this amount becomes negligible in later data analysis.
 
-annual_reported_crimes |>
-  select("GeoDivision", "Subtype", "Count_") |>
+```{r subtypes, echo=FALSE, fig.align="center", fig.cap="Subtypes of Crimes Corresponding to their Category", out.width = '95%'}
+include_graphics(here::here("inputs/data/subtypes.png"))
+```
+
+The counts of each type of crime and the counts of crimes cleared are reported as well. Crimes are reported by the officers involved, and are hence susceptible to some bias on the officers’ part. For example, a form of racialized bias that may be present in the dataset is carding. Carding is when a police officer stops and searches an individual arbitrarily, without a valid reason to do so. Officers disproportionately target visible minorities, but this does not manage crime effectively [@citetpsrights]. When a crime gets cleared, it means it has been resolved, and charges have been laid. The table \@ref(fig:tableofcrimecountscleared) indicates the total amount of crimes that have been counted (in red) versus those that were successfully cleared (in green). This shows that the majority of crimes go uncleared, giving reason to continue determining which crimes occur and where. 
+
+```{r tableofcrimecountscleared, echo=FALSE, fig.align="center", fig.cap="Graph of Crimes Cleared", out.width = '100%'}
+years = unique(annual_reported_crimes$ReportedYear)
+i <- 1
+total_count <- numeric(length(years))
+total_clear <- numeric(length(years))
+for (year in years) {
+  temp <- filter(annual_reported_crimes, ReportedYear==year)
+  total_count[i] <- sum(temp$Count_)
+  total_clear[i] <- sum(temp$CountCleared)
+  i <- i+1
+}
+ggplot(data=NULL, aes(x=years)) +
+  geom_line(aes(y=total_count), colour="red") +
+  geom_line(aes(y=total_clear), colour="green") +
+  ggtitle("Crimes only Counted (red) vs Crimes Cleared (green)") +
+  xlab("Year") + ylab("Number of Crimes")
+```
+
+## Analysis
+
+In terms of raw data, this dataset has 2369 observations of 10 variables. The variables ‘\_id’, ‘index\_’, ‘ObjectId’ are just unique identifiers for the data and do not provide any other information. The variable ’geometry’ contains the latitude and longitude coordinates of the police division, which is used to visualize crime occurrences respective to their location in the city. The important variables to discuss are ‘ReportedYear’, the year in which the crime took place, ’GeoDivision’, the police division where the crime occurred, ‘Category’, ‘Subtype’, ‘Count_’, and ‘CountCleared’, all as discussed above. The first 10 rows of the raw data have been tabulated, ommitting Category to fit the table.
+
+```{r tableoffirsttenrows, echo=FALSE}
+select(annual_reported_crimes, 1, 2, 4, 5, 6) |>
   slice(1:10) |>
   kable(
-    caption="First 10 rows of reports from 2020 that show frequency of crimes",
-    col.names=c("Police Division", "Crime Type", "Count"),
+    caption="First ten rows of the raw dataset",
     digits=1,
     booktabs=TRUE,
     linesep=""
   )
 ```
 
-Importantly, by looking at amount of crime and type that occurs on a divisional basis, Toronto Police can make better decisions in allocating its resources to combat crime in the city, ensuring the safety of more civilians. Thus, we are interested in the relationship between the police division and the amount of crime that occurred there.
+Looking at the frequency of each type of crime provides insight into the appropriate distribution of methods and resources available to the TPS. The graph (see graph of most popular crimes each year) shows how many times each type of crime was committed in in total from 2014 to 2020. From this, we determine that Crime against Property is, by a significant margin, the most popular type of crime. Using the table \@ref(fig:subtypes) on subtypes, this entails that the vast majority of crime in Toronto takes the form of auto-theft, breaking and entering, fraud, and theft over/under \$5000. This is consistent with cities in the United States, as in 2019, the FBI reported the majority of their crimes were also against property, in the same forms listed above [@citefbi]. Statistics Canada defines crime rate as the amount of crime occurred per 100,000 population, and so the property crime rate in Toronto in 2020 was approximately $\frac{78000}{100000}=0.78$. This high rate justifies the need to address property crime when targeting a lower crime rate overall. 
 
-Figure \@ref(fig:divgraph) shows the relationship between the police division and the most popular crime that happens in that division.
-
-```{r divgraph, echo = FALSE, fig.align='center'}
+```{r graphofpopularcrimes, echo=FALSE, fig.align="center", fig.cap="Crime on a Categorical Basis", out.width = '75%'}
 annual_reported_crimes |>
   ggplot(aes(x=Count_, 
              y=GeoDivision,
              color=Category)) +
   geom_point(alpha=0.8) +
-  xlab("Count") +
-  ylab("Division") +
-  ggtitle("Amount and Type of Crime Per Division") +
-  theme(
-    plot.title = element_text(hjust = 0.5),
-    legend.position = "bottom", 
-    legend.title=element_blank(), 
-    legend.text=element_text(size=7),
-    axis.title.y=element_text(size=10),
-    axis.title.x=element_text(size=10),
-    plot.caption = element_text("Figure 2"))
+  ggtitle("Type of Crimes and the Division They Occured In") +
+  xlab("Number of Occurences") +
+  ylab("Police Division")
 ```
 
-From this, we see that divisions that are closer to the center of Toronto (downtown), such as 51-55, see significantly more crime than their surrounding counterparts. On top of that, crimes against property are always substantially more common than any other type of crime, regardless of location. Combining these two observations, we can say that the TPS should dedicate more forces to the downtown region, and dedicate more preventative measures towards property crime.
+Another way to target a lower crime rate is to look at the frequency of total crime per police division. Allocating more support, and the correct type of support, to corresponding regions, will effectively deal with crime occurrences more often and quicker. The graph (see graph of total amount of crime per division) shows that divisions 51-55 and 11-14 see the most criminal activity. These divisions correspond to the city’s central core, downtown as indicated by \@ref(fig:graphoftotalcrimeperdiv). It seems reasonable in this case that more crime occurs there, since the population density is naturally higher as well. According to the U.S department of Justice, the average amount of crime in a location goes down as the police presence goes up [@citedeterrence]. This entails that by keeping more available units in those divisions, the crime rate will decline accordingly. However, the U.S department of Justice, in their study [@citedeterrence], also discovered that crime was prevented more effectively through close cooperation with the community, team policing, and increased night patrols. This exemplifies the influential role that preventative measures have in dealing with crime.
 
+```{r graphoftotalcrimeperdiv, echo=FALSE, fig.align="center", fig.cap="Crime on a Divisional Basis", out.width = '75%'}
+annual_reported_crimes |>
+  filter(ReportedYear=="2020") |>
+  ggplot(aes(y=Count_, 
+             x=GeoDivision)) +
+  geom_bar(stat="identity") +
+  ggtitle("Total Crime Per Police Division in 2020") +
+  xlab("Police Division") +
+  ylab("Number of Crimes") + 
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+# Discussion
+
+Events such as the murder of George Floyd in 2020 have caused communities to feel uneasy in trusting their police department to do its job, and it is up to the police departments to earn back that trust, by being open and accessible. That is exactly what the Toronto Police Service has done, by publicly releasing their datasets and statistical reports. It allows public citizens to look at the data themselves, and decide whether or not their police department is doing its job to represent its members of the community. In the same way, it is the citizens’ job to ensure that these analyses are spread out, to spark conversations and discussions on the matters outlined in this paper and beyond. 
+
+I have argued that the TPS has done an exemplary job in being open to its community, but still has ways to improve, in preventing bias and accuracy of data collection. Research and practice has shown the efficacy of preventative measures in reducing crime, and this paper, using data, has outlined the path forward. Consequently, the Toronto Police Service’s efforts align with the above conclusions, as indicated in their report, The Way Forward, outlining their intent to: be where the public needs them the most, enhance partnerships to create safe communities, focus on complex needs of a large city [@citethewayforward]. On the whole, this paper demonstrates the importance to perform critical analysis by oneself before making any conclusions, and represents the major role that data plays in telling stories.
+
+\pagebreak
 # References
- 
-Uncited so far:
-- http://www.torontopolice.on.ca/divisions/map.php
-- https://data.torontopolice.on.ca/pages/asr-analytics
-- https://www.tellingstorieswithdata.com/index.html
-- The TPS ASR (cite the actual report you are reporting on)
-- https://ggplot2.tidyverse.org/reference
-- https://www.justice.gc.ca/eng/rp-pr/csj-sjc/crime/rr06_6/rr06_6.pdf
 
-
+---
+nocite: |
+  @citegc, @citedivisionmap, @citeggplotref, @citetellingstories
+---
 
 

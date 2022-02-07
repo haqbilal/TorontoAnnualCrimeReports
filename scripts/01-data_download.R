@@ -26,17 +26,14 @@ resources <- list_package_resources("9d11c7aa-7613-4d3e-95f3-a02e2b1aa2d7")
 
 # There is only one resource, so get_resource() will load that
 # If there is more than one resource, either filter or specify
-annual_reported_crimes <- resources %>% 
+raw_annual_reported_crimes <- resources %>% 
   get_resource()
 
 #### Clean Data ####
-annual_reported_crimes <- 
-  annual_reported_crimes |>
-  filter(ReportedYear=="2020")
-
+annual_reported_crimes <-
+  raw_annual_reported_crimes |>
+  select(3, 4, 5, 6, 7, 8)
 
 #### Save Data ####
 write_csv(annual_reported_crimes, "inputs/data/annual_reported_crimes.csv")
-
-
          
